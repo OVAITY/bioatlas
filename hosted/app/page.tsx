@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <div className="shell">
         <aside className="sidebar">
-          <a href="#/overview" className="brand" aria-label="The OVAITY BioAtlas home">
+          <a href="https://www.ovaity.com" className="brand" aria-label="Visit the OVAITY website">
             <Image className="brand-logo" src="/logo.png" alt="OVAITY" width={81} height={26} priority />
           </a>
           <span className="brand-tag">BioAtlas</span>

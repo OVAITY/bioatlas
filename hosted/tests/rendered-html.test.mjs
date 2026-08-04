@@ -20,6 +20,8 @@ test("uses the native Next.js build expected by Vercel", async () => {
   assert.match(layout, /title: "BioAtlas \| OVAITY"/);
   assert.match(layout, /The OVAITY BioAtlas is a free, continuously expanding knowledge base/);
   assert.match(page, /Building or managing life-science research\?/);
+  assert.match(page, /href="https:\/\/www\.ovaity\.com" className="brand"/);
+  assert.match(page, /aria-label="Visit the OVAITY website"/);
   assert.match(page, /href="https:\/\/www\.ovaity\.com\/#waitlist"/);
   assert.match(page, /target="_blank"/);
   assert.match(page, /rel="noopener noreferrer"/);
