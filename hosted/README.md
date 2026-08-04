@@ -1,6 +1,6 @@
 # BioAtlas packaged application
 
-This directory contains the Vinext/Cloudflare-compatible application wrapper for [The OVAITY BioAtlas](../README.md).
+This directory contains the Next.js application for [The OVAITY BioAtlas](../README.md). It is configured for deployment on Vercel.
 
 ## Requirements
 

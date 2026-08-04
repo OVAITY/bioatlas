@@ -2,41 +2,28 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-async function render() {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  const { default: worker } = await import(workerUrl.href);
+test("uses the native Next.js build expected by Vercel", async () => {
+  const [packageJson, layout, page] = await Promise.all([
+    readFile(new URL("../package.json", import.meta.url), "utf8"),
+    readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+  ]);
 
-  return worker.fetch(
-    new Request("http://localhost/", {
-      headers: { accept: "text/html" },
-    }),
-    {
-      ASSETS: {
-        fetch: async () => new Response("Not found", { status: 404 }),
-      },
-    },
-    {
-      waitUntil() {},
-      passThroughOnException() {},
-    },
-  );
-}
+  const pkg = JSON.parse(packageJson);
+  assert.equal(pkg.engines.node, "22.x");
+  assert.equal(pkg.scripts.dev, "next dev");
+  assert.equal(pkg.scripts.build, "next build");
+  assert.equal(pkg.scripts.start, "next start");
+  assert.equal(pkg.devDependencies.vinext, undefined);
+  assert.equal(pkg.devDependencies.wrangler, undefined);
 
-test("server-renders the BioAtlas application shell and sidebar CTA", async () => {
-  const response = await render();
-  assert.equal(response.status, 200);
-  assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
-
-  const html = await response.text();
-  assert.match(html, /<title>BioAtlas \| OVAITY<\/title>/i);
-  assert.match(html, /The OVAITY BioAtlas is a free, continuously expanding knowledge base/i);
-  assert.match(html, /Building or managing life-science research\?/);
-  assert.match(html, /href="https:\/\/www\.ovaity\.com\/#waitlist"/);
-  assert.match(html, /target="_blank"/);
-  assert.match(html, /rel="noopener noreferrer"/);
-  assert.match(html, /aria-label="Join the OVAITY waitlist \(opens in a new tab\)"/);
-  assert.doesNotMatch(html, /codex-preview|Building your site|react-loading-skeleton/i);
+  assert.match(layout, /title: "BioAtlas \| OVAITY"/);
+  assert.match(layout, /The OVAITY BioAtlas is a free, continuously expanding knowledge base/);
+  assert.match(page, /Building or managing life-science research\?/);
+  assert.match(page, /href="https:\/\/www\.ovaity\.com\/#waitlist"/);
+  assert.match(page, /target="_blank"/);
+  assert.match(page, /rel="noopener noreferrer"/);
+  assert.match(page, /aria-label="Join the OVAITY waitlist \(opens in a new tab\)"/);
 });
 
 test("ships the full BioAtlas-to-OVAITY CTA with accessible external links", async () => {

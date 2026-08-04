@@ -34,7 +34,7 @@ The collection covers biological concepts, scientific terminology, laboratory an
 
 | Path | Purpose |
 | --- | --- |
-| `hosted/app/` | BioAtlas application shell, metadata and design system |
+| `hosted/app/` | Next.js application shell, metadata and design system |
 | `hosted/public/` | Browser assets and generated BioAtlas data |
 | `hosted/data/` | Curated video-review records used by the enrichment workflow |
 | `hosted/scripts/` | Workbook extraction and video-review utilities |
