@@ -1,0 +1,4785 @@
+{
+  "generatedAt": "2026-08-03T14:20:31.957Z",
+  "totals": {
+    "entries": 405,
+    "videos": 277,
+    "searched": 381,
+    "accepted": 253,
+    "rejected": 128
+  },
+  "accepted": {
+    "term-3": {
+      "videoTitle": "Speciation: Where Do Species Come From?: Crash Course Biology #15",
+      "videoUrl": "https://www.youtube.com/watch?v=WAUX8dXu6aw",
+      "channel": "CrashCourse",
+      "score": 20.5,
+      "query": "\"Species\" Biology Foundations explained"
+    },
+    "term-4": {
+      "videoTitle": "Tissues, Part 1: Crash Course Anatomy & Physiology #2",
+      "videoUrl": "https://www.youtube.com/watch?v=i5tR3csCWYo",
+      "channel": "CrashCourse",
+      "score": 19,
+      "query": "\"Tissue\" Biology Foundations explained"
+    },
+    "term-6": {
+      "videoTitle": "Organelle overview",
+      "videoUrl": "https://www.youtube.com/watch?v=Ogxpuq-qIW0",
+      "channel": "Khan Academy",
+      "score": 20.5,
+      "query": "\"Organelle\" Biology Foundations explained"
+    },
+    "term-9": {
+      "videoTitle": "What Is Genotype In Genetics? Explained Simply - Genetic Wellness for Families",
+      "videoUrl": "https://www.youtube.com/watch?v=nKEsXKQ7or4",
+      "channel": "Genetic Wellness for Families",
+      "score": 17,
+      "query": "\"Genotype\" Biology Foundations explained"
+    },
+    "term-11": {
+      "videoTitle": "Types of Hosts Explained | Introduction of Medical Parasitology Course | Biology Goal",
+      "videoUrl": "https://www.youtube.com/watch?v=JVLgA-NBfu4",
+      "channel": "Dr. Lokender Kumar",
+      "score": 17,
+      "query": "\"Host\" Biology Foundations explained"
+    },
+    "term-13": {
+      "videoTitle": "What is Model organism? Explain Model organism, Define Model organism, Meaning of Model organism",
+      "videoUrl": "https://www.youtube.com/watch?v=g55aHDvljkk",
+      "channel": "Audioversity",
+      "score": 17,
+      "query": "\"Model organism\" Biology Foundations explained"
+    },
+    "term-7": {
+      "videoTitle": "What is Homeostasis?",
+      "videoUrl": "https://www.youtube.com/watch?v=Rgpj__C2jCc",
+      "channel": "Free Animated Education",
+      "score": 15.5,
+      "query": "\"Homeostasis\" Biology Foundations explained"
+    },
+    "term-12": {
+      "videoTitle": "The Mantovani Method Introduction to the Microbiome Foundation Course Level 1",
+      "videoUrl": "https://www.youtube.com/watch?v=km7qyBqs16s",
+      "channel": "LetiziaMantovaniMSc ",
+      "score": 15.5,
+      "query": "\"Microbiome\" Biology Foundations explained"
+    },
+    "term-14": {
+      "videoTitle": "Physiology Introduction - What is Physiology? - A Complete Playlist - Doctors, Nurses, Undergrads",
+      "videoUrl": "https://www.youtube.com/watch?v=6qk_LTVXZ2w",
+      "channel": "Medicosis Perfectionalis",
+      "score": 15.5,
+      "query": "\"Physiology\" Biology Foundations explained"
+    },
+    "term-15": {
+      "videoTitle": "Introduction to Anatomy & Physiology: Crash Course Anatomy & Physiology #1",
+      "videoUrl": "https://www.youtube.com/watch?v=uBGl2BujkPQ",
+      "channel": "CrashCourse",
+      "score": 20.5,
+      "query": "\"Anatomy\" Biology Foundations explained"
+    },
+    "term-21": {
+      "videoTitle": "What is a Chromosome?",
+      "videoUrl": "https://www.youtube.com/watch?v=IePMXxQ-KWY",
+      "channel": "Stated Clearly",
+      "score": 20.5,
+      "query": "\"Chromosome\" Cell & Molecular Biology explained"
+    },
+    "term-24": {
+      "videoTitle": "Cell membrane introduction | Cells | MCAT | Khan Academy",
+      "videoUrl": "https://www.youtube.com/watch?v=QpcACa39YtA",
+      "channel": "khanacademymedicine",
+      "score": 17,
+      "query": "\"Cell membrane\" Cell & Molecular Biology explained"
+    },
+    "term-27": {
+      "videoTitle": "GCSE Biology - What are Enzymes? (2026/27 exams)",
+      "videoUrl": "https://www.youtube.com/watch?v=gUncqL1ul8Q",
+      "channel": "Cognito",
+      "score": 17,
+      "query": "\"Enzyme\" Cell & Molecular Biology explained"
+    },
+    "term-30": {
+      "videoTitle": "20. Cell Signaling 1 – Overview",
+      "videoUrl": "https://www.youtube.com/watch?v=5ejPI6QqKBU",
+      "channel": "MIT OpenCourseWare",
+      "score": 22,
+      "query": "\"Cell signaling\" Cell & Molecular Biology explained"
+    },
+    "term-31": {
+      "videoTitle": "Metabolism & Nutrition, Part 1: Crash Course Anatomy & Physiology #36",
+      "videoUrl": "https://www.youtube.com/watch?v=fR3NxCR9z2U",
+      "channel": "CrashCourse",
+      "score": 20.5,
+      "query": "\"Metabolism\" Cell & Molecular Biology explained"
+    },
+    "term-33": {
+      "videoTitle": "ATP & Respiration: Crash Course Biology #7",
+      "videoUrl": "https://www.youtube.com/watch?v=00jbG_cfGuQ",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"ATP\" Cell & Molecular Biology explained"
+    },
+    "term-34": {
+      "videoTitle": "Mitosis & the Cell Cycle: How Cells Clone Themselves: Crash Course Biology #29",
+      "videoUrl": "https://www.youtube.com/watch?v=skPOXcVvS5c",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"Cell cycle\" Cell & Molecular Biology explained"
+    },
+    "term-35": {
+      "videoTitle": "Mitosis & the Cell Cycle: How Cells Clone Themselves: Crash Course Biology #29",
+      "videoUrl": "https://www.youtube.com/watch?v=skPOXcVvS5c",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"Mitosis\" Cell & Molecular Biology explained"
+    },
+    "term-36": {
+      "videoTitle": "Meiosis: Where the Sex Starts - Crash Course Biology #13",
+      "videoUrl": "https://www.youtube.com/watch?v=qCLmR9-YY7o",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"Meiosis\" Cell & Molecular Biology explained"
+    },
+    "term-37": {
+      "videoTitle": "What is Necrosis vs What is Apoptosis?",
+      "videoUrl": "https://www.youtube.com/watch?v=1vaEVcMfa1E",
+      "channel": "FreeMedEducation",
+      "score": 15.5,
+      "query": "\"Apoptosis\" Cell & Molecular Biology explained"
+    },
+    "term-38": {
+      "videoTitle": "What is Necrosis vs What is Apoptosis?",
+      "videoUrl": "https://www.youtube.com/watch?v=1vaEVcMfa1E",
+      "channel": "FreeMedEducation",
+      "score": 15.5,
+      "query": "\"Necrosis\" Cell & Molecular Biology explained"
+    },
+    "term-40": {
+      "videoTitle": "23. Stem Cells",
+      "videoUrl": "https://www.youtube.com/watch?v=62FdhX-zS2Y",
+      "channel": "MIT OpenCourseWare",
+      "score": 20.5,
+      "query": "\"Stem cell\" Cell & Molecular Biology explained"
+    },
+    "term-42": {
+      "videoTitle": "Primary Cell culture and cell line | Cell culture basics",
+      "videoUrl": "https://www.youtube.com/watch?v=9BvTFowr0rI",
+      "channel": "Animated biology With arpan",
+      "score": 17,
+      "query": "\"Cell line\" Cell & Molecular Biology explained"
+    },
+    "term-43": {
+      "videoTitle": "How to subculture (passage) primary cells",
+      "videoUrl": "https://www.youtube.com/watch?v=k2PMEET4Smo",
+      "channel": "Thermo Fisher Scientific",
+      "score": 22,
+      "query": "\"Primary cell\" Cell & Molecular Biology explained"
+    },
+    "term-44": {
+      "videoTitle": "Alleles and genes",
+      "videoUrl": "https://www.youtube.com/watch?v=P0nMnPPdW_k",
+      "channel": "Khan Academy",
+      "score": 20.5,
+      "query": "\"Allele\" Genetics & Genomics explained"
+    },
+    "term-45": {
+      "videoTitle": "What is a locus in Genetics ?",
+      "videoUrl": "https://www.youtube.com/watch?v=7QGdtkjaVQI",
+      "channel": "Sciwords",
+      "score": 17,
+      "query": "\"Locus\" Genetics & Genomics explained"
+    },
+    "term-47": {
+      "videoTitle": "Mutations",
+      "videoUrl": "https://www.youtube.com/watch?v=eDbK0cxKKsk",
+      "channel": "Bozeman Science",
+      "score": 19,
+      "query": "\"Mutation\" Genetics & Genomics explained"
+    },
+    "term-48": {
+      "videoTitle": "Single-nucleotide variant calling in single-cell sequencing data with Monopogen",
+      "videoUrl": "https://www.youtube.com/watch?v=yPOeUgAP_VE",
+      "channel": "BCH Science TV",
+      "score": 15.5,
+      "query": "\"Single-nucleotide variant\" Genetics & Genomics explained"
+    },
+    "term-49": {
+      "videoTitle": "SNPs (Single Nucleotide Polymorphism)0 (Better Explained)",
+      "videoUrl": "https://www.youtube.com/watch?v=x4m1_P5Ljf8",
+      "channel": "Bits de Ciencia Oficial",
+      "score": 17,
+      "query": "\"Single-nucleotide polymorphism\" Genetics & Genomics explained"
+    },
+    "term-53": {
+      "videoTitle": "Copy Number Variation – How Does It Work? - Ask TaqMan #34",
+      "videoUrl": "https://www.youtube.com/watch?v=QSenRqbEABM",
+      "channel": "Thermo Fisher Scientific",
+      "score": 20.5,
+      "query": "\"Copy-number variation\" Genetics & Genomics explained"
+    },
+    "term-54": {
+      "videoTitle": "What are genetic structural variants? (subtitles available!)",
+      "videoUrl": "https://www.youtube.com/watch?v=1p-txfOt_io",
+      "channel": "Educational Science",
+      "score": 17,
+      "query": "\"Structural variant\" Genetics & Genomics explained"
+    },
+    "term-55": {
+      "videoTitle": "BroadE: GATK - Introduction to Germline Variant Discovery",
+      "videoUrl": "https://www.youtube.com/watch?v=F_U7ImMJkq4",
+      "channel": "Broad Institute",
+      "score": 20.5,
+      "query": "\"Germline variant\" Genetics & Genomics explained"
+    },
+    "term-56": {
+      "videoTitle": "BroadE: GATK - Intro to Somatic Variant Discovery",
+      "videoUrl": "https://www.youtube.com/watch?v=0q5_e2Nfph4",
+      "channel": "Broad Institute",
+      "score": 19,
+      "query": "\"Somatic variant\" Genetics & Genomics explained"
+    },
+    "term-57": {
+      "videoTitle": "Homozygous vs. Heterozygous Samples in qPCR -- Ask TaqMan #23",
+      "videoUrl": "https://www.youtube.com/watch?v=sjGj7OkRpQA",
+      "channel": "Thermo Fisher Scientific",
+      "score": 19,
+      "query": "\"Homozygous\" Genetics & Genomics explained"
+    },
+    "term-62": {
+      "videoTitle": "What are haplotype blocks in population and evolutionary genetics?",
+      "videoUrl": "https://www.youtube.com/watch?v=r1H1uRQ8CKM",
+      "channel": "Josh Banta",
+      "score": 17,
+      "query": "\"Haplotype\" Genetics & Genomics explained"
+    },
+    "term-63": {
+      "videoTitle": "Linkage Disequilibrium - Genome-Wide Association Studies (GWAS) Explained Simply Part 2",
+      "videoUrl": "https://www.youtube.com/watch?v=_xbpGvQHQAA",
+      "channel": "Behavioural Genomics",
+      "score": 17,
+      "query": "\"Linkage disequilibrium\" Genetics & Genomics explained"
+    },
+    "term-64": {
+      "videoTitle": "Reference Genomes | Common Conventions",
+      "videoUrl": "https://www.youtube.com/watch?v=PodYrTq9RY0",
+      "channel": "Big Bio",
+      "score": 15.5,
+      "query": "\"Reference genome\" Genetics & Genomics explained"
+    },
+    "term-65": {
+      "videoTitle": "6. Genome Assembly",
+      "videoUrl": "https://www.youtube.com/watch?v=ZYW2AeDE6wU",
+      "channel": "MIT OpenCourseWare",
+      "score": 20.5,
+      "query": "\"Genome assembly\" Genetics & Genomics explained"
+    },
+    "term-46": {
+      "videoTitle": "Variant Calling Explained | SNPs, Mutations & Genomics",
+      "videoUrl": "https://www.youtube.com/watch?v=yVjtr7_s9go",
+      "channel": "BioinfoBytes",
+      "score": 17,
+      "query": "\"Variant\" Genetics & Genomics explained"
+    },
+    "term-59": {
+      "videoTitle": "What Is A Dominant Genetic Trait For Kids? - Genetic Wellness for Families",
+      "videoUrl": "https://www.youtube.com/watch?v=lVkHEEsZwto",
+      "channel": "Genetic Wellness for Families",
+      "score": 17,
+      "query": "\"Dominant\" Genetics & Genomics explained"
+    },
+    "term-66": {
+      "videoTitle": "Contig | What Are Contigs & Reads |",
+      "videoUrl": "https://www.youtube.com/watch?v=hvw2QkJwx1U",
+      "channel": "BMH learning",
+      "score": 15.5,
+      "query": "\"Contig\" Genetics & Genomics explained"
+    },
+    "term-68": {
+      "videoTitle": "What are introns and exons?",
+      "videoUrl": "https://www.youtube.com/watch?v=YtKoTOCJGt4",
+      "channel": "A Tale of Two Genes",
+      "score": 15.5,
+      "query": "\"Intron\" Genetics & Genomics explained"
+    },
+    "term-69": {
+      "videoTitle": "What is a promoter?",
+      "videoUrl": "https://www.youtube.com/watch?v=Tlzpl0Y--OQ",
+      "channel": "HeyNowScience",
+      "score": 15.5,
+      "query": "\"Promoter\" Genetics & Genomics explained"
+    },
+    "term-72": {
+      "videoTitle": "Frameshift mutation 3-D",
+      "videoUrl": "https://www.youtube.com/watch?v=yv_vnMKdJzY",
+      "channel": "National Human Genome Research Institute",
+      "score": 19,
+      "query": "\"Frameshift\" Genetics & Genomics explained"
+    },
+    "term-74": {
+      "videoTitle": "Genomics explained: How tech revealed the information inside our DNA",
+      "videoUrl": "https://www.youtube.com/watch?v=Ok4PbKhdysk",
+      "channel": "CNBC International",
+      "score": 17,
+      "query": "\"Genomics\" Genetics & Genomics explained"
+    },
+    "term-75": {
+      "videoTitle": "What Is Genome-wide Association Study",
+      "videoUrl": "https://www.youtube.com/watch?v=Xl6rTmWiKsY",
+      "channel": "Learn Dental Genetics",
+      "score": 17,
+      "query": "\"Genome-wide association study\" Genetics & Genomics explained"
+    },
+    "term-79": {
+      "videoTitle": "What Is Non-coding RNA In Epigenetics? - Genetic Wellness for Families",
+      "videoUrl": "https://www.youtube.com/watch?v=HMuZzcSdhK4",
+      "channel": "Genetic Wellness for Families",
+      "score": 17,
+      "query": "\"Non-coding RNA\" Gene Regulation & Epigenetics explained"
+    },
+    "term-82": {
+      "videoTitle": "RNA Explained: Split Genes – RNA Splicing & Protein Diversity",
+      "videoUrl": "https://www.youtube.com/watch?v=-x7Heb3wh6Q",
+      "channel": "NCCR RNA & Disease",
+      "score": 17,
+      "query": "\"RNA splicing\" Gene Regulation & Epigenetics explained"
+    },
+    "term-83": {
+      "videoTitle": "How Genome 3D Organization Regulates Alternative Splicing?",
+      "videoUrl": "https://www.youtube.com/watch?v=xIo0EPSs81M",
+      "channel": "Simons Institute for the Theory of Computing",
+      "score": 17,
+      "query": "\"Alternative splicing\" Gene Regulation & Epigenetics explained"
+    },
+    "term-84": {
+      "videoTitle": "EPIGENETICS and GENE EXPRESSION A-level Biology.  How methyl and acetyl groups control transcription",
+      "videoUrl": "https://www.youtube.com/watch?v=vO0yDhQFdAM",
+      "channel": "Miss Estruch",
+      "score": 17,
+      "query": "\"Gene expression\" Gene Regulation & Epigenetics explained"
+    },
+    "term-85": {
+      "videoTitle": "Mark Robinson: Modern RNA-seq differential expression analyses: transcript-level or gene-level",
+      "videoUrl": "https://www.youtube.com/watch?v=dvozWzolVI8",
+      "channel": "SIB - Swiss Institute of Bioinformatics",
+      "score": 15.5,
+      "query": "\"Differential expression\" Gene Regulation & Epigenetics explained"
+    },
+    "term-86": {
+      "videoTitle": "Epigenetics - An Introduction",
+      "videoUrl": "https://www.youtube.com/watch?v=JMT6oRYgkTk",
+      "channel": "Armando Hasudungan",
+      "score": 17,
+      "query": "\"Epigenetics\" Gene Regulation & Epigenetics explained"
+    },
+    "term-87": {
+      "videoTitle": "What is Chromatin?",
+      "videoUrl": "https://www.youtube.com/watch?v=6Z8aQhV_aD4",
+      "channel": "The Explorer's Guide to Biology",
+      "score": 15.5,
+      "query": "\"Chromatin\" Gene Regulation & Epigenetics explained"
+    },
+    "term-88": {
+      "videoTitle": "EPIGENETICS & CHROMATIN STATES - An introduction to histone modifications & gene transcription roles",
+      "videoUrl": "https://www.youtube.com/watch?v=0dOFztY3VJY",
+      "channel": "Genomics Guru",
+      "score": 17,
+      "query": "\"Histone modification\" Gene Regulation & Epigenetics explained"
+    },
+    "term-89": {
+      "videoTitle": "How DNA methylation works",
+      "videoUrl": "https://www.youtube.com/watch?v=KYHBbEKap0A",
+      "channel": "University of Delaware",
+      "score": 17,
+      "query": "\"DNA methylation\" Gene Regulation & Epigenetics explained"
+    },
+    "term-90": {
+      "videoTitle": "ATAC-seq Explained: How to Map Chromatin Accessibility 🧬",
+      "videoUrl": "https://www.youtube.com/watch?v=UqZCveVt2z4",
+      "channel": "CD Genomics",
+      "score": 17,
+      "query": "\"Chromatin accessibility\" Gene Regulation & Epigenetics explained"
+    },
+    "term-91": {
+      "videoTitle": "How Transcription Factors Regulate Gene Expression Genetics MCAT",
+      "videoUrl": "https://www.youtube.com/watch?v=NdtIr3eskOw",
+      "channel": "Science Simplified",
+      "score": 17,
+      "query": "\"Transcription factor\" Gene Regulation & Epigenetics explained"
+    },
+    "term-92": {
+      "videoTitle": "Protein - Structure Of Protein - What Is Protein Made Of - Structure Of Amino Acids Building Blocks",
+      "videoUrl": "https://www.youtube.com/watch?v=Gi9A56nu01E",
+      "channel": "Whats Up Dude",
+      "score": 17,
+      "query": "\"Amino acid\" Proteins & Proteomics explained"
+    },
+    "term-94": {
+      "videoTitle": "29 Protein Domains",
+      "videoUrl": "https://www.youtube.com/watch?v=XHZJvWTmIHg",
+      "channel": "Oliver Bonham-Carter",
+      "score": 15.5,
+      "query": "\"Protein domain\" Proteins & Proteomics explained"
+    },
+    "term-95": {
+      "videoTitle": "Protein - Structure Of Protein - What Is Protein Made Of - Structure Of Amino Acids Building Blocks",
+      "videoUrl": "https://www.youtube.com/watch?v=Gi9A56nu01E",
+      "channel": "Whats Up Dude",
+      "score": 17,
+      "query": "\"Protein structure\" Proteins & Proteomics explained"
+    },
+    "term-96": {
+      "videoTitle": "8. Protein Folding 1",
+      "videoUrl": "https://www.youtube.com/watch?v=VUGsZgQaAZs",
+      "channel": "MIT OpenCourseWare",
+      "score": 20.5,
+      "query": "\"Protein folding\" Proteins & Proteomics explained"
+    },
+    "term-97": {
+      "videoTitle": "PTM Mass Spectrometry: Analysis of Post-Translational Modifications by Mass Spectrometry",
+      "videoUrl": "https://www.youtube.com/watch?v=NCKOk_RqIOU",
+      "channel": "National Cancer Institute",
+      "score": 19,
+      "query": "\"Post-translational modification\" Proteins & Proteomics explained"
+    },
+    "term-99": {
+      "videoTitle": "N-Glycosylation Explained | N-Glycan Profiling Workflow (6 Steps) + Platform Selection",
+      "videoUrl": "https://www.youtube.com/watch?v=gd13oy6L_tY",
+      "channel": "Creative Proteomics",
+      "score": 17,
+      "query": "\"Glycosylation\" Proteins & Proteomics explained"
+    },
+    "term-100": {
+      "videoTitle": "Nuclear import and export | Nuclear Pore complex | How proteins are moved in or out the nucleus?",
+      "videoUrl": "https://www.youtube.com/watch?v=BJWj4IIjvgU",
+      "channel": "Animated biology With arpan",
+      "score": 10,
+      "query": "\"Protein complex\" Proteins & Proteomics explained"
+    },
+    "term-101": {
+      "videoTitle": "STRING: how to  predict protein-protein interactions (PPI)",
+      "videoUrl": "https://www.youtube.com/watch?v=k_qw1X2s0I8",
+      "channel": "Dr. Asif’s Mol. Biology",
+      "score": 17,
+      "query": "\"Protein-protein interaction\" Proteins & Proteomics explained"
+    },
+    "term-103": {
+      "videoTitle": "Kd, the Dissociation Constant: What is it?",
+      "videoUrl": "https://www.youtube.com/watch?v=3UHJ9gnpqB0",
+      "channel": "Catalyst University",
+      "score": 15.5,
+      "query": "\"Dissociation constant\" Proteins & Proteomics explained"
+    },
+    "term-104": {
+      "videoTitle": "Mass spectrometry-based proteomics for understanding protein abundance, post-translational ...",
+      "videoUrl": "https://www.youtube.com/watch?v=5_6C73deYUM",
+      "channel": "Indiana CTSI",
+      "score": 15.5,
+      "query": "\"Protein abundance\" Proteins & Proteomics explained"
+    },
+    "term-106": {
+      "videoTitle": "SomaScan Proteomics Explained: From Biomarkers to Clinical Insights",
+      "videoUrl": "https://www.youtube.com/watch?v=05Rbv2BfWpg",
+      "channel": "Genotypic Technology",
+      "score": 17,
+      "query": "\"Proteomics\" Proteins & Proteomics explained"
+    },
+    "term-108": {
+      "videoTitle": "What is transcriptome? Introduction part 1: Learn from scratch (for beginners).",
+      "videoUrl": "https://www.youtube.com/watch?v=twNBg2CAJPI",
+      "channel": "XploreBio",
+      "score": 15.5,
+      "query": "\"Transcriptome\" Omics explained"
+    },
+    "term-109": {
+      "videoTitle": "Transcriptomics: A short introduction to the core concepts of microarrays and RNA sequencing",
+      "videoUrl": "https://www.youtube.com/watch?v=uIl0i7HWZdQ",
+      "channel": "Lars Juhl Jensen",
+      "score": 17,
+      "query": "\"Transcriptomics\" Omics explained"
+    },
+    "term-113": {
+      "videoTitle": "Webinar #15 – Introduction to Metabolomics Platforms and Data Analysis",
+      "videoUrl": "https://www.youtube.com/watch?v=oB1Khk6mt_8",
+      "channel": "opar",
+      "score": 17,
+      "query": "\"Metabolomics\" Omics explained"
+    },
+    "term-114": {
+      "videoTitle": "Untargeted Lipidomics Explained: A Complete Guide to the Lipidome 🧪",
+      "videoUrl": "https://www.youtube.com/watch?v=w4KCv3zbYaI",
+      "channel": "Creative Proteomics",
+      "score": 17,
+      "query": "\"Lipidomics\" Omics explained"
+    },
+    "term-115": {
+      "videoTitle": "Multi-omics in Health and Disease (Session 2)",
+      "videoUrl": "https://www.youtube.com/watch?v=-DfNQ3iK1zA",
+      "channel": "National Human Genome Research Institute",
+      "score": 19,
+      "query": "\"Multi-omics\" Omics explained"
+    },
+    "term-116": {
+      "videoTitle": "Single Cell Sequencing - Eric Chow (UCSF)",
+      "videoUrl": "https://www.youtube.com/watch?v=k9VFNLLQP8c",
+      "channel": "iBiology Techniques",
+      "score": 13.5,
+      "query": "\"Single-cell analysis\" Omics explained"
+    },
+    "term-117": {
+      "videoTitle": "Spatial -omics: \"Location, location, location\" applies to biology, too",
+      "videoUrl": "https://www.youtube.com/watch?v=izhZ9VB1jRM",
+      "channel": "Broad Institute",
+      "score": 20.5,
+      "query": "\"Spatial omics\" Omics explained"
+    },
+    "term-119": {
+      "videoTitle": "01  - Introduction to Metagenomics",
+      "videoUrl": "https://www.youtube.com/watch?v=QPO3NssMQOA",
+      "channel": "OmicsLogic",
+      "score": 17,
+      "query": "\"Metagenomics\" Omics explained"
+    },
+    "term-120": {
+      "videoTitle": "Systems Biology: Where Computer Science, Engineering and Biology Meet",
+      "videoUrl": "https://www.youtube.com/watch?v=5tPR12ugV8s",
+      "channel": "Microsoft Research",
+      "score": 22,
+      "query": "\"Systems biology\" Omics explained"
+    },
+    "term-121": {
+      "videoTitle": "Bioinformatics: How Data Saves Lives: Crash Course Biology #40",
+      "videoUrl": "https://www.youtube.com/watch?v=o-WFU5ovaTc",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"Bioinformatics\" Bioinformatics & Data Science explained"
+    },
+    "term-122": {
+      "videoTitle": "Bioinformatics and Computational Biology Research",
+      "videoUrl": "https://www.youtube.com/watch?v=EX_TtXld_as",
+      "channel": "IU Luddy",
+      "score": 15.5,
+      "query": "\"Computational biology\" Bioinformatics & Data Science explained"
+    },
+    "term-123": {
+      "videoTitle": "All Machine Learning algorithms explained in 17 min",
+      "videoUrl": "https://www.youtube.com/watch?v=E0Hmnixke2g",
+      "channel": "Infinite Codes",
+      "score": 17,
+      "query": "\"Algorithm\" Bioinformatics & Data Science explained"
+    },
+    "term-124": {
+      "videoTitle": "Data Pipelines Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=6kEGUCrBEU0",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Pipeline\" Bioinformatics & Data Science explained"
+    },
+    "term-125": {
+      "videoTitle": "DNA Methylation Analysis Pipeline 🔬 | Step-by-Step Bioinformatics Workflow Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=WDr5e3sMEFc",
+      "channel": "Bruhaspathi Institute of Biosciences",
+      "score": 17,
+      "query": "\"Workflow\" Bioinformatics & Data Science explained"
+    },
+    "term-126": {
+      "videoTitle": "[WEBINAR] Part 2// Exploring the microbiome: Bioinformatics & Data Science: From raw data to conclus",
+      "videoUrl": "https://www.youtube.com/watch?v=z2wonyIywAE",
+      "channel": "Biofortis",
+      "score": 15.5,
+      "query": "\"Raw data\" Bioinformatics & Data Science explained"
+    },
+    "term-128": {
+      "videoTitle": "What is metadata (and why does it matter)?",
+      "videoUrl": "https://www.youtube.com/watch?v=fZWg0ClQkYQ",
+      "channel": "Canto",
+      "score": 17,
+      "query": "\"Metadata\" Bioinformatics & Data Science explained"
+    },
+    "term-134": {
+      "videoTitle": "What is a Knowledge Graph?",
+      "videoUrl": "https://www.youtube.com/watch?v=y7sXDpffzQQ",
+      "channel": "IBM Technology",
+      "score": 20.5,
+      "query": "\"Knowledge graph\" Bioinformatics & Data Science explained"
+    },
+    "term-136": {
+      "videoTitle": "The GDC Application Programming interface (API) - Video Guides to the Genomic Data Commons",
+      "videoUrl": "https://www.youtube.com/watch?v=VT-chUoq-oo",
+      "channel": "National Cancer Institute",
+      "score": 20.5,
+      "query": "\"Application programming interface\" Bioinformatics & Data Science explained"
+    },
+    "term-137": {
+      "videoTitle": "Machine Learning View of Multi-Omics Data Integration",
+      "videoUrl": "https://www.youtube.com/watch?v=Jrz6t3fbOCw",
+      "channel": "OmicsLogic",
+      "score": 15.5,
+      "query": "\"Data integration\" Bioinformatics & Data Science explained"
+    },
+    "term-143": {
+      "videoTitle": "Bioinformatics Lab 4 Assignments:  Introduction to version control with Git and GitHub",
+      "videoUrl": "https://www.youtube.com/watch?v=QWqG5O8WjTg",
+      "channel": "Tekwill ICT Excellence Center",
+      "score": 17,
+      "query": "\"Version control\" Bioinformatics & Data Science explained"
+    },
+    "term-144": {
+      "videoTitle": "Introduction to containers (1 of 3)",
+      "videoUrl": "https://www.youtube.com/watch?v=Qfh80DlF1_4",
+      "channel": "SIB - Swiss Institute of Bioinformatics",
+      "score": 17,
+      "query": "\"Container\" Bioinformatics & Data Science explained"
+    },
+    "term-145": {
+      "videoTitle": "NIH’s Strategic Vision for Data Science: Enabling a FAIR-Data Ecosystem",
+      "videoUrl": "https://www.youtube.com/watch?v=8bkLJ695PTs",
+      "channel": "Amazon Web Services",
+      "score": 15.5,
+      "query": "\"FAIR data\" Bioinformatics & Data Science explained"
+    },
+    "term-146": {
+      "videoTitle": "Microarray Data Normalization",
+      "videoUrl": "https://www.youtube.com/watch?v=tT7aPJiZuJc",
+      "channel": "Bioinformatics simply ",
+      "score": 15.5,
+      "query": "\"Data normalization\" Bioinformatics & Data Science explained"
+    },
+    "term-147": {
+      "videoTitle": "TCGA: Detection, Diagnosis and Correction of Batch Effects in TCGA Data - Rehan Akbani",
+      "videoUrl": "https://www.youtube.com/watch?v=RHmAA5iuJ8w",
+      "channel": "National Human Genome Research Institute",
+      "score": 20.5,
+      "query": "\"Batch effect\" Bioinformatics & Data Science explained"
+    },
+    "term-148": {
+      "videoTitle": "3.2 Confounding (Confounder) Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=PapAPb_VcpQ",
+      "channel": "MarinStatsLectures-R Programming & Statistics",
+      "score": 17,
+      "query": "\"Confounder\" Bioinformatics & Data Science explained"
+    },
+    "term-150": {
+      "videoTitle": "Dimensionality Reduction : Data Science Concepts",
+      "videoUrl": "https://www.youtube.com/watch?v=6XGlqR6rcpU",
+      "channel": "ritvikmath",
+      "score": 15.5,
+      "query": "\"Dimensionality reduction\" Bioinformatics & Data Science explained"
+    },
+    "term-153": {
+      "videoTitle": "Clustering with DBSCAN, Clearly Explained!!!",
+      "videoUrl": "https://www.youtube.com/watch?v=RDZUdRSDOok",
+      "channel": "StatQuest with Josh Starmer",
+      "score": 22,
+      "query": "\"Clustering\" Bioinformatics & Data Science explained"
+    },
+    "term-159": {
+      "videoTitle": "False Discovery Rates, FDR, clearly explained",
+      "videoUrl": "https://www.youtube.com/watch?v=K8LQSvtjcEo",
+      "channel": "StatQuest with Josh Starmer",
+      "score": 22,
+      "query": "\"False discovery rate\" Bioinformatics & Data Science explained"
+    },
+    "term-161": {
+      "videoTitle": "Differential Gene Expression Analysis Explained | RNA-seq, Fold Change & p-value Made Simple",
+      "videoUrl": "https://www.youtube.com/watch?v=VRQw_GqNUM4",
+      "channel": "Bruhaspathi Institute of Biosciences",
+      "score": 17,
+      "query": "\"Fold change\" Bioinformatics & Data Science explained"
+    },
+    "term-162": {
+      "videoTitle": "15.  Performing Confidence Interval Analysis",
+      "videoUrl": "https://www.youtube.com/watch?v=A2t_fttbxZs",
+      "channel": "Bioinformatics BD",
+      "score": 14,
+      "query": "\"Confidence interval\" Bioinformatics & Data Science explained"
+    },
+    "term-169": {
+      "videoTitle": "SOP Example: How to write a Standard Operating Procedure - FASTER!",
+      "videoUrl": "https://www.youtube.com/watch?v=g30mebrH-pw",
+      "channel": "Layla at ProcessDriven",
+      "score": 15.5,
+      "query": "\"Standard operating procedure\" Laboratory & Experimental Design explained"
+    },
+    "term-173": {
+      "videoTitle": "Cohort Study explained",
+      "videoUrl": "https://www.youtube.com/watch?v=D7vk3zUmy1Q",
+      "channel": "Henrik's Lab",
+      "score": 17,
+      "query": "\"Cohort\" Laboratory & Experimental Design explained"
+    },
+    "term-174": {
+      "videoTitle": "What is a control group?",
+      "videoUrl": "https://www.youtube.com/watch?v=igm0oanTFJI",
+      "channel": "CTRI2012",
+      "score": 15.5,
+      "query": "\"Control group\" Laboratory & Experimental Design explained"
+    },
+    "term-175": {
+      "videoTitle": "Negative Control in Experiment - What You Need to Know (5 Minutes)",
+      "videoUrl": "https://www.youtube.com/watch?v=jDeJO4-IV4E",
+      "channel": "Microlearning Daily",
+      "score": 15.5,
+      "query": "\"Negative control\" Laboratory & Experimental Design explained"
+    },
+    "term-176": {
+      "videoTitle": "Positive Control in Experiment - What You Need to Know",
+      "videoUrl": "https://www.youtube.com/watch?v=Y42oO1I4xS4",
+      "channel": "Microlearning Daily",
+      "score": 15.5,
+      "query": "\"Positive control\" Laboratory & Experimental Design explained"
+    },
+    "term-179": {
+      "videoTitle": "Biological vs Technical Replicates explained",
+      "videoUrl": "https://www.youtube.com/watch?v=c_cpl5YsBV8",
+      "channel": "Henrik's Lab",
+      "score": 17,
+      "query": "\"Replicate\" Laboratory & Experimental Design explained"
+    },
+    "term-181": {
+      "videoTitle": "Biological vs Technical Replicates explained",
+      "videoUrl": "https://www.youtube.com/watch?v=c_cpl5YsBV8",
+      "channel": "Henrik's Lab",
+      "score": 17,
+      "query": "\"Technical replicate\" Laboratory & Experimental Design explained"
+    },
+    "term-184": {
+      "videoTitle": "Independent vs Dependent Variables (Explained in 3 Minutes)",
+      "videoUrl": "https://www.youtube.com/watch?v=F9F7Xfh-VTQ",
+      "channel": "Helpful Professor Explains!",
+      "score": 10,
+      "query": "\"Independent variable\" Laboratory & Experimental Design explained"
+    },
+    "term-185": {
+      "videoTitle": "Independent vs Dependent Variables (Explained in 3 Minutes)",
+      "videoUrl": "https://www.youtube.com/watch?v=F9F7Xfh-VTQ",
+      "channel": "Helpful Professor Explains!",
+      "score": 17,
+      "query": "\"Dependent variable\" Laboratory & Experimental Design explained"
+    },
+    "term-191": {
+      "videoTitle": "Digital PCR: Limit of Detection on AnalysisSuite v3.1",
+      "videoUrl": "https://www.youtube.com/watch?v=nlL5qMUxZxg",
+      "channel": "Thermo Fisher Scientific",
+      "score": 19,
+      "query": "\"Limit of detection\" Laboratory & Experimental Design explained"
+    },
+    "term-193": {
+      "videoTitle": "B4B: Module 8 - Dynamic range of the proteome",
+      "videoUrl": "https://www.youtube.com/watch?v=VeQ88Zap85c",
+      "channel": "IUSM-CCBB",
+      "score": 14,
+      "query": "\"Dynamic range\" Laboratory & Experimental Design explained"
+    },
+    "term-194": {
+      "videoTitle": "Using Excel for a Calibration Curve",
+      "videoUrl": "https://www.youtube.com/watch?v=8efZRBCFpRg",
+      "channel": "Mike Davis",
+      "score": 14,
+      "query": "\"Calibration curve\" Laboratory & Experimental Design explained"
+    },
+    "term-195": {
+      "videoTitle": "The 7 Quality Control (QC) Tools Explained with an Example!",
+      "videoUrl": "https://www.youtube.com/watch?v=yuH35ottILU",
+      "channel": "CQE Academy",
+      "score": 17,
+      "query": "\"Quality control\" Laboratory & Experimental Design explained"
+    },
+    "term-196": {
+      "videoTitle": "Quality Assurance | Protocol for Conduct of A Nonclinical Laboratory Study | AKTU Digital Education",
+      "videoUrl": "https://www.youtube.com/watch?v=F9U7-FYx5fo",
+      "channel": "AKTU Digital Education",
+      "score": 15.5,
+      "query": "\"Quality assurance\" Laboratory & Experimental Design explained"
+    },
+    "term-197": {
+      "videoTitle": "How to define system suitability acceptance criteria for assay by chromatography",
+      "videoUrl": "https://www.youtube.com/watch?v=FNdcajefSSw",
+      "channel": "Pharma Growth Hub",
+      "score": 15.5,
+      "query": "\"Acceptance criteria\" Laboratory & Experimental Design explained"
+    },
+    "term-200": {
+      "videoTitle": "How Biosafety Level 3 laboratories keep researchers safe and what you need to know to work in one.",
+      "videoUrl": "https://www.youtube.com/watch?v=sekGuvatUZs",
+      "channel": "La Jolla Institute for Immunology",
+      "score": 17,
+      "query": "\"Biosafety level\" Laboratory & Experimental Design explained"
+    },
+    "term-201": {
+      "videoTitle": "Good Laboratory Practices | GLP gudielines | principles of Good Laboratory Practices",
+      "videoUrl": "https://www.youtube.com/watch?v=2gxTcaAP1PI",
+      "channel": "3 Min Pharmacy",
+      "score": 15.5,
+      "query": "\"Good Laboratory Practice\" Laboratory & Experimental Design explained"
+    },
+    "term-202": {
+      "videoTitle": "Good Clinical Practice and Good Manufacturing Practice in Clinical Research, Part 1 of 2",
+      "videoUrl": "https://www.youtube.com/watch?v=FJ3R1YA2Nqw",
+      "channel": "NIH VideoCast",
+      "score": 20.5,
+      "query": "\"Good Manufacturing Practice\" Laboratory & Experimental Design explained"
+    },
+    "term-203": {
+      "videoTitle": "Good Clinical Practices in pharmaceutical Industry EXPLAINED ",
+      "videoUrl": "https://www.youtube.com/watch?v=N-yrKTz_klM",
+      "channel": "GMP GUIDE | Your Career Guide ",
+      "score": 17,
+      "query": "\"Good Clinical Practice\" Laboratory & Experimental Design explained"
+    },
+    "term-205": {
+      "videoTitle": "Target Identification and Validation with Cellular Metabolism Video",
+      "videoUrl": "https://www.youtube.com/watch?v=jQEAEdWWkhc",
+      "channel": "Agilent Technologies",
+      "score": 20.5,
+      "query": "\"Target identification\" Drug Discovery & Development explained"
+    },
+    "term-206": {
+      "videoTitle": "The Importance of Target Validation | TTC Considerations in Drug Discovery Series",
+      "videoUrl": "https://www.youtube.com/watch?v=N7IxtCqW7rk",
+      "channel": "EDDC",
+      "score": 15.5,
+      "query": "\"Target validation\" Drug Discovery & Development explained"
+    },
+    "term-209": {
+      "videoTitle": "lead optimization in drug development",
+      "videoUrl": "https://www.youtube.com/watch?v=b1pghSVdaY4",
+      "channel": "Chem Help ASAP",
+      "score": 15.5,
+      "query": "\"Lead optimization\" Drug Discovery & Development explained"
+    },
+    "term-210": {
+      "videoTitle": "28 - Selecting a Development Candidate (S2E13)",
+      "videoUrl": "https://www.youtube.com/watch?v=W32PDbInQXQ",
+      "channel": "The Chemist's Corner",
+      "score": 14,
+      "query": "\"Development candidate\" Drug Discovery & Development explained"
+    },
+    "term-211": {
+      "videoTitle": "Biophysical Approaches to Small Molecule Discovery and Validation",
+      "videoUrl": "https://www.youtube.com/watch?v=x-3lCxKCzvs",
+      "channel": "NCATS NIH",
+      "score": 19,
+      "query": "\"Small molecule\" Drug Discovery & Development explained"
+    },
+    "term-213": {
+      "videoTitle": "\"Monoclonal Antibody Manufacturing: Transforming Our Most Important Biologics Manufacturing Process\"",
+      "videoUrl": "https://www.youtube.com/watch?v=dSQPTkQ6aNQ",
+      "channel": "Georgia Tech Research",
+      "score": 14,
+      "query": "\"Monoclonal antibody\" Drug Discovery & Development explained"
+    },
+    "term-217": {
+      "videoTitle": "Gene Therapy Basics (2022 Update)",
+      "videoUrl": "https://www.youtube.com/watch?v=kAtd9X29SdQ",
+      "channel": "ASGCT",
+      "score": 17,
+      "query": "\"Gene therapy\" Drug Discovery & Development explained"
+    },
+    "term-218": {
+      "videoTitle": "CAR T-Cell Therapy: How Does It Work?",
+      "videoUrl": "https://www.youtube.com/watch?v=OadAW99s4Ik",
+      "channel": "Dana-Farber Cancer Institute",
+      "score": 17,
+      "query": "\"Cell therapy\" Drug Discovery & Development explained"
+    },
+    "term-221": {
+      "videoTitle": "Introduction to Pharmacology, Drug Development and Clinical Pharmacology with Dr. William D. Figg",
+      "videoUrl": "https://www.youtube.com/watch?v=ECEJrTjwgNw",
+      "channel": "NIH Clinical Center",
+      "score": 22,
+      "query": "\"Pharmacology\" Drug Discovery & Development explained"
+    },
+    "term-223": {
+      "videoTitle": "Pharmacokinetics: How Drugs Move Through the Body",
+      "videoUrl": "https://www.youtube.com/watch?v=L1W0q1kEof4",
+      "channel": "Professor Dave Explains",
+      "score": 17,
+      "query": "\"Pharmacokinetics\" Drug Discovery & Development explained"
+    },
+    "term-226": {
+      "videoTitle": "Anatomy of a TK Profile: AUC, Cmax, Tmax & Half-Life Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=SYxK3BHRGk4",
+      "channel": "Nonclinical Academy",
+      "score": 17,
+      "query": "\"Half-life\" Drug Discovery & Development explained"
+    },
+    "term-233": {
+      "videoTitle": "off-target effects of drugs",
+      "videoUrl": "https://www.youtube.com/watch?v=8sLVU04orqw",
+      "channel": "Chem Help ASAP",
+      "score": 15.5,
+      "query": "\"Off-target effect\" Drug Discovery & Development explained"
+    },
+    "term-234": {
+      "videoTitle": "How to plot a dose response curve and measure EC50.  Key concepts in pharmacology.",
+      "videoUrl": "https://www.youtube.com/watch?v=PZRnF2a56RQ",
+      "channel": "Professor G - Pharmacology",
+      "score": 17,
+      "query": "\"Dose-response curve\" Drug Discovery & Development explained"
+    },
+    "term-235": {
+      "videoTitle": "drug dosing & the therapeutic window",
+      "videoUrl": "https://www.youtube.com/watch?v=Zpg_O0hUpkM",
+      "channel": "Chem Help ASAP",
+      "score": 15.5,
+      "query": "\"Therapeutic window\" Drug Discovery & Development explained"
+    },
+    "term-237": {
+      "videoTitle": "Biomarkers of Drug Effects of Dr. Robert Schuck",
+      "videoUrl": "https://www.youtube.com/watch?v=hYl9xtEUC-o",
+      "channel": "NIH Clinical Center",
+      "score": 20.5,
+      "query": "\"Biomarker\" Drug Discovery & Development explained"
+    },
+    "term-240": {
+      "videoTitle": "Preclinical Development",
+      "videoUrl": "https://www.youtube.com/watch?v=uN2C8Lyeq6w",
+      "channel": "NJ Alliance for Clinical and Translational Science",
+      "score": 15.5,
+      "query": "\"Preclinical development\" Drug Discovery & Development explained"
+    },
+    "term-241": {
+      "videoTitle": "Investigational New Drug Application | From Lab to Patients",
+      "videoUrl": "https://www.youtube.com/watch?v=W8XMWAciXbY",
+      "channel": "Drug Safety",
+      "score": 15.5,
+      "query": "\"Investigational New Drug application\" Drug Discovery & Development explained"
+    },
+    "term-242": {
+      "videoTitle": "Understanding Chemistry, Manufacturing, and Controls (CMC) for Pharmaceuticals",
+      "videoUrl": "https://www.youtube.com/watch?v=okPdJgYBDOQ",
+      "channel": "Pharma Learning In Depth",
+      "score": 15.5,
+      "query": "\"Chemistry, manufacturing and controls\" Drug Discovery & Development explained"
+    },
+    "term-244": {
+      "videoTitle": "OBSERVATIONAL STUDY DESIGN - explaining the basics of observational study design in epidemiology",
+      "videoUrl": "https://www.youtube.com/watch?v=VVVydL8q7JA",
+      "channel": "Nienke de Glas, MD PhD",
+      "score": 17,
+      "query": "\"Observational study\" Clinical Research explained"
+    },
+    "term-245": {
+      "videoTitle": "What Is An Interventional Study In Clinical Research? - Trials and Treatments Uncovered",
+      "videoUrl": "https://www.youtube.com/watch?v=ZBVz9Laqgi8",
+      "channel": "Trials and Treatments Uncovered",
+      "score": 17,
+      "query": "\"Interventional study\" Clinical Research explained"
+    },
+    "term-249": {
+      "videoTitle": "Clinical Trial Design| Phase IV study| Clinical Study design",
+      "videoUrl": "https://www.youtube.com/watch?v=qSWiK1Zea7o",
+      "channel": "JITENDRA PATEL",
+      "score": 15.5,
+      "query": "\"Phase IV study\" Clinical Research explained"
+    },
+    "term-251": {
+      "videoTitle": "'Proof of Concept' clinical trial process explained.",
+      "videoUrl": "https://www.youtube.com/watch?v=khfB4fBuu6Q",
+      "channel": "PKA SoftTouch",
+      "score": 17,
+      "query": "\"Proof of concept\" Clinical Research explained"
+    },
+    "term-253": {
+      "videoTitle": "What is a “Placebo” in a clinical trial and is it always used?",
+      "videoUrl": "https://www.youtube.com/watch?v=SiA7RiGC1tc",
+      "channel": "Animated Pancreas Patient",
+      "score": 17,
+      "query": "\"Placebo\" Clinical Research explained"
+    },
+    "term-254": {
+      "videoTitle": "What is Inclusion Criteria in Clinical Trials? in conversation with Associate Professor Samantha Loi",
+      "videoUrl": "https://www.youtube.com/watch?v=UdJn9EJAqO8",
+      "channel": "Huntington's Victoria",
+      "score": 17,
+      "query": "\"Inclusion criteria\" Clinical Research explained"
+    },
+    "term-255": {
+      "videoTitle": "Why Inclusion Exclusion Criteria Source Data Review Is Difficult For Most Clinical Research CRC/CRA",
+      "videoUrl": "https://www.youtube.com/watch?v=8NT98ytinz4",
+      "channel": "Dan Sfera",
+      "score": 17,
+      "query": "\"Exclusion criteria\" Clinical Research explained"
+    },
+    "term-256": {
+      "videoTitle": "What is “informed consent” in a clinical trial?",
+      "videoUrl": "https://www.youtube.com/watch?v=YKBX7ivW_y8",
+      "channel": "Animated Pancreas Patient",
+      "score": 17,
+      "query": "\"Informed consent\" Clinical Research explained"
+    },
+    "term-257": {
+      "videoTitle": "What Is An Institutional Review Board For Clinical Trials? - Lung Cancer Support Hub",
+      "videoUrl": "https://www.youtube.com/watch?v=nfMRdydelk8",
+      "channel": "Lung Cancer Support Hub",
+      "score": 17,
+      "query": "\"Institutional review board\" Clinical Research explained"
+    },
+    "term-258": {
+      "videoTitle": "Adverse Events Management in Clinical Drug Trials",
+      "videoUrl": "https://www.youtube.com/watch?v=PWulMeXLHPc",
+      "channel": "Stanford Center for Clinical Research",
+      "score": 20.5,
+      "query": "\"Adverse event\" Clinical Research explained"
+    },
+    "term-259": {
+      "videoTitle": "Compensation in Serious Adverse Events (SAE) Explained | Clinical Trials  #clinicaltrials #safety",
+      "videoUrl": "https://www.youtube.com/watch?v=eJ5B2QWelB8",
+      "channel": "Clinical Research x360",
+      "score": 17,
+      "query": "\"Serious adverse event\" Clinical Research explained"
+    },
+    "term-261": {
+      "videoTitle": "What is Pharmacovigilance? | Drug Safety | A PharmD in the Pharmaceutical Industry",
+      "videoUrl": "https://www.youtube.com/watch?v=F9Fk6Uj3U3w",
+      "channel": "FocusRx | Pharma & Biotech Career Coach",
+      "score": 17,
+      "query": "\"Pharmacovigilance\" Clinical Research explained"
+    },
+    "term-262": {
+      "videoTitle": "Randomized Controlled Trials (RCTs)",
+      "videoUrl": "https://www.youtube.com/watch?v=Wy7qpJeozec",
+      "channel": "UNICEF Innocenti",
+      "score": 15.5,
+      "query": "\"Randomized controlled trial\" Clinical Research explained"
+    },
+    "term-264": {
+      "videoTitle": "What Is A Double-blind Study In Cystic Fibrosis Clinical Trials? - Cystic Fibrosis Health Hub",
+      "videoUrl": "https://www.youtube.com/watch?v=emuDYFN8LsU",
+      "channel": "Cystic Fibrosis Health Hub",
+      "score": 17,
+      "query": "\"Double-blind study\" Clinical Research explained"
+    },
+    "term-265": {
+      "videoTitle": "CRA Basics: Intention-to-treat Analysis in Clinical Research",
+      "videoUrl": "https://www.youtube.com/watch?v=jg7tgNe_JPU",
+      "channel": "GCP-Mindset - All About Clinical Research",
+      "score": 17,
+      "query": "\"Intention-to-treat analysis\" Clinical Research explained"
+    },
+    "term-266": {
+      "videoTitle": "What Is A Surrogate Endpoint In Clinical Research? - Trials and Treatments Uncovered",
+      "videoUrl": "https://www.youtube.com/watch?v=sfDGQxs1ytA",
+      "channel": "Trials and Treatments Uncovered",
+      "score": 17,
+      "query": "\"Surrogate endpoint\" Clinical Research explained"
+    },
+    "term-267": {
+      "videoTitle": "What are Progression Free Survival (PFS) and Overall Survival (OS)?",
+      "videoUrl": "https://www.youtube.com/watch?v=he_4B63uweA",
+      "channel": "HealthTree Foundation for Multiple Myeloma",
+      "score": 15.5,
+      "query": "\"Overall survival\" Clinical Research explained"
+    },
+    "term-268": {
+      "videoTitle": "What are Progression Free Survival (PFS) and Overall Survival (OS)?",
+      "videoUrl": "https://www.youtube.com/watch?v=he_4B63uweA",
+      "channel": "HealthTree Foundation for Multiple Myeloma",
+      "score": 15.5,
+      "query": "\"Progression-free survival\" Clinical Research explained"
+    },
+    "term-269": {
+      "videoTitle": "An Introduction to Real World Data Analysis in Clinical Trials",
+      "videoUrl": "https://www.youtube.com/watch?v=pSbF4UKBCe0",
+      "channel": "Quanticate",
+      "score": 17,
+      "query": "\"Real-world data\" Clinical Research explained"
+    },
+    "term-270": {
+      "videoTitle": "How Real-World Evidence Is Changing Clinical Research",
+      "videoUrl": "https://www.youtube.com/watch?v=g1os00T4at0",
+      "channel": "ISPOR",
+      "score": 17,
+      "query": "\"Real-world evidence\" Clinical Research explained"
+    },
+    "term-272": {
+      "videoTitle": "DCLS Laboratory Information Management System .wmv",
+      "videoUrl": "https://www.youtube.com/watch?v=tilbJUsZWvI",
+      "channel": "DGSVirginia",
+      "score": 15.5,
+      "query": "\"Laboratory information management system\" Data, Knowledge & Governance explained"
+    },
+    "term-273": {
+      "videoTitle": "Logilab Scientific Data Management System - An Extensive Overview | Agaram Technologies",
+      "videoUrl": "https://www.youtube.com/watch?v=Hml-GYjctp0",
+      "channel": "Agaram Technologies",
+      "score": 17,
+      "query": "\"Scientific data management system\" Data, Knowledge & Governance explained"
+    },
+    "term-275": {
+      "videoTitle": "Dacima Electronic Data Capture Software",
+      "videoUrl": "https://www.youtube.com/watch?v=BhDbuCffbrE",
+      "channel": "Dacima Software",
+      "score": 15.5,
+      "query": "\"Electronic data capture\" Data, Knowledge & Governance explained"
+    },
+    "term-276": {
+      "videoTitle": "What is a Data Lake?",
+      "videoUrl": "https://www.youtube.com/watch?v=LxcH6z8TFpI",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Data lake\" Data, Knowledge & Governance explained"
+    },
+    "term-277": {
+      "videoTitle": "What is a Data Warehouse?",
+      "videoUrl": "https://www.youtube.com/watch?v=k4tK2ttdSDg",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Data warehouse\" Data, Knowledge & Governance explained"
+    },
+    "term-278": {
+      "videoTitle": "What is Data Catalog?",
+      "videoUrl": "https://www.youtube.com/watch?v=nslAWD7Geqw",
+      "channel": "Qlik",
+      "score": 17,
+      "query": "\"Data catalog\" Data, Knowledge & Governance explained"
+    },
+    "term-279": {
+      "videoTitle": "What is Master Data Management",
+      "videoUrl": "https://www.youtube.com/watch?v=l83bkKJh1wM",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Master data\" Data, Knowledge & Governance explained"
+    },
+    "term-280": {
+      "videoTitle": "What is Reference Data? #referencedata",
+      "videoUrl": "https://www.youtube.com/watch?v=-TulUqhy_1A",
+      "channel": "Lights OnData",
+      "score": 17,
+      "query": "\"Reference data\" Data, Knowledge & Governance explained"
+    },
+    "term-281": {
+      "videoTitle": "Data Stewardship: Why It’s Critical for Data Governance & Compliance",
+      "videoUrl": "https://www.youtube.com/watch?v=m7ImyKeXDME",
+      "channel": "NextGen Ledger",
+      "score": 17,
+      "query": "\"Data stewardship\" Data, Knowledge & Governance explained"
+    },
+    "term-282": {
+      "videoTitle": "Data Governance Explained in 5 Minutes",
+      "videoUrl": "https://www.youtube.com/watch?v=uPsUjKLHLAg",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Data governance\" Data, Knowledge & Governance explained"
+    },
+    "term-283": {
+      "videoTitle": "Data Quality Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=5HcDJ8e9NwY",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Data quality\" Data, Knowledge & Governance explained"
+    },
+    "term-285": {
+      "videoTitle": "Why You Need an Audit Trail",
+      "videoUrl": "https://www.youtube.com/watch?v=ZHLNUNJuOfU",
+      "channel": "Wi-Manx Limited",
+      "score": 17,
+      "query": "\"Audit trail\" Data, Knowledge & Governance explained"
+    },
+    "term-288": {
+      "videoTitle": "Role-based access control (RBAC) vs. Attribute-based access control (ABAC)",
+      "videoUrl": "https://www.youtube.com/watch?v=rvZ35YW4t5k",
+      "channel": "IBM Technology",
+      "score": 19,
+      "query": "\"Role-based access control\" Data, Knowledge & Governance explained"
+    },
+    "term-289": {
+      "videoTitle": "Principle of Need to Know vs Least Privilege | Access Control Explained 💥 #AccessControl",
+      "videoUrl": "https://www.youtube.com/watch?v=CPZwgyKJFS8",
+      "channel": "Security For You",
+      "score": 17,
+      "query": "\"Least privilege\" Data, Knowledge & Governance explained"
+    },
+    "term-290": {
+      "videoTitle": "What is PII (Personally Identifiable Information)? PII and Data Security",
+      "videoUrl": "https://www.youtube.com/watch?v=N1qdvQVke0s",
+      "channel": "Eye on Tech",
+      "score": 17,
+      "query": "\"Personally identifiable information\" Data, Knowledge & Governance explained"
+    },
+    "term-291": {
+      "videoTitle": "AWS re:Invent 2020: Securing protected health information and high-risk datasets",
+      "videoUrl": "https://www.youtube.com/watch?v=fvCSSHQdYUk",
+      "channel": "AWS Events",
+      "score": 15.5,
+      "query": "\"Protected health information\" Data, Knowledge & Governance explained"
+    },
+    "term-292": {
+      "videoTitle": "What is data de-identification?",
+      "videoUrl": "https://www.youtube.com/watch?v=JLDpbXbT6wo",
+      "channel": "Google Cloud Tech",
+      "score": 17,
+      "query": "\"De-identification\" Data, Knowledge & Governance explained"
+    },
+    "term-294": {
+      "videoTitle": "What Are Anonymization Techniques In Data Privacy Law? - AI and Technology Law",
+      "videoUrl": "https://www.youtube.com/watch?v=vfzKna0KCuA",
+      "channel": "AI and Technology Law",
+      "score": 17,
+      "query": "\"Anonymization\" Data, Knowledge & Governance explained"
+    },
+    "term-295": {
+      "videoTitle": "What is Data Retention?",
+      "videoUrl": "https://www.youtube.com/watch?v=LRiM9Z8yTHo",
+      "channel": "Test Partnership",
+      "score": 17,
+      "query": "\"Data retention\" Data, Knowledge & Governance explained"
+    },
+    "term-296": {
+      "videoTitle": "What is Indigenous Data Sovereignty?",
+      "videoUrl": "https://www.youtube.com/watch?v=KsTdSveD4_Q",
+      "channel": "TransformingAboriginalOutcomes_DCJ",
+      "score": 17,
+      "query": "\"Data sovereignty\" Data, Knowledge & Governance explained"
+    },
+    "term-297": {
+      "videoTitle": "How Do Regulations Define Data Residency Compliance?",
+      "videoUrl": "https://www.youtube.com/watch?v=Siq7L4QIdGY",
+      "channel": "All About SaaS Finance",
+      "score": 17,
+      "query": "\"Data residency\" Data, Knowledge & Governance explained"
+    },
+    "term-298": {
+      "videoTitle": "Persistent identifiers and data citation explained",
+      "videoUrl": "https://www.youtube.com/watch?v=PgqtiY7oZ6k",
+      "channel": "Research Data Netherlands",
+      "score": 17,
+      "query": "\"Persistent identifier\" Data, Knowledge & Governance explained"
+    },
+    "term-299": {
+      "videoTitle": "Digital object identifier | Wikipedia audio article",
+      "videoUrl": "https://www.youtube.com/watch?v=xXlWQTA4uR4",
+      "channel": "wikipedia tts",
+      "score": 14,
+      "query": "\"Digital object identifier\" Data, Knowledge & Governance explained"
+    },
+    "term-300": {
+      "videoTitle": "Webinar: Semantic interoperability 101: How clinical terminology mapping advances interoperability",
+      "videoUrl": "https://www.youtube.com/watch?v=OuDdWZsqmJI",
+      "channel": "Rhapsody",
+      "score": 17,
+      "query": "\"Semantic interoperability\" Data, Knowledge & Governance explained"
+    },
+    "term-301": {
+      "videoTitle": "SIMPLEST Explanation of How Artificial Intelligence Works? No Jargon | What is AI? How AI works?",
+      "videoUrl": "https://www.youtube.com/watch?v=m8o2GrbR3d8",
+      "channel": "Science Simplified 4 All",
+      "score": 17,
+      "query": "\"Artificial intelligence\" AI & Computational Research explained"
+    },
+    "term-302": {
+      "videoTitle": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Machine learning\" AI & Computational Research explained"
+    },
+    "term-303": {
+      "videoTitle": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Deep learning\" AI & Computational Research explained"
+    },
+    "term-304": {
+      "videoTitle": "Neural Networks Explained in 5 minutes",
+      "videoUrl": "https://www.youtube.com/watch?v=jmmW0F0biz0",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Neural network\" AI & Computational Research explained"
+    },
+    "term-305": {
+      "videoTitle": "What are Transformers (Machine Learning Model)?",
+      "videoUrl": "https://www.youtube.com/watch?v=ZXiruGOCn9s",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Transformer\" AI & Computational Research explained"
+    },
+    "term-306": {
+      "videoTitle": "Foundation Models: An Explainer for Non-Experts",
+      "videoUrl": "https://www.youtube.com/watch?v=kK3NmQT241w",
+      "channel": "Stanford HAI",
+      "score": 20.5,
+      "query": "\"Foundation model\" AI & Computational Research explained"
+    },
+    "term-307": {
+      "videoTitle": "How Large Language Models Work",
+      "videoUrl": "https://www.youtube.com/watch?v=5sLYAQS9sWQ",
+      "channel": "IBM Technology",
+      "score": 20.5,
+      "query": "\"Large language model\" AI & Computational Research explained"
+    },
+    "term-308": {
+      "videoTitle": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Generative AI\" AI & Computational Research explained"
+    },
+    "term-309": {
+      "videoTitle": "What Is an Embedding? | AI Explained in 5 Minutes",
+      "videoUrl": "https://www.youtube.com/watch?v=bBnnzDPWMfU",
+      "channel": "joyfuture",
+      "score": 17,
+      "query": "\"Embedding\" AI & Computational Research explained"
+    },
+    "term-310": {
+      "videoTitle": "What is a Vector Database? Powering Semantic Search & AI Applications",
+      "videoUrl": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Vector database\" AI & Computational Research explained"
+    },
+    "term-311": {
+      "videoTitle": "What is a Vector Database? Powering Semantic Search & AI Applications",
+      "videoUrl": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"Semantic search\" AI & Computational Research explained"
+    },
+    "term-314": {
+      "videoTitle": "Why LLMs get dumb (Context Windows Explained)",
+      "videoUrl": "https://www.youtube.com/watch?v=TeQDr4DkLYo",
+      "channel": "NetworkChuck",
+      "score": 17,
+      "query": "\"Context window\" AI & Computational Research explained"
+    },
+    "term-315": {
+      "videoTitle": "AI Hallucinations Explained Visually (How Attention Fails)",
+      "videoUrl": "https://www.youtube.com/watch?v=BGWBHHdpGVI",
+      "channel": "Edumation",
+      "score": 17,
+      "query": "\"Hallucination\" AI & Computational Research explained"
+    },
+    "term-317": {
+      "videoTitle": "10 Use Cases for AI Agents: IoT, RAG, & Disaster Response Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=Ts42JTye-AI",
+      "channel": "IBM Technology",
+      "score": 22,
+      "query": "\"AI agent\" AI & Computational Research explained"
+    },
+    "term-318": {
+      "videoTitle": "Agents & Tool Use - Weekly Research Brief - Frontier AI Brief",
+      "videoUrl": "https://www.youtube.com/watch?v=P4PH26KmELs",
+      "channel": "Frontier AI Research Digest",
+      "score": 15.5,
+      "query": "\"Tool use\" AI & Computational Research explained"
+    },
+    "term-319": {
+      "videoTitle": "Stanford Seminar - Human in the Loop Reinforcement Learning",
+      "videoUrl": "https://www.youtube.com/watch?v=nj5t1Q_ANlw",
+      "channel": "Stanford Online",
+      "score": 20.5,
+      "query": "\"Human in the loop\" AI & Computational Research explained"
+    },
+    "term-321": {
+      "videoTitle": "AI Pretraining Explained: How Artificial Intelligence Learns from Massive Data",
+      "videoUrl": "https://www.youtube.com/watch?v=GkakP71PBiY",
+      "channel": "Infomity",
+      "score": 17,
+      "query": "\"Pretraining\" AI & Computational Research explained"
+    },
+    "term-322": {
+      "videoTitle": "RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models",
+      "videoUrl": "https://www.youtube.com/watch?v=zYGDpG-pTho",
+      "channel": "IBM Technology",
+      "score": 20.5,
+      "query": "\"Fine-tuning\" AI & Computational Research explained"
+    },
+    "term-325": {
+      "videoTitle": "Understanding Validation Sets in Machine Learning",
+      "videoUrl": "https://www.youtube.com/watch?v=PGILzjzDuiI",
+      "channel": "Giuseppe Canale",
+      "score": 15.5,
+      "query": "\"Validation set\" AI & Computational Research explained"
+    },
+    "term-326": {
+      "videoTitle": "Why Do We Need Training Validation And Test Sets?",
+      "videoUrl": "https://www.youtube.com/watch?v=-qAoLQcPaSY",
+      "channel": "AI and Machine Learning Explained",
+      "score": 17,
+      "query": "\"Test set\" AI & Computational Research explained"
+    },
+    "term-327": {
+      "videoTitle": "What Is Data Leakage In Classification Algorithms? - AI and Machine Learning Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=TnXqU-i3wEw",
+      "channel": "AI and Machine Learning Explained",
+      "score": 17,
+      "query": "\"Data leakage\" AI & Computational Research explained"
+    },
+    "term-328": {
+      "videoTitle": "Overfitting, Underfitting, and Bad Data Are Ruining Your Predictive Models",
+      "videoUrl": "https://www.youtube.com/watch?v=0RT2Q0qwXSA",
+      "channel": "IBM Technology",
+      "score": 20.5,
+      "query": "\"Overfitting\" AI & Computational Research explained"
+    },
+    "term-330": {
+      "videoTitle": "Machine Learning Fundamentals: Cross Validation",
+      "videoUrl": "https://www.youtube.com/watch?v=fSytzGwwBVw",
+      "channel": "StatQuest with Josh Starmer",
+      "score": 20.5,
+      "query": "\"Cross-validation\" AI & Computational Research explained"
+    },
+    "term-334": {
+      "videoTitle": "How Do You Detect ML Model Drift With Intuitive Visualizations? - AI and Machine Learning Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=wkzgZqI9l5I",
+      "channel": "AI and Machine Learning Explained",
+      "score": 17,
+      "query": "\"Model drift\" AI & Computational Research explained"
+    },
+    "term-337": {
+      "videoTitle": "ARCHER2: SEAVEA toolkit: An introduction to verification, validation and uncertainty quantification",
+      "videoUrl": "https://www.youtube.com/watch?v=_L_h48zV1SA",
+      "channel": "ARCHER2 HPC",
+      "score": 17,
+      "query": "\"Uncertainty quantification\" AI & Computational Research explained"
+    },
+    "term-340": {
+      "videoTitle": "How Agentic Workflows Automate Complex Tasks - AI That Plans and Executes",
+      "videoUrl": "https://www.youtube.com/watch?v=holFixdzoxg",
+      "channel": "Mini Leviathan",
+      "score": 17,
+      "query": "\"Agentic workflow\" AI & Computational Research explained"
+    },
+    "term-341": {
+      "videoTitle": "AWS SageMaker Model Cards | Governance, Auditing & Responsible AI",
+      "videoUrl": "https://www.youtube.com/watch?v=6xsURENjX_A",
+      "channel": "CloudWolf AWS",
+      "score": 15.5,
+      "query": "\"Model card\" AI & Computational Research explained"
+    },
+    "method-4": {
+      "videoTitle": "Agarose Gel Electrophoresis",
+      "videoUrl": "https://www.youtube.com/watch?v=TIZRGt3YAug",
+      "channel": "Addgene",
+      "score": 19,
+      "query": "\"Gel electrophoresis\" Molecular biology tutorial"
+    },
+    "method-5": {
+      "videoTitle": "Stool DNA Extraction Guide | Microbial & Host DNA Purification",
+      "videoUrl": "https://www.youtube.com/watch?v=7muQSoATQV8",
+      "channel": "Thermo Fisher Scientific",
+      "score": 20.5,
+      "query": "\"DNA extraction\" Sample preparation tutorial"
+    },
+    "method-6": {
+      "videoTitle": "EN PCrun® RNA Extraction – Step-by-Step Tutorial",
+      "videoUrl": "https://www.youtube.com/watch?v=-P3STyFXBo4",
+      "channel": "Biogal Labs",
+      "score": 17,
+      "query": "\"RNA extraction\" Sample preparation tutorial"
+    },
+    "method-7": {
+      "videoTitle": "How does Sanger Sequencing Work? – Seq It Out #1",
+      "videoUrl": "https://www.youtube.com/watch?v=e2G5zx-OJIw",
+      "channel": "Thermo Fisher Scientific",
+      "score": 22,
+      "query": "\"Sanger sequencing\" Genomics tutorial"
+    },
+    "method-10": {
+      "videoTitle": "Sequencing 101: How Long-Read Sequencing Improves Access to Genetic Information",
+      "videoUrl": "https://www.youtube.com/watch?v=BC4s7SKV_Qc",
+      "channel": "PacBio",
+      "score": 22,
+      "query": "\"Long-read sequencing\" Genomics tutorial"
+    },
+    "method-14": {
+      "videoTitle": "Ask a Scientist: How does RNA Sequencing Work?",
+      "videoUrl": "https://www.youtube.com/watch?v=3hPyrQFTUuk",
+      "channel": "RocheSequencingUSA",
+      "score": 17,
+      "query": "\"RNA sequencing\" Transcriptomics tutorial"
+    },
+    "method-16": {
+      "videoTitle": "Single cell RNA sequencing overview | ScRNA seq vs Bulk seq | chemistry of ScRNA seq |Bio Techniques",
+      "videoUrl": "https://www.youtube.com/watch?v=uFrrKHB9weY",
+      "channel": "Animated biology With arpan",
+      "score": 17,
+      "query": "\"Single-cell RNA sequencing\" Single-cell tutorial"
+    },
+    "method-18": {
+      "videoTitle": "Spatial Transcriptomics Intro - Part 1: What Is Spatial Transcriptomics",
+      "videoUrl": "https://www.youtube.com/watch?v=_qsHqB67O70",
+      "channel": "Alex Soupir",
+      "score": 15.5,
+      "query": "\"Spatial transcriptomics\" Spatial biology tutorial"
+    },
+    "method-19": {
+      "videoTitle": "ATAC Sequencing explained in 5 minutes | What do ATAC-seq peaks represent? | Mol-bio",
+      "videoUrl": "https://www.youtube.com/watch?v=QwsWhFHH5jE",
+      "channel": "Animated biology With arpan",
+      "score": 17,
+      "query": "\"ATAC-seq\" Epigenomics tutorial"
+    },
+    "method-20": {
+      "videoTitle": "BroadE: Charting the Epigenome with ChIP - Basic Analyses of ChIP-Seq Data",
+      "videoUrl": "https://www.youtube.com/watch?v=txN42QPQwkQ",
+      "channel": "Broad Institute",
+      "score": 20.5,
+      "query": "\"ChIP-seq\" Epigenomics tutorial"
+    },
+    "method-21": {
+      "videoTitle": "Epigenetics 2 - DNA methylation and Bisulfite Sequencing",
+      "videoUrl": "https://www.youtube.com/watch?v=5NEoqa-k3xM",
+      "channel": "OmicsLogic",
+      "score": 15.5,
+      "query": "\"Bisulfite sequencing\" Epigenomics tutorial"
+    },
+    "method-22": {
+      "videoTitle": "Basics of flow cytometry, Part I:  Gating and data analysis",
+      "videoUrl": "https://www.youtube.com/watch?v=y9-mojIXU_I",
+      "channel": "Thermo Fisher Scientific",
+      "score": 22,
+      "query": "\"Flow cytometry\" Cell analysis tutorial"
+    },
+    "method-23": {
+      "videoTitle": "FACS - Fluorescence Activated Cell Sorting - Steffen Schmitt (DKFZ)",
+      "videoUrl": "https://www.youtube.com/watch?v=K3BmzhkB-yE",
+      "channel": "iBiology Techniques",
+      "score": 20.5,
+      "query": "\"Fluorescence-activated cell sorting\" Cell analysis tutorial"
+    },
+    "method-24": {
+      "videoTitle": "Immunofluorescence Microscopy of Brain Tissue | Protocol Preview",
+      "videoUrl": "https://www.youtube.com/watch?v=UC2tSm4WlOk",
+      "channel": "JoVE (Journal of Visualized Experiments)",
+      "score": 15.5,
+      "query": "\"Immunofluorescence microscopy\" Imaging tutorial"
+    },
+    "method-25": {
+      "videoTitle": "Immunohistochemistry | How to perform immunohistochemistry? | application of immunohistochemistry",
+      "videoUrl": "https://www.youtube.com/watch?v=zO70nrWcAyk",
+      "channel": "Animated biology With arpan",
+      "score": 15.5,
+      "query": "\"Immunohistochemistry\" Pathology tutorial"
+    },
+    "method-26": {
+      "videoTitle": "High-Content Screening Platform Innovations: Enabling thick tissue and 3D model imaging",
+      "videoUrl": "https://www.youtube.com/watch?v=jf4tkT0H59k",
+      "channel": "Thermo Fisher Scientific",
+      "score": 19,
+      "query": "\"High-content screening\" Screening tutorial"
+    },
+    "method-27": {
+      "videoTitle": "CellTiter Glo® 2 0 Cell Viability Assay",
+      "videoUrl": "https://www.youtube.com/watch?v=Ayc8SGTWbVQ",
+      "channel": "Promega UK",
+      "score": 15.5,
+      "query": "\"Cell viability assay\" Assays tutorial"
+    },
+    "method-28": {
+      "videoTitle": "4 Steps of ELISA (Enzyme-Linked Immunosorbent Assay Simply Explained)",
+      "videoUrl": "https://www.youtube.com/watch?v=iSOdBP6K0KM",
+      "channel": "Lucas Learns",
+      "score": 17,
+      "query": "\"Enzyme-linked immunosorbent assay\" Assays tutorial"
+    },
+    "method-29": {
+      "videoTitle": "Western Blot / Protein Immunoblot explained",
+      "videoUrl": "https://www.youtube.com/watch?v=qT_AqI-MKJc",
+      "channel": "Henrik's Lab",
+      "score": 17,
+      "query": "\"Western blot\" Protein analysis tutorial"
+    },
+    "method-30": {
+      "videoTitle": "Mass spectrometry | Atomic structure and properties | AP Chemistry | Khan Academy",
+      "videoUrl": "https://www.youtube.com/watch?v=myolF-h1kKI",
+      "channel": "Khan Academy",
+      "score": 19,
+      "query": "\"Mass spectrometry\" Analytical science tutorial"
+    },
+    "method-32": {
+      "videoTitle": "Membrane Protein Identification by Shotgun Proteomics",
+      "videoUrl": "https://www.youtube.com/watch?v=bZCqkMg3DvM",
+      "channel": "Creative Proteomics",
+      "score": 15.5,
+      "query": "\"Shotgun proteomics\" Proteomics tutorial"
+    },
+    "method-33": {
+      "videoTitle": "Introduction to Data Independent Acquisition Proteomics",
+      "videoUrl": "https://www.youtube.com/watch?v=cGKJzx9IIi4",
+      "channel": "Proteome Software",
+      "score": 17,
+      "query": "\"Data-independent acquisition proteomics\" Proteomics tutorial"
+    },
+    "method-34": {
+      "videoTitle": "Nuclear Magnetic Resonance Spectroscopy | A Hand Wavy Guide",
+      "videoUrl": "https://www.youtube.com/watch?v=cW8f-9B-8SQ",
+      "channel": "Hand Wavy Chemistry",
+      "score": 14,
+      "query": "\"Nuclear magnetic resonance spectroscopy\" Analytical science tutorial"
+    },
+    "method-35": {
+      "videoTitle": "What is CRISPR Cas Genome Editing? Basics Explained | The CRISPR Craze E05 #crispr #dna",
+      "videoUrl": "https://www.youtube.com/watch?v=Ikm_5B2QyN0",
+      "channel": "Saroj Parajuli, PhD",
+      "score": 17,
+      "query": "\"CRISPR-Cas genome editing\" Genome engineering tutorial"
+    },
+    "method-38": {
+      "videoTitle": "RNA interference (RNAi): by Nature Video",
+      "videoUrl": "https://www.youtube.com/watch?v=cK-OGB1_ELE",
+      "channel": "nature video",
+      "score": 20.5,
+      "query": "\"RNA interference\" Functional genomics tutorial"
+    },
+    "method-39": {
+      "videoTitle": "Co-Immunoprecipitation (Co-IP) Assay | Immunoprecipitation (IP) | Simply Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=D8T9Uxr_QrQ",
+      "channel": "Electron",
+      "score": 17,
+      "query": "\"Co-immunoprecipitation\" Protein interactions tutorial"
+    },
+    "method-40": {
+      "videoTitle": "Surface Plasmon Resonance Explained",
+      "videoUrl": "https://www.youtube.com/watch?v=sM-VI3alvAI",
+      "channel": "SPRtech101",
+      "score": 17,
+      "query": "\"Surface plasmon resonance\" Biophysics tutorial"
+    },
+    "method-41": {
+      "videoTitle": "Isothermal Titration Calorimetry (ITC) #lifescience #biology #science #biotechnology",
+      "videoUrl": "https://www.youtube.com/watch?v=UG3ajHeHKsk",
+      "channel": "Researchers enigma",
+      "score": 15.5,
+      "query": "\"Isothermal titration calorimetry\" Biophysics tutorial"
+    },
+    "method-42": {
+      "videoTitle": "JBEI Expert José Henrique Pereira explains how X-ray crystallography is used in biofuels production",
+      "videoUrl": "https://www.youtube.com/watch?v=EIwwe5YUV7A",
+      "channel": "JointBioenergyInst",
+      "score": 17,
+      "query": "\"X-ray crystallography\" Structural biology tutorial"
+    },
+    "method-44": {
+      "videoTitle": "Protein Structure Prediction Using AlphaFold2",
+      "videoUrl": "https://www.youtube.com/watch?v=QWI50FOmZ6g",
+      "channel": "Bioinformatics and Computational Biology",
+      "score": 15.5,
+      "query": "\"Protein structure prediction\" Computational biology tutorial"
+    },
+    "method-45": {
+      "videoTitle": "Sequence alignment basics | global alignment and local alignment | Bioinformatics tutorial 9",
+      "videoUrl": "https://www.youtube.com/watch?v=zRo5Y54t_i8",
+      "channel": "Shomu's Biology",
+      "score": 17,
+      "query": "\"Sequence alignment\" Bioinformatics tutorial"
+    },
+    "method-46": {
+      "videoTitle": "What are the Basics of Read Alignment & How to Align Raw Reads to a Reference Genome/Transcriptome",
+      "videoUrl": "https://www.youtube.com/watch?v=hEaJQw_vUxI",
+      "channel": "BioCode Ltd.",
+      "score": 17,
+      "query": "\"Read alignment\" Bioinformatics tutorial"
+    },
+    "method-47": {
+      "videoTitle": "De novo assembly of genome/ transcriptome. De novo sequencing. Challenges. Popular assemblers. NGS",
+      "videoUrl": "https://www.youtube.com/watch?v=SnerjqgWt8Q",
+      "channel": "XploreBio",
+      "score": 15.5,
+      "query": "\"De novo assembly\" Bioinformatics tutorial"
+    },
+    "method-48": {
+      "videoTitle": "BroadE: GATK/Variant calling and joint genotyping (2015)",
+      "videoUrl": "https://www.youtube.com/watch?v=TwxzDHKLM58",
+      "channel": "Broad Institute",
+      "score": 19,
+      "query": "\"Variant calling\" Bioinformatics tutorial"
+    },
+    "method-49": {
+      "videoTitle": "Variant Annotation Using RegulomeDB and HaploReg - Jill Moore",
+      "videoUrl": "https://www.youtube.com/watch?v=HFJ_AbyWU5Y",
+      "channel": "National Human Genome Research Institute",
+      "score": 19,
+      "query": "\"Variant annotation\" Bioinformatics tutorial"
+    },
+    "method-50": {
+      "videoTitle": "Pathway enrichment analysis - simple explanation!",
+      "videoUrl": "https://www.youtube.com/watch?v=H1cUs6pql9s",
+      "channel": "Biostatsquid",
+      "score": 14,
+      "query": "\"Pathway enrichment analysis\" Bioinformatics tutorial"
+    },
+    "method-51": {
+      "videoTitle": "Gene Set Enrichment Analysis (GSEA) – simply explained!",
+      "videoUrl": "https://www.youtube.com/watch?v=egO7Lt92gDY",
+      "channel": "Biostatsquid",
+      "score": 17,
+      "query": "\"Gene set enrichment analysis\" Bioinformatics tutorial"
+    },
+    "method-52": {
+      "videoTitle": "Survival Analysis [Simply Explained]",
+      "videoUrl": "https://www.youtube.com/watch?v=Wo9RNcHM_bs",
+      "channel": "numiqo",
+      "score": 17,
+      "query": "\"Survival analysis\" Biostatistics tutorial"
+    },
+    "method-53": {
+      "videoTitle": "Kaplan-Meier Estimation [Survival Analysis]",
+      "videoUrl": "https://www.youtube.com/watch?v=NDgn72ynHcM",
+      "channel": "math et al",
+      "score": 14,
+      "query": "\"Kaplan–Meier estimation\" Biostatistics tutorial"
+    },
+    "method-54": {
+      "videoTitle": "The Cox proportional hazards model explained",
+      "videoUrl": "https://www.youtube.com/watch?v=-g6YLWG2yYo",
+      "channel": "TileStats",
+      "score": 17,
+      "query": "\"Cox proportional-hazards model\" Biostatistics tutorial"
+    },
+    "method-56": {
+      "videoTitle": "StatQuest: Hierarchical Clustering",
+      "videoUrl": "https://www.youtube.com/watch?v=7xHsRkOdVwo",
+      "channel": "StatQuest with Josh Starmer",
+      "score": 19,
+      "query": "\"Hierarchical clustering\" Data analysis tutorial"
+    },
+    "method-57": {
+      "videoTitle": "Statistics Part 6: False Discovery Rate, Benjamini-Hochberg & Q-Values | Multiple Testing Correction",
+      "videoUrl": "https://www.youtube.com/watch?v=vAGKWEkI2ts",
+      "channel": "QSPplus",
+      "score": 15.5,
+      "query": "\"Multiple-testing correction\" Biostatistics tutorial"
+    },
+    "method-58": {
+      "videoTitle": "Power Analysis, Clearly Explained!!!",
+      "videoUrl": "https://www.youtube.com/watch?v=VX_M3tIyiYk",
+      "channel": "StatQuest with Josh Starmer",
+      "score": 22,
+      "query": "\"Power analysis\" Biostatistics tutorial"
+    },
+    "method-59": {
+      "videoTitle": "Design of Experiments (DoE) simply explained",
+      "videoUrl": "https://www.youtube.com/watch?v=ZoaUu6iRE64",
+      "channel": "numiqo",
+      "score": 17,
+      "query": "\"Design of experiments\" Experimental design tutorial"
+    },
+    "method-60": {
+      "videoTitle": "Machine Learning Classification: A Beginner's Guide to Making Predictions!",
+      "videoUrl": "https://www.youtube.com/watch?v=BnHFNR5-iwU",
+      "channel": "CodeLucky",
+      "score": 15.5,
+      "query": "\"Machine-learning classification\" AI / data science tutorial"
+    },
+    "method-61": {
+      "videoTitle": "Natural Language Processing: Crash Course AI #7",
+      "videoUrl": "https://www.youtube.com/watch?v=oi0JXuL19TA",
+      "channel": "CrashCourse",
+      "score": 22,
+      "query": "\"Natural-language processing\" AI / knowledge tutorial"
+    },
+    "method-63": {
+      "videoTitle": "Knowledge Graph Construction with R2RML and RML: An ETL System-Based Overview #KGCW2021",
+      "videoUrl": "https://www.youtube.com/watch?v=eQhiGQ2awYQ",
+      "channel": "Knowledge Graph Construction",
+      "score": 15.5,
+      "query": "\"Knowledge-graph construction\" Knowledge engineering tutorial"
+    }
+  },
+  "rejected": {
+    "term-2": {
+      "name": "Organism",
+      "query": "\"Organism\" Biology Foundations explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "GCSE Biology Revision \"Sampling Organisms\"",
+          "channel": "Freesciencelessons",
+          "videoId": "2MW6nwf80XM",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Introduction to Biology: Crash Course Biology #1",
+          "channel": "CrashCourse",
+          "videoId": "tZE_fQFK8EY",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "Ecology - Rules for Living on Earth: Crash Course Biology #40",
+          "channel": "CrashCourse",
+          "videoId": "izRvPaAWgyw",
+          "score": 8,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-5": {
+      "name": "Organ",
+      "query": "\"Organ\" Biology Foundations explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "GCSE Biology - Levels of Organisation  - Cells, Tissues, Organs and Organ Systems (2026/27 exams)",
+          "channel": "Cognito",
+          "videoId": "MB6mE6weCS4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "COMPLETE Human Anatomy in 1 Hour! A to Z 3D Human Body Organ Systems",
+          "channel": "Inside Us",
+          "videoId": "JNTOahIeCfA",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "BIOLOGY explained in 17 Minutes",
+          "channel": "Wacky Science",
+          "videoId": "3tisOnOkwzo",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-8": {
+      "name": "Phenotype",
+      "query": "\"Phenotype\" Biology Foundations explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "GCSE Biology - DNA Part 2 | Alleles | Phenotype vs Genotype (2026/27 exams)",
+          "channel": "Cognito",
+          "videoId": "zOIV9IrMPH4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Genotype, Phenotype and Punnet Squares Made EASY!",
+          "channel": "Interactive Biology",
+          "videoId": "ZmE0Q4no5Pk",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Heredity: Crash Course Biology #9",
+          "channel": "CrashCourse",
+          "videoId": "CBezq1fFUEA",
+          "score": 8,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-22": {
+      "name": "Nucleus",
+      "query": "\"Nucleus\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Cell Nucleus Structure & Function",
+          "channel": "Ninja Nerd",
+          "videoId": "u5MozvAH32c",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Biology: Cell Structure I Nucleus Medical Media",
+          "channel": "Nucleus Medical Media",
+          "videoId": "URUJD5NEXC8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "The nucleus | Cells | MCAT | Khan Academy",
+          "channel": "khanacademymedicine",
+          "videoId": "gGeC0ntvxR8",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-23": {
+      "name": "Mitochondrion",
+      "query": "\"Mitochondrion\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Mitochondria | Structure of a cell | Biology | Khan Academy",
+          "channel": "Khan Academy",
+          "videoId": "i1dAnpSFbyI",
+          "score": 6.5,
+          "coverage": 0
+        },
+        {
+          "title": "Mitochondria: The Powerhouse of the Cell",
+          "channel": "Bozeman Science",
+          "videoId": "uSlEmBeHlgg",
+          "score": 6.5,
+          "coverage": 0
+        },
+        {
+          "title": "Cellular Respiration (UPDATED)",
+          "channel": "Amoeba Sisters",
+          "videoId": "eJ9Zjc-jdys",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-25": {
+      "name": "Cytoplasm",
+      "query": "\"Cytoplasm\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Endoplasmic Reticulum Protein Transport (Cytoplasm to ER and ER to Cytoplasm)",
+          "channel": "Cell Bio Clips",
+          "videoId": "TmQKHHB51P8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "A Tour of the Cell: Crash Course Biology #23",
+          "channel": "CrashCourse",
+          "videoId": "jsDxw63QqK0",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "Cell Organelles - Explained in a way that finally makes sense!",
+          "channel": "Siebert Science",
+          "videoId": "LiR0wNi1JHg",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-26": {
+      "name": "Ribosome",
+      "query": "\"Ribosome\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Ribosome Function and Structure",
+          "channel": "Manocha Academy",
+          "videoId": "nLXaMM5GbsA",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Translation: How RNA Gets Translated into Protein Power: Crash Course Biology #35",
+          "channel": "CrashCourse",
+          "videoId": "6ulXau2HyHg",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "How Your Body Creates Proteins",
+          "channel": "Nucleus Medical Media",
+          "videoId": "LCIkd-WwC7o",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-28": {
+      "name": "Receptor",
+      "query": "\"Receptor\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "The Estrogen Receptor (II): Molecular & Cellular Mechanisms",
+          "channel": "Sci Vis Lab",
+          "videoId": "tK4lzxQuxTM",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Signal Transduction in Immune Cells: Receptor-Ligand Interactions",
+          "channel": "Professor Dave Explains",
+          "videoId": "qhyIGt9wrD8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Receptors: Signal Transduction and Phosphorylation Cascade",
+          "channel": "Professor Dave Explains",
+          "videoId": "VatdTJka3_M",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-29": {
+      "name": "Ligand",
+      "query": "\"Ligand\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Signal Transduction in Immune Cells: Receptor-Ligand Interactions",
+          "channel": "Professor Dave Explains",
+          "videoId": "qhyIGt9wrD8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Ligand Gated Ion Channels - Cell Signaling",
+          "channel": "Willow's Notes",
+          "videoId": "QXwWG_hukn4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Topic 6.2 - Ligand binding proteins",
+          "channel": "Doctor NOx",
+          "videoId": "tLvRpzSU1x0",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-32": {
+      "name": "Metabolite",
+      "query": "\"Metabolite\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Sample preparation: Metabolite extraction (tutorial 3/5)",
+          "channel": "European Molecular Biology Laboratory (EMBL)",
+          "videoId": "QThSKVXG7qM",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "omniTICC: cell-wide untargeted protein-metabolite interaction mapping using ion exchange...",
+          "channel": "BTIScience",
+          "videoId": "-eJPCkfP6Nc",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Protein-Metabolite Complexes Analysis by Affinity Purification | Protocol Preview",
+          "channel": "JoVE (Journal of Visualized Experiments)",
+          "videoId": "ivAe2lcy1Kw",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-39": {
+      "name": "Differentiation",
+      "query": "\"Differentiation\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Stem cells and differentiation | From cells to organisms | High school biology | Khan Academy",
+          "channel": "Khan Academy",
+          "videoId": "jOBRupYkyaw",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Cell Differentiation | Genetics | Biology | FuseSchool",
+          "channel": "FuseSchool - Global Education",
+          "videoId": "gwAz_BtVuLA",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Cellular specialization (differentiation) | Cells | MCAT | Khan Academy",
+          "channel": "khanacademymedicine",
+          "videoId": "YtvL-LQlPrU",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-41": {
+      "name": "Organoid",
+      "query": "\"Organoid\" Cell & Molecular Biology explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Brain Organoids 101",
+          "channel": "Harvard Brain Science Initiative",
+          "videoId": "8Mk5sYE8ixE",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Keynote Lecture: Understanding Human Brain Development and Disease: From Embryos To Organoids",
+          "channel": "European Molecular Biology Laboratory (EMBL)",
+          "videoId": "k41qi1fsEVk",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Prostate Epithelial Cells Evaluation by Organoid Culture | Protocol Preview",
+          "channel": "JoVE (Journal of Visualized Experiments)",
+          "videoId": "dzX7FUXzrno",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-50": {
+      "name": "Insertion",
+      "query": "\"Insertion\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Alu Insertion Polymorphism | SINEs | LINEs | How Alu element Transposes | How Alu Jumps | L1 element",
+          "channel": "Biotech Review",
+          "videoId": "zFV8dO3YQX0",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Types of Sequence Variants - Duplications, Insertions, Deletions, and Indels",
+          "channel": "ClinGen Resource",
+          "videoId": "xnfdPOi1L38",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Mutations",
+          "channel": "Bozeman Science",
+          "videoId": "eDbK0cxKKsk",
+          "score": 5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-52": {
+      "name": "Indel",
+      "query": "\"Indel\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Indel - Tales from the Genome",
+          "channel": "Udacity",
+          "videoId": "6OinX8UB9LU",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Indel - Tales from the Genome",
+          "channel": "Udacity",
+          "videoId": "JUBW4R0NJzM",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "SNPs and Indels.m4v",
+          "channel": "atav",
+          "videoId": "3-vENFtNZBA",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-58": {
+      "name": "Heterozygous",
+      "query": "\"Heterozygous\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Basics of Genetics: Genome, DNA, Haploid vs Diploid, Homozygous vs Heterozygous, Allele, Chromosomes",
+          "channel": "Bit Science",
+          "videoId": "MiHKOXeckIc",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Homozygous vs Heterozygous Alleles | Punnet Square Tips",
+          "channel": "2 Minute Classroom",
+          "videoId": "D8Nu3Aw6F2A",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "MTHFR Heterozygous versus Homozygous",
+          "channel": "Agape Nutrition",
+          "videoId": "h3tRhFnRPjc",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-60": {
+      "name": "Recessive",
+      "query": "\"Recessive\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Autosomal Recessive Inheritance - Genetics",
+          "channel": "HNEkidshealth",
+          "videoId": "Nv6qUsKYodA",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "DNA Inheritance | Recessive and Dominant Inheritance",
+          "channel": "Dr Matt & Dr Mike",
+          "videoId": "jcxx1Uwfnv4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "RCGP Communicating Genomics: Autosomal Recessive Inheritance",
+          "channel": "Royal College of General Practitioners",
+          "videoId": "3KC0_f0cW68",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-61": {
+      "name": "Recombination",
+      "query": "\"Recombination\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Linkage and Recombination, Genetic maps | MIT 7.01SC Fundamentals of Biology",
+          "channel": "MIT OpenCourseWare",
+          "videoId": "o_1dTvszV4Y",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Genetic recombination 1 | Biomolecules | MCAT | Khan Academy",
+          "channel": "khanacademymedicine",
+          "videoId": "BlnUNmfGn7I",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Recombination & Linkage: Genetics Lesson Essentials (Full Lesson) | Sketchy MCAT",
+          "channel": "Sketchy Learning",
+          "videoId": "wZeTy-2_2cI",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-10": {
+      "name": "Pathogen",
+      "query": "\"Pathogen\" Biology Foundations explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "GCSE Biology Revision \"Pathogens\"",
+          "channel": "Freesciencelessons",
+          "videoId": "wUm71FPuVCQ",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Science - GCSE- Biology - Aqa- Infection and Response: The Four Pathogen Types",
+          "channel": "GCSEasy",
+          "videoId": "GxbNUI7x270",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Digital Pathogen Sensor #science #news #outbreak #disease",
+          "channel": "National Science Foundation News",
+          "videoId": "VGm9jauMbQY",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-51": {
+      "name": "Deletion",
+      "query": "\"Deletion\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "What is 22q11.2 Deletion Syndrome? Discussing ENIGMAtters with Carrie Bearden",
+          "channel": "ENIGMA Consortium",
+          "videoId": "_GuidsOg5ns",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Types of Sequence Variants - Duplications, Insertions, Deletions, and Indels",
+          "channel": "ClinGen Resource",
+          "videoId": "xnfdPOi1L38",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "16p12 2 Deletion Information",
+          "channel": "Girirajan Lab",
+          "videoId": "gvTf35HQ5PM",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-67": {
+      "name": "Exon",
+      "query": "\"Exon\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Genetics in 60 seconds: Introns and Exons",
+          "channel": "Medicine Can Be Easy",
+          "videoId": "jrTl_OeKGTo",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Genes, Exons, and the Pathophysiology of DMD (Duchenne Muscular Dystrophy)",
+          "channel": "The France Foundation",
+          "videoId": "-9H9syJXU4s",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "What are introns and exons?",
+          "channel": "A Tale of Two Genes",
+          "videoId": "YtKoTOCJGt4",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-71": {
+      "name": "Codon",
+      "query": "\"Codon\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "A-Level Biology - Genetic Code | How DNA Packs into Chromosomes | Codon Tables (2026/27 exams)",
+          "channel": "Cognito",
+          "videoId": "zLwhXkfSh9c",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Genetic Code Fully Explained | Codon | Class 12",
+          "channel": "ALI ACADEMY BIOLOGY LECTURES",
+          "videoId": "uzGs-X58mCQ",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "How codon usage sets the pace in the race to translate",
+          "channel": "The Genetic Basis of Stuff and Things",
+          "videoId": "-oXUnU6yWMM",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-73": {
+      "name": "Loss-of-function variant",
+      "query": "\"Loss-of-function variant\" Genetics & Genomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Leveraging Massive-Scale Databases of Human Genetic Variation - Daniel MacArthur",
+          "channel": "National Human Genome Research Institute",
+          "videoId": "FMW0QcrPDD4",
+          "score": 6.5,
+          "coverage": 0
+        },
+        {
+          "title": "Dominant and Loss of function - Tales from the Genome",
+          "channel": "Udacity",
+          "videoId": "UgF1W40C0ic",
+          "score": 6.17,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "title": "Episode 4: Understanding What Genetic Variants Do",
+          "channel": "genebrainbreakthrough and 2 more",
+          "videoId": "XWFsxkvrw9M",
+          "score": 5.33,
+          "coverage": 0.3333333333333333
+        }
+      ]
+    },
+    "term-78": {
+      "name": "Messenger RNA",
+      "query": "\"Messenger RNA\" Gene Regulation & Epigenetics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How Genes Express Themselves: Crash Course Biology #36",
+          "channel": "CrashCourse",
+          "videoId": "NeeaP8pp9HI",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "micro RNA | What is microRNA (miRNA)? | How miRNAs work? | How miRNAs are detected experimentally?",
+          "channel": "Animated biology With arpan",
+          "videoId": "hY3TYEo24PY",
+          "score": 6.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "ncRNAs - all types of non-coding RNA (lncRNA, tRNA, rRNA, snRNA, snoRNA, siRNA, miRNA, piRNA)",
+          "channel": "Henrik's Lab",
+          "videoId": "hKU8JQOgYmU",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-80": {
+      "name": "Transcript",
+      "query": "\"Transcript\" Gene Regulation & Epigenetics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Full-length transcript atlas of the developing human cortex, Rosemary Bamford",
+          "channel": "Oxford Nanopore Technologies",
+          "videoId": "IjHHkThnIFg",
+          "score": 19,
+          "coverage": 1
+        },
+        {
+          "title": "micro RNA | What is microRNA (miRNA)? | How miRNAs work? | How miRNAs are detected experimentally?",
+          "channel": "Animated biology With arpan",
+          "videoId": "hY3TYEo24PY",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Epigenetics Overview",
+          "channel": "Cell Signaling Technology, Inc.",
+          "videoId": "Tj_6DcUTRnM",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-81": {
+      "name": "Isoform",
+      "query": "\"Isoform\" Gene Regulation & Epigenetics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Long-read transcriptome sequencing reveals isoform diversity across human cortex development disease",
+          "channel": "Neurogenomics Seminars",
+          "videoId": "32_R9P_T0sQ",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "838-Isoform-Resolved Transcriptomic of Human Placenta",
+          "channel": "Thleo",
+          "videoId": "C-vnpa0_xN0",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Full-length transcript atlas of the developing human cortex, Rosemary Bamford",
+          "channel": "Oxford Nanopore Technologies",
+          "videoId": "IjHHkThnIFg",
+          "score": 5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-98": {
+      "name": "Phosphorylation",
+      "query": "\"Phosphorylation\" Proteins & Proteomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Cell signalling: kinases & phosphorylation",
+          "channel": "Phospho Biomedical Animation",
+          "videoId": "xG2WOd_fWqo",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Protein Phosphorylation Analysis by Mass Spectrometry",
+          "channel": "Creative Proteomics",
+          "videoId": "bU5jPGxXZvM",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "SignalChem Webinar - Unraveling the Intricacies of Protein Phosphorylation in Signaling Pathways",
+          "channel": "SignalChem Biotech Inc.",
+          "videoId": "ej9XHdLmV-M",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-105": {
+      "name": "Proteome",
+      "query": "\"Proteome\" Proteins & Proteomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Need of Proteome/ Proteomics",
+          "channel": "Rohini Patil",
+          "videoId": "8eUcvUnSYVA",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Introduction into data analysis for mass spectrometry-based proteomics - Lecture by Lennart Martens",
+          "channel": "CompOmics",
+          "videoId": "ZgwNWRul98o",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "OMICS Explained : Genomics, Proteomics, Transcriptomics - 360 Degree View",
+          "channel": "Biotecnika",
+          "videoId": "UsOBxRZH8j4",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-107": {
+      "name": "Phosphoproteomics",
+      "query": "\"Phosphoproteomics\" Proteins & Proteomics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Phosphoproteomics for Analysis of Signal Transduction Pathways",
+          "channel": "Case Western Reserve University",
+          "videoId": "rrMVDq_6CLw",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "MS-based proteomics: A short introduction to the core concepts of proteomics and mass spectrometry",
+          "channel": "Lars Juhl Jensen",
+          "videoId": "wx4F6kGy1Fs",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-110": {
+      "name": "Epigenome",
+      "query": "\"Epigenome\" Omics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Epigenetics: how in utero exposures impact the epigenome",
+          "channel": "Mid-Atlantic Center for Children's Health and the Environment",
+          "videoId": "eHPgauIjlDY",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "“Transposable elements and epigenome evolution” with Ting Wang, PhD",
+          "channel": "M-LEEaD",
+          "videoId": "rdsNEJ7IOPE",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Multiomics is changing the game - hear from researchers using it",
+          "channel": "Illumina",
+          "videoId": "Xsyp0qqKzkY",
+          "score": 6.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-111": {
+      "name": "Epigenomics",
+      "query": "\"Epigenomics\" Omics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Introduction to Regulatory Genomics and Epigenomics I: Intro to the Biology of Gene Regulation",
+          "channel": "Simons Institute for the Theory of Computing",
+          "videoId": "0vEZUYMazo4",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Epigenomics 101: The Hidden Code That Controls Your DNA 🧬",
+          "channel": "CD Genomics",
+          "videoId": "Iz7nHsDc9YI",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Epigenomics and transcriptomics",
+          "channel": "European Society of Cardiology",
+          "videoId": "orNVWTEnz-E",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-112": {
+      "name": "Metabolome",
+      "query": "\"Metabolome\" Omics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "What is the difference between a Genome, Transcriptome, Proteome and Metabolome?",
+          "channel": "biologyexams4u",
+          "videoId": "FJ5iN-v0MFM",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Genome Transcriptome Proteome Metabolome within  2 minutes | Genomics Transcriptomics Proteomics |",
+          "channel": "Biology Lectures",
+          "videoId": "FOH59XriE7o",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Exploring the Complex Metabolome with TIMS and 4D-Omics",
+          "channel": "TAMU Department of Horticultural Sciences",
+          "videoId": "em_8ho6ZGiE",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-118": {
+      "name": "Bulk analysis",
+      "query": "\"Bulk analysis\" Omics explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Pseudo-bulk analysis for single-cell RNA-Seq data | Detailed workflow tutorial",
+          "channel": "Bioinformagician",
+          "videoId": "04gB2owLKus",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "The Beginner's guide to bulk RNA sequencing vs single-cell RNA Sequencing",
+          "channel": "Bioinformagician",
+          "videoId": "bMf1cnttuPk",
+          "score": 8.5,
+          "coverage": 1
+        },
+        {
+          "title": "DESeq2 Basics Explained | Differential Gene Expression Analysis | Bioinformatics 101",
+          "channel": "Bioinformagician",
+          "videoId": "0b24mpzM_5M",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-127": {
+      "name": "Processed data",
+      "query": "\"Processed data\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Getting started with data science in R - loading data and visualizing it, introduction to \"Omics\"",
+          "channel": "OmicsLogic",
+          "videoId": "usZ76Ygh0Lk",
+          "score": 6.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "Genomic data analysis for beginners - a playlist introduction",
+          "channel": "Genomics Boot Camp",
+          "videoId": "FnKizCPz85U",
+          "score": 6.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "\"Computational Tools for Biological Data Analysis Workshop\"",
+          "channel": "MT Professor",
+          "videoId": "_lq-JZYaDIo",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-129": {
+      "name": "Schema",
+      "query": "\"Schema\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Impact of schema.org in the semantic web and interoperability of life sciences data",
+          "channel": "TogoTV",
+          "videoId": "deb0PZ_9mEw",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "The GA4GH Phenopacket schema: A computable... - Monica Munoz-Torres - BOSC - Abstract - ISMB 2022",
+          "channel": "ISCB",
+          "videoId": "X3Hz5-0Dz-g",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Module 9: Introduction to data and visualizations",
+          "channel": "Troy Alva",
+          "videoId": "XALRfT-Mjdw",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-130": {
+      "name": "Data model",
+      "query": "\"Data model\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "The NHGRI Sandbox: A resource for Genomic Data Sharing and Analysis - Valentina DiFrancesco",
+          "channel": "National Human Genome Research Institute",
+          "videoId": "MZAKGVxBdLg",
+          "score": 10,
+          "coverage": 0.5
+        },
+        {
+          "title": "Biorevolutions: Predicting Biotechnology Success Using Data Science - Gunnar Kleeman",
+          "channel": "Anaconda, Inc.",
+          "videoId": "bubP1ldHweg",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "NIH’s Strategic Vision for Data Science: Enabling a FAIR-Data Ecosystem",
+          "channel": "Amazon Web Services",
+          "videoId": "8bkLJ695PTs",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-131": {
+      "name": "Identifier",
+      "query": "\"Identifier\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Single cell RNA sequencing: practical introduction | Data Science and Me",
+          "channel": "Data Science and Me",
+          "videoId": "afbSypwOAoY",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Jingyi Jessica Li | Controlling False Discoveries in Genomics Data Analysis  What is ...| CGSI 2023",
+          "channel": "Computational Genomics Summer Institute CGSI",
+          "videoId": "9T3o405Ej8k",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "【Bioinformatics | Skills 02】How to convert different gene IDs among each other?",
+          "channel": "Bioinforbricklayer",
+          "videoId": "Oy4Tu6Nn4vk",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-132": {
+      "name": "Ontology",
+      "query": "\"Ontology\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How to do gene ontology analysis in python",
+          "channel": "Sanbomics",
+          "videoId": "ONiWugVEf2s",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Big Biomedical Data Analysis Using Ontology and Semantic Technologies @ BLAH6",
+          "channel": "TogoTV",
+          "videoId": "4roPH1FjCz4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "BOSC2021 Poster EDAM  the bioscientific data analysis ontology update 2021   Melissa Black",
+          "channel": "OBF BOSC",
+          "videoId": "agtKFQnRYEA",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-133": {
+      "name": "Controlled vocabulary",
+      "query": "\"Controlled vocabulary\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "20190408 SUN Bioinformatics E Biological Pathways and Networks",
+          "channel": "David Tabb",
+          "videoId": "tOlN7vhx5sg",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Gene ontology",
+          "channel": "Audiopedia",
+          "videoId": "qnaex8E1Hck",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Giving data context structure and meaning",
+          "channel": "EMBL's European Bioinformatics Institute EMBL-EBI",
+          "videoId": "uDXQvlXxWoY",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-135": {
+      "name": "Database",
+      "query": "\"Database\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Overview of Biological Databases",
+          "channel": "Bioinformatica",
+          "videoId": "JmKD5SnQtFE",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "How to Use the NCBI’s Bioinformatics Tools and Databases",
+          "channel": "Science Buddies",
+          "videoId": "QLcmEqBayr0",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Explore the TCGA Database: Genomic to Imaging Data for Cancer Research",
+          "channel": "Bioinformatics Hub",
+          "videoId": "Gv_aRlzpVus",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-138": {
+      "name": "Interoperability",
+      "query": "\"Interoperability\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Overview of data collection standards, ontology terminology and interoperability",
+          "channel": "CINECA project",
+          "videoId": "U3krVEQcvyY",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "JOBIM2021 - Symposium Open Science and Interoperability in Bioinformatics - Laura Furlong",
+          "channel": "SFBI Société Française de Bioinformatique",
+          "videoId": "_-UBVbcBUiI",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Learning Bioinformatics From Scratch: What Is OmicsLogic and How Can it be Used?",
+          "channel": "OmicsLogic",
+          "videoId": "wkcrQpcH-UI",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-139": {
+      "name": "Reproducibility",
+      "query": "\"Reproducibility\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How I Teach Life Scientists About Reproducibility and Data Analysis Using R",
+          "channel": "LifeSciTrainers",
+          "videoId": "RP9n_kfUQCU",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "The Turing Way  Open Source and reproducibility aspects of data science - EMBL EBI Training  2021",
+          "channel": "The Turing Way",
+          "videoId": "g0n8dOBYPKY",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "BCC2020 B2 2 Jaqueline J  Brito   Enhancing rigor and reproducibility in biomedical research",
+          "channel": "OBF BOSC",
+          "videoId": "5D0v1OUaiNw",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-140": {
+      "name": "Replicability",
+      "query": "\"Replicability\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Irina Gaynanova | Replicability, Reproducibility, Reviewing, and Optimism for the Future of Science",
+          "channel": "Data & Science with Glen Wright Colopy",
+          "videoId": "MJwsfiEMFL8",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "The Importance of Reproducible Research in High-Throughput Biology",
+          "channel": "VideoLecturesChannel",
+          "videoId": "7gYIs7uYbMo",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "For Reproducibility, We Need the Methods Behind the Data | Lenny Teytelman",
+          "channel": "Frederick National Laboratory for Cancer Research",
+          "videoId": "pjWlA4JXm64",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-141": {
+      "name": "Provenance",
+      "query": "\"Provenance\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Arvados: Achieving Computational Reproducibility and Data Provenance in Large-Scale Genomic Analyses",
+          "channel": "Next Day Video",
+          "videoId": "ZFAaJfzwxW4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "\"urgap - unified resource governance and data provenance\" by Christian Fufezan (GSK), November 2025“",
+          "channel": "GHGA - The German Human Genome-Phenome Archive",
+          "videoId": "63pYK1xZPx8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Applications of Machine Learning to Predict Clinical Provenance of Haemophilus influenzae",
+          "channel": "Labroots",
+          "videoId": "d-0nPd2RuWQ",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-142": {
+      "name": "Data lineage",
+      "query": "\"Data lineage\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Bidirectional data flow from clinic to lab and back - Larry Babb",
+          "channel": "National Human Genome Research Institute",
+          "videoId": "9l6QbxYbegQ",
+          "score": 10,
+          "coverage": 0.5
+        },
+        {
+          "title": "How to build a more integrated & scalable Omics Data Landscape",
+          "channel": "Genestack",
+          "videoId": "e5_DrPyiOR4",
+          "score": 6.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "Integrating omics and clinical data",
+          "channel": "Genestack",
+          "videoId": "MKWN7yrLaHs",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-149": {
+      "name": "Feature",
+      "query": "\"Feature\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Zeng Yanxi - Feature Selection on Transcriptome Data for Identification of Novel Biomarkers",
+          "channel": "NTU College of Computing and Data Science (CCDS)",
+          "videoId": "XrZJyxssITQ",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Part 6. GPA, PCA and Feature acquisition in PAST [For Researchers]",
+          "channel": "Morpho Prof",
+          "videoId": "D0R-6RA9cVY",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Part 5. GPA, PCA and Feature acquisition in R [For Researchers]",
+          "channel": "Morpho Prof",
+          "videoId": "5-EfvT2gGiw",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-152": {
+      "name": "Uniform Manifold Approximation and Projection",
+      "query": "\"Uniform Manifold Approximation and Projection\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Chengbo Fu: KMAP: Kmer Manifold Approximation and Projection for visualizing DNA sequences",
+          "channel": "The Finnish Society for Bioinformatics ",
+          "videoId": "gRVHLu7MoI0",
+          "score": 6.75,
+          "coverage": 0.75
+        },
+        {
+          "title": "UMAP Dimension Reduction, Main Ideas!!!",
+          "channel": "StatQuest with Josh Starmer",
+          "videoId": "eN0wFzBA4Sc",
+          "score": 6.5,
+          "coverage": 0
+        },
+        {
+          "title": "UMAP explained | The best dimensionality reduction?",
+          "channel": "AI Coffee Break with Letitia",
+          "videoId": "6BPl81wGGP8",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-154": {
+      "name": "Classification",
+      "query": "\"Classification\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "🤖 Machine Learning in Bioinformatics using Python | Classification, Clustering & More | Ep. 18",
+          "channel": "BioInformatix",
+          "videoId": "QvjLJA-qpYQ",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Classification and Regression in Machine Learning",
+          "channel": "Quantopian",
+          "videoId": "TJveOYsK6MY",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Clustering, Classification, Prediction: The ML Bioinformatics Toolkit",
+          "channel": "BioinfoBytes",
+          "videoId": "xch4StIxsxs",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-155": {
+      "name": "Regression",
+      "query": "\"Regression\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Introduction into R - Regression (Bioinformatics S7E3)",
+          "channel": "Danny Arends",
+          "videoId": "ImD-G2gB-7Q",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Classification and Regression in Machine Learning",
+          "channel": "Quantopian",
+          "videoId": "TJveOYsK6MY",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Logistic Regression (and why it's different from Linear Regression)",
+          "channel": "Visually Explained",
+          "videoId": "3bvM3NyMiE0",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-156": {
+      "name": "Correlation",
+      "query": "\"Correlation\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Pearson correlation [Simply explained]",
+          "channel": "numiqo",
+          "videoId": "k7IctLRiZmo",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Spearman Rank Correlation [Simply explained]",
+          "channel": "numiqo",
+          "videoId": "XV_W1w4Nwoc",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Baseline Explorer: genome-wide correlation analysis",
+          "channel": "Equate Genomics",
+          "videoId": "1tUodhcakm0",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-157": {
+      "name": "Hypothesis test",
+      "query": "\"Hypothesis test\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Hypothesis Testing and The Null Hypothesis, Clearly Explained!!!",
+          "channel": "StatQuest with Josh Starmer",
+          "videoId": "0oc49DyA3hU",
+          "score": 11.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "p-values: What they are and how to interpret them",
+          "channel": "StatQuest with Josh Starmer",
+          "videoId": "vemZtEM63GY",
+          "score": 6.5,
+          "coverage": 0
+        },
+        {
+          "title": "Bioinformatics Lecture 8: Statistics and Hypothesis Testing",
+          "channel": "Nathaniel Jue",
+          "videoId": "lrec7ROjIKc",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-158": {
+      "name": "P-value",
+      "query": "\"P-value\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "p-values: What they are and how to interpret them",
+          "channel": "StatQuest with Josh Starmer",
+          "videoId": "vemZtEM63GY",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "What Is P Value In Statistics In Simple Language?",
+          "channel": "Krish Naik",
+          "videoId": "zII6KLR4Lb4",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "What is P-value in hypothesis testing | P-Value Method Hypothesis Testing | P value in Statistics",
+          "channel": "Digital E-Learning",
+          "videoId": "xdZSWsKk5P0",
+          "score": 17,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-160": {
+      "name": "Effect size",
+      "query": "\"Effect size\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Statistical Power, Clearly Explained!!!",
+          "channel": "StatQuest with Josh Starmer",
+          "videoId": "Rsc5znwR5FA",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "How to Use Power and Sample Sizes Analyses in Prism",
+          "channel": "Prof. Keenan Hartert",
+          "videoId": "X9QW9bxvp-A",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "“Biostatistics, Why, When, How?”",
+          "channel": "UMB ICTR",
+          "videoId": "88Kp6GR6abE",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-163": {
+      "name": "Sensitivity",
+      "query": "\"Sensitivity\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Sensitivity and Specificity simplified",
+          "channel": "Let's Learn Public Health",
+          "videoId": "psELBu7muNY",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "High-sensitivity pattern discovery in large... - Andrew Ghazi - CAMDA - Proceedings - ISMB 2022",
+          "channel": "ISCB",
+          "videoId": "xDCLzm3ng94",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Sensitivity Analysis of Biochemical Reaction Systems: Current Techniques and Future Challenges",
+          "channel": "NC State ECE",
+          "videoId": "0TY4Hm2ECds",
+          "score": 2,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-164": {
+      "name": "Specificity",
+      "query": "\"Specificity\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Filtering Gene Expression Clusters by Antigen Specificity Score",
+          "channel": "10x Genomics",
+          "videoId": "zB6mGi2BmHk",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Pep2TCR: Accurate prediction of CD4 T cell receptor binding specificity through transfer learning",
+          "channel": "iMeta Science",
+          "videoId": "xcpQa3_zS2c",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Sensitivity and Specificity simplified",
+          "channel": "Let's Learn Public Health",
+          "videoId": "psELBu7muNY",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-165": {
+      "name": "Accuracy",
+      "query": "\"Accuracy\" Bioinformatics & Data Science explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Quantifying the accuracy of genetic demultiplexing... - Marina Yurieva - HiTSeq - Poster - ISMB 2022",
+          "channel": "ISCB",
+          "videoId": "P9HmiChOCXo",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Genomic Variant Interpretation: Raising the Bar for Speed & Accuracy Through Data Curation",
+          "channel": "Genomenon",
+          "videoId": "3B13gF6y0Rc",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Bioinformatic Lunch & Learn: A Quick Guide to Metagenomic Analysis with PacBio HiFi Reads",
+          "channel": "PacBio",
+          "videoId": "0UERPXhgcmI",
+          "score": 5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-166": {
+      "name": "Hypothesis",
+      "query": "\"Hypothesis\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "SCI FAIR: Hypothesis and Experimental Design explanation",
+          "channel": "Michael Barringer",
+          "videoId": "W40E-YO0ymQ",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Lab Report Hypothesis and Experimental Design",
+          "channel": "Manuel Mendoza",
+          "videoId": "DWYkgL5E1UM",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Experimental Research (Explained in 3 Minutes)",
+          "channel": "Helpful Professor Explains!",
+          "videoId": "k_WC92-1hB8",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-167": {
+      "name": "Experiment",
+      "query": "\"Experiment\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Design of Experiments (DoE) simply explained",
+          "channel": "numiqo",
+          "videoId": "ZoaUu6iRE64",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Laboratory Experiment Research Design Explained with example",
+          "channel": "Research By Dr. MD",
+          "videoId": "7RBDd7LDqrE",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Designing an Experiment: Step-by-step Guide | Scribbr 🎓",
+          "channel": "Scribbr",
+          "videoId": "1-wc7CNeIz8",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-168": {
+      "name": "Protocol",
+      "query": "\"Protocol\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "CRISPR-Cas Genome Editing in Mammalian Cell Lines | Protocol Preview",
+          "channel": "JoVE (Journal of Visualized Experiments)",
+          "videoId": "ie_UOLcGC_A",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Immunoprecipitation Protocol: A Visual Guide | Cell Signaling Technology",
+          "channel": "Cell Signaling Technology, Inc.",
+          "videoId": "Ov5yqMDX-zc",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Experimental Design and Protocols (15 Minutes)",
+          "channel": "BioTech Whisperer",
+          "videoId": "BXjZqzwCQTE",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-170": {
+      "name": "Sample",
+      "query": "\"Sample\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Experimental Design and Sample Collection, Anna Mathew",
+          "channel": "MetabolomicsMI",
+          "videoId": "lRWv8ZC2REU",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Introduction to experiment design | Study design | AP Statistics | Khan Academy",
+          "channel": "Khan Academy",
+          "videoId": "DaBq0naj0YY",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "Design of Experiments (DoE) simply explained",
+          "channel": "numiqo",
+          "videoId": "ZoaUu6iRE64",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-171": {
+      "name": "Specimen",
+      "query": "\"Specimen\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Rapidly study inherited diseases w/ specimen-to-variant report automation* & easy gene panel design",
+          "channel": "Thermo Fisher Scientific",
+          "videoId": "_yxePT11eNo",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Introduction for specimen preparation (Mechanical Department)",
+          "channel": "NHCE Lab Experiment Videos",
+          "videoId": "wiCvEPwFsVw",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Ansys tensile test specimen analysis | failure theory  | Von mises stress theory",
+          "channel": "CAD & FEA Tutorials",
+          "videoId": "wA7uC_yNN2M",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-172": {
+      "name": "Aliquot",
+      "query": "\"Aliquot\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "A lot to love about aliquots - what aliquots are & why we frequently aliquot out aliquots in the lab",
+          "channel": "the bumbling biochemist",
+          "videoId": "Fg-_AOMMz3g",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "How to Make Stock&Aliquots Primer Solutions For PCR? #2b #Tutorial",
+          "channel": "Erkaya Mustafa",
+          "videoId": "5mcfscPs69A",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Aliquot and Preparation of Serum before Usage BCRC",
+          "channel": "BCRCTaiwan",
+          "videoId": "ZZNKrSgwDuA",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-178": {
+      "name": "Blank",
+      "query": "\"Blank\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Learning Metabolic Models from a Blank Slate with Automated Experiments  | 2025 EMSL Summer School",
+          "channel": "Environmental Molecular Sciences Laboratory (EMSL)",
+          "videoId": "JsvTdRxrE70",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Lab Review - Blank & Spectrophotometer Calibration (Unit 2 Spectrophotometry)",
+          "channel": "Mark Garcia",
+          "videoId": "0uLy_gz7gGc",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "THE LAB: BLANK - Creating something from nothing",
+          "channel": "Canon ANZ",
+          "videoId": "Uis4EanV15o",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-180": {
+      "name": "Biological replicate",
+      "query": "\"Biological replicate\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How to Analyze Real-time PCR Data -- Ask TaqMan® Ep. 16",
+          "channel": "Thermo Fisher Scientific",
+          "videoId": "_2Qe7gejcHg",
+          "score": 8,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-182": {
+      "name": "Randomization",
+      "query": "\"Randomization\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Experimental design, basic principles of experimental design, randomization, replication",
+          "channel": "SSwriters123 Research Thesis & Data Analysis",
+          "videoId": "rLbP33kcO7s",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Randomized control trial (RCT) explained",
+          "channel": "Henrik's Lab",
+          "videoId": "mWfjbmRZowM",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "What is a randomised trial? | Clinical Trials | Cancer Research UK",
+          "channel": "Cancer Research UK",
+          "videoId": "fkOCYov1p-o",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-183": {
+      "name": "Blinding",
+      "query": "\"Blinding\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Module 2: Blinding and Randomization",
+          "channel": "National Institutes of Health (NIH)",
+          "videoId": "cOVRUjNk6u8",
+          "score": 19,
+          "coverage": 1
+        },
+        {
+          "title": "What is Placebo?  Blinding & Unblinding in Clinical Trials #clinicalresearch #placebo #blinding #gcp",
+          "channel": "Clinical Research x360",
+          "videoId": "YmlRpqWjUuw",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Blinding | Statistics | Video Textbooks - Preview",
+          "channel": "JoVE For Middle and High Schools",
+          "videoId": "6aXyI5x6UnQ",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-186": {
+      "name": "Endpoint",
+      "query": "\"Endpoint\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Optimized real-time & endpoint RT-LAMP for SARS-CoV-2 using Bsm DNA Polymerase & SuperScript IV RT",
+          "channel": "Thermo Fisher Scientific",
+          "videoId": "QVZNt-ThVv4",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "What Is A Clinical Endpoint In Clinical Trials? - Trials and Treatments Uncovered",
+          "channel": "Trials and Treatments Uncovered",
+          "videoId": "aATXqWfcWsI",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Translational Science in Drug Development: Surrogate Endpoints, Biomarkers, and More - Day 1",
+          "channel": "Duke Margolis",
+          "videoId": "2wYH2OCEHc0",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-187": {
+      "name": "Primary endpoint",
+      "query": "\"Primary endpoint\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "#NIHHEAL: Endpoints for Pain Clinical Trials — Approaches & Accepted Endpoints for Biomarker Devices",
+          "channel": "National Institutes of Health (NIH)",
+          "videoId": "CYBy1XsGE3s",
+          "score": 10,
+          "coverage": 0.5
+        },
+        {
+          "title": "Pluristem's Phase I/II Muscle Injury Trial Successfully Meets Primary Safety & Efficacy Endpoints",
+          "channel": "CorporateProfile",
+          "videoId": "MoJW2W4Xnrc",
+          "score": 8.5,
+          "coverage": 1
+        },
+        {
+          "title": "Clinical trials design and study endpoints",
+          "channel": "Myeloma Patients Europe",
+          "videoId": "1jnYpJYZK-c",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-188": {
+      "name": "Assay",
+      "query": "\"Assay\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Gene Expression Analysis and DNA Microarray Assays",
+          "channel": "Professor Dave Explains",
+          "videoId": "Hv5flUOsE0s",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Enzyme Assays and Kinetics",
+          "channel": "Our Chem Lab Channel",
+          "videoId": "2Msf2I3LnGI",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Pull-Down Assay Protocol",
+          "channel": "SENS Research Foundation",
+          "videoId": "P5lS202hKak",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-189": {
+      "name": "Readout",
+      "query": "\"Readout\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "From Hypothesis to Readout: In-Vitro Disease Models | Nitya Mittal | BR Ep.59",
+          "channel": "BioPractify",
+          "videoId": "7jVo_KwwIKQ",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Readout Problem in Circuit QED | Seminar Series with Alexandru Petrescu",
+          "channel": "Qiskit",
+          "videoId": "OHqNTHkY924",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Bioanalytical Chemistry:  Fluorescence as an assay readout",
+          "channel": "Rebecca Pompano",
+          "videoId": "AtKhQF9kpA8",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-190": {
+      "name": "Analyte",
+      "query": "\"Analyte\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": " Specificity Parameter Explained with Examples",
+          "channel": "Lab to Laptop",
+          "videoId": "BELglxZfVTQ",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "ICP-AES: Part D: Experimental Design: What is the Experiment about?",
+          "channel": "Francis Chong",
+          "videoId": "8bCd_K4jZsM",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Lecture 32 : Basics of SPR: Experimental design",
+          "channel": "NPTEL IIT Bombay",
+          "videoId": "pUf33Sdbj30",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-192": {
+      "name": "Limit of quantification",
+      "query": "\"Limit of quantification\" Laboratory & Experimental Design explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How To Determine Detection Limit (LoD) and Quantitation Limit (LoQ)",
+          "channel": "Pharma Growth Hub",
+          "videoId": "hiK8knj-g7g",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "What do Limit of Detection and Limit of Quantitation mean?",
+          "channel": "Lucidity Systems",
+          "videoId": "Tn7uYMLz6lo",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "Analytical Validation and IDEs - Jonathan Berg",
+          "channel": "National Human Genome Research Institute",
+          "videoId": "Pk3zlCec0Ww",
+          "score": 5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-204": {
+      "name": "Target",
+      "query": "\"Target\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "The Importance of Target Validation | TTC Considerations in Drug Discovery Series",
+          "channel": "EDDC",
+          "videoId": "N7IxtCqW7rk",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "pathways, targets, & responses in drug discovery",
+          "channel": "Chem Help ASAP",
+          "videoId": "xqETgBwRns8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "MDC Connects: Identifying the Target",
+          "channel": "Medicines Discovery Catapult",
+          "videoId": "Da5_3b468bw",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-207": {
+      "name": "Hit",
+      "query": "\"Hit\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "From Hit to Lead in Drug Development (3 Minutes)",
+          "channel": "Seah Seng Wee",
+          "videoId": "thG8YOTDEck",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Rapid Hit and Hit-to-Lead Generation in Early Drug Discovery",
+          "channel": "BioSolveITTutorials",
+          "videoId": "uJ5htR80aHE",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Hit to lead in 3 Minutes 🔥 (easy chemistry guide)",
+          "channel": "Taros Discovery",
+          "videoId": "v9b3mCKRRWo",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-208": {
+      "name": "Lead compound",
+      "query": "\"Lead compound\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "lead discovery in drug development",
+          "channel": "Chem Help ASAP",
+          "videoId": "GndRd-Ll4x4",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "From Hit to Lead in Drug Development (3 Minutes)",
+          "channel": "Seah Seng Wee",
+          "videoId": "thG8YOTDEck",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "Lead generation in drug discovery and development",
+          "channel": "Professor G - Pharmacology",
+          "videoId": "kVud7iJ7Yq0",
+          "score": 5,
+          "coverage": 0.5
+        }
+      ]
+    },
+    "term-212": {
+      "name": "Biologic",
+      "query": "\"Biologic\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Developing Biologic Drugs",
+          "channel": "Biogen",
+          "videoId": "3u7pUE6xbUo",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "How Biologic Medicines Are Made | How It's Made",
+          "channel": "Science Channel",
+          "videoId": "_8h1HBDJ__c",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Biologic Drugs and Biosimilars",
+          "channel": "Healthcare Triage",
+          "videoId": "GEYhlLbHNEw",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-214": {
+      "name": "Antigen",
+      "query": "\"Antigen\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Tumour immunology and immunotherapy",
+          "channel": "nature video",
+          "videoId": "K09xzIQ8zsg",
+          "score": 5,
+          "coverage": 0
+        },
+        {
+          "title": "Drug Discovery: Capital and Time",
+          "channel": "UCLA CTSI",
+          "videoId": "9NSX_obCAnw",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Writing the Future of Drug Discovery and Development - Dr. Tomasz Klaus",
+          "channel": "Pure Biologics",
+          "videoId": "XhV1P-cHjVw",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-215": {
+      "name": "Epitope",
+      "query": "\"Epitope\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Efficient generation of epitope-targeted de novo antibodies with Germinal",
+          "channel": "Valence Labs",
+          "videoId": "wulNIgwXf8c",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Epitope Mapping in Antibody Therapeutics and Vaccine Development: The Evolving Landscape",
+          "channel": "GENNews",
+          "videoId": "NM5oEJ6bqwM",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "High res epitope binning | Antibody screening | High-Throughput Antibody Screening | LSA Platform",
+          "channel": "Carterra",
+          "videoId": "srhdDig9XnY",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-216": {
+      "name": "Drug modality",
+      "query": "\"Drug modality\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Integrated Screening & Assay Capabilities Facilitate Peptide Drug Discovery",
+          "channel": "WuXi Discovery Services",
+          "videoId": "G6Sd3vvabcs",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "BioPharma Industry Coverage & Solutions - The Life Sciences Research Company",
+          "channel": "The Business Research Company",
+          "videoId": "zYxY9I9RoyM",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Pharma's grand challenge: Developing cost-effective and sustainable oligonucleotide manufacturing",
+          "channel": "CPI",
+          "videoId": "3IazoIpigZM",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-220": {
+      "name": "Mechanism of action",
+      "query": "\"Mechanism of action\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "An Overview of the Drug Development Process",
+          "channel": "PHAssociation",
+          "videoId": "ZHvcUfpdQrY",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Part 1 of Drug Discovery from Lab to Consumer",
+          "channel": "PHAssociation",
+          "videoId": "V2ZZupWXnlQ",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Drug Development Process-Animated Infographic",
+          "channel": "Kevin Schiel",
+          "videoId": "2jyIij6rnDM",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-222": {
+      "name": "Pharmacodynamics",
+      "query": "\"Pharmacodynamics\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Role of Pharmacodynamics in Drug Development with Dr. James Doroshow",
+          "channel": "NIH Clinical Center",
+          "videoId": "1qvfSMJJpQU",
+          "score": 20.5,
+          "coverage": 1
+        },
+        {
+          "title": "Pharmacodynamics: Mechanisms of Drug Action",
+          "channel": "Professor Dave Explains",
+          "videoId": "PGzT3cTPah8",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Pharmacodynamics",
+          "channel": "Ninja Nerd",
+          "videoId": "JDpg2tdHdq0",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-224": {
+      "name": "Absorption, distribution, metabolism and excretion",
+      "query": "\"Absorption, distribution, metabolism and excretion\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "A Discussion On The Science Of Absorption, Distribution And Excretion (ADME)",
+          "channel": "Big Discussions76 Science and Technology",
+          "videoId": "J68R-sLOfYw",
+          "score": 5.25,
+          "coverage": 0.75
+        },
+        {
+          "title": "Pharmacokinetics Explained: ADME in Drug Discovery",
+          "channel": "Hendeb Industries Nigeria Limited ",
+          "videoId": "DkSlL7tENJI",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "What is Pharmacokinetics? Principles of ADME",
+          "channel": "Health and Medicine",
+          "videoId": "alm1-rlpg_Y",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-225": {
+      "name": "Bioavailability",
+      "query": "\"Bioavailability\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Drug Discovery, Drug development Process & Phytomedicine simply explained | PHS 810",
+          "channel": "Jane Nnenna",
+          "videoId": "DEPn6alqRUU",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Pharmacokinetics: How Drugs Move Through the Body",
+          "channel": "Professor Dave Explains",
+          "videoId": "L1W0q1kEof4",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "The Drug Discovery Process Today: How Modern Science Turns Ideas Into Medicines",
+          "channel": "الدكتور ياسر الدرشابي",
+          "videoId": "SLS2C6uPxSA",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-227": {
+      "name": "Potency",
+      "query": "\"Potency\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "the difference between drug potency & efficacy",
+          "channel": "Chem Help ASAP",
+          "videoId": "c_epF8LiP4U",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "lead optimization for efficacy, potency, PK, & safety",
+          "channel": "Inside Drug Discovery",
+          "videoId": "--OKJMdifaY",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "Drug Discovery with Dr. Edward Sausville",
+          "channel": "NIH Clinical Center",
+          "videoId": "vy2r6xYY0do",
+          "score": 6.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-228": {
+      "name": "Efficacy",
+      "query": "\"Efficacy\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "An Overview of the Drug Development Process",
+          "channel": "PHAssociation",
+          "videoId": "ZHvcUfpdQrY",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Drug Discovery and Development Explained!",
+          "channel": "NAPHTALI MUHUMUZA- Medical Science",
+          "videoId": "KdKODhtHLf4",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Drug Discovery and Drug Development Explained in 8 Minutes",
+          "channel": "BioTech Whisperer",
+          "videoId": "SDstavyWJzo",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-229": {
+      "name": "Effectiveness",
+      "query": "\"Effectiveness\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Development of a New Drug from Lab to Patient Explained in 7 Steps",
+          "channel": "Mirko von Hein",
+          "videoId": "XW6bV6EeNeU",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "PACT 2021: Revolution in Drug Discovery and how this Impacts Clinical Trials.",
+          "channel": "Colorectal Cancer Canada",
+          "videoId": "nCIeMkYOe8g",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Pharmacology & Drug Development Explained | How Medicines Are Made & Work",
+          "channel": "The Learning Studio",
+          "videoId": "yxPF97IfNiM",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-230": {
+      "name": "Half maximal inhibitory concentration",
+      "query": "\"Half maximal inhibitory concentration\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "FULL Version Examples: guide to biological software tutorial.",
+          "channel": "AI_BinomLabs",
+          "videoId": "Zv_yPM00KUI",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Training | Drug Treatment",
+          "channel": "Asbestos and Dust Diseases Research Institute",
+          "videoId": "Mf6geBu9WTI",
+          "score": 1.5,
+          "coverage": 0
+        },
+        {
+          "title": "Modeling the impact of point mutations on the stability of proteins. EXAMPLE 1 BIOLOGICAL SOFT",
+          "channel": "AI_BinomLabs",
+          "videoId": "tqeh39gCLu8",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-231": {
+      "name": "Half maximal effective concentration",
+      "query": "\"Half maximal effective concentration\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "How does it look? A set of tools for biophysical research.",
+          "channel": "AI_BinomLabs",
+          "videoId": "FAOGi3e9MXk",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Automated single-molecule imaging in living cells",
+          "channel": "ScienceVio",
+          "videoId": "TbPzJw771g4",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-232": {
+      "name": "Selectivity",
+      "query": "\"Selectivity\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Cellular receptors: Part 2, binding, affinity, selectivity, potency",
+          "channel": "PharmacoPhoto",
+          "videoId": "cw0avilHjP0",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Assessing compound selectivity with CETSA® Explore.",
+          "channel": "Pelago Bioscience",
+          "videoId": "UFiF0tOyqvw",
+          "score": 14,
+          "coverage": 1
+        },
+        {
+          "title": "pathways, targets, & responses in drug discovery",
+          "channel": "Chem Help ASAP",
+          "videoId": "xqETgBwRns8",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-236": {
+      "name": "Toxicology",
+      "query": "\"Toxicology\" Drug Discovery & Development explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Preclinical Toxicology in Drug Development Overview",
+          "channel": "CCTS",
+          "videoId": "jxJB3V6KcDs",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Toxicology in Drug Development in the Era of Biotechnology",
+          "channel": "Faculdade de Ciências Farmacêuticas USP",
+          "videoId": "NN3NFnJH3A4",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Coping with Preclinical Toxicology Challenges",
+          "channel": "GARDP",
+          "videoId": "SrZg04ywu8M",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-252": {
+      "name": "Treatment arm",
+      "query": "\"Treatment arm\" Clinical Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Your First Clinical R Script in 60 Seconds | SDTM Demographics Tutorial",
+          "channel": "Great Online Training",
+          "videoId": "xgQE0BT_UFQ",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Factors in R Explained | Clinical Domain Examples",
+          "channel": "Gitanjali Madan",
+          "videoId": "PqLDIafWAbo",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Handling & Preventing Missing Data: Improving Clinical Trial Data Credibility",
+          "channel": "Xtalks",
+          "videoId": "lkttPe0O3sg",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-260": {
+      "name": "Adverse drug reaction",
+      "query": "\"Adverse drug reaction\" Clinical Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Adverse Events Management in Clinical Drug Trials",
+          "channel": "Stanford Center for Clinical Research",
+          "videoId": "PWulMeXLHPc",
+          "score": 11.17,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "title": "Adverse Events Reporting, Part 1 of 4",
+          "channel": "NIH VideoCast",
+          "videoId": "lQr3hls5KFY",
+          "score": 7.33,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "title": "Basics - Part 13 - Adverse Drug Reaction",
+          "channel": "GCP-Mindset - All About Clinical Research",
+          "videoId": "bVY5yLqkQ30",
+          "score": 5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-271": {
+      "name": "Electronic laboratory notebook",
+      "query": "\"Electronic laboratory notebook\" Data, Knowledge & Governance explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Digital Transformation of the Laboratory",
+          "channel": "Thermo Fisher Scientific",
+          "videoId": "adZ_ApaU8cA",
+          "score": 8.83,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "title": "Electronic Lab Notebook Overview | Atlantis Bioscience",
+          "channel": "Atlantis Bioscience",
+          "videoId": "kdD0kOvwY2A",
+          "score": 6.17,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "title": "2021 Spring AC Day 3 A Platform for Instrument Integration to the Electronic Notebook Data-Enabled",
+          "channel": "Allotrope Foundation",
+          "videoId": "OVx-v9yrmQE",
+          "score": 6.17,
+          "coverage": 0.6666666666666666
+        }
+      ]
+    },
+    "term-286": {
+      "name": "Authentication",
+      "query": "\"Authentication\" Data, Knowledge & Governance explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "OpenText Data Access Governance (DAG) Overview (2022)",
+          "channel": "OpenText NetIQ Unplugged",
+          "videoId": "u6Nw-IC-yJc",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "Microsoft Fabric Data Governance - Explained",
+          "channel": "Netwoven",
+          "videoId": "bhImErYUBmc",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "The Full IAM Ecosystem: Pillars Beyond Identity Data, PAM, Auth, and Data Governance",
+          "channel": "Acsense",
+          "videoId": "qmFhsptw_0M",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-287": {
+      "name": "Authorization",
+      "query": "\"Authorization\" Data, Knowledge & Governance explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Webinar: How an Entitlement & Role Landscape Health Check Strengthens Authorization Governance",
+          "channel": "iC Consult",
+          "videoId": "CjBvMbz-7DA",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Overview of the Authorization Process | Exclusive Lesson",
+          "channel": "YouAccel",
+          "videoId": "iEPEoQYe13U",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Roles and Responsibilities in System Authorization | Exclusive Lesson",
+          "channel": "YouAccel",
+          "videoId": "be-EavM7T2U",
+          "score": 14,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-293": {
+      "name": "Pseudonymization",
+      "query": "\"Pseudonymization\" Data, Knowledge & Governance explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Personal Data Pseudonymization Versus Anonymization In The Age Of AI & Big Data",
+          "channel": "Big Data LDN",
+          "videoId": "xy4jk-Y2uxk",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Data Pseudonymization & Anonymization",
+          "channel": "Cyber Security Entertainment",
+          "videoId": "yFbkv5WFHdU",
+          "score": 15.5,
+          "coverage": 1
+        },
+        {
+          "title": "Anonymization and Pseudonymization: Exploring Data Privacy Techniques #gdpr #datasecurity #PIMS #iso",
+          "channel": "Cyber Security Practitioner",
+          "videoId": "I-BVsgojVCk",
+          "score": 15.5,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-324": {
+      "name": "Training set",
+      "query": "\"Training set\" AI & Computational Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+          "channel": "IBM Technology",
+          "videoId": "qYNweeDHiyU",
+          "score": 8,
+          "coverage": 0
+        },
+        {
+          "title": "What Are the Challenges in Training Neural Networks? | AI and Machine Learning Explained News",
+          "channel": "AI and Machine Learning Explained",
+          "videoId": "ER-wBDzF-zw",
+          "score": 6.5,
+          "coverage": 0.5
+        },
+        {
+          "title": "Ground Truth: The Foundation of Accurate AI & Machine Learning Models",
+          "channel": "IBM Technology",
+          "videoId": "ya92bJbl0jc",
+          "score": 6.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-331": {
+      "name": "External validation",
+      "query": "\"External validation\" AI & Computational Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Intro to Machine Learning - Model Validation",
+          "channel": "Sonu Jha",
+          "videoId": "VdxgvAAMw70",
+          "score": 5,
+          "coverage": 0.5
+        },
+        {
+          "title": "How Are AI Models In Healthcare Rigorously Validated? - AI and Machine Learning Explained",
+          "channel": "AI and Machine Learning Explained",
+          "videoId": "bVhKO_YxSYs",
+          "score": 3,
+          "coverage": 0
+        },
+        {
+          "title": "GigaTIME: How Microsoft GigaTIME Unlocks a New Era of AI Cancer Research A Researcher's Guide",
+          "channel": "Binary Verse AI",
+          "videoId": "pFrJZgi3Tfs",
+          "score": 3,
+          "coverage": 0
+        }
+      ]
+    },
+    "term-332": {
+      "name": "Benchmark",
+      "query": "\"Benchmark\" AI & Computational Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Why Is It Hard To Benchmark Novel AI Research? - AI and Machine Learning Explained",
+          "channel": "AI and Machine Learning Explained",
+          "videoId": "amEzybXdLwc",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "How Can You Fairly Benchmark Different RL Algorithms? - AI and Machine Learning Explained",
+          "channel": "AI and Machine Learning Explained",
+          "videoId": "yz6S4NQ0rEY",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Why AI Agents Fail at Science: Testing the AUTOMAT Benchmark",
+          "channel": "AI Research Explained |  Maria Varela ",
+          "videoId": "agokS87KzHU",
+          "score": 17,
+          "coverage": 1
+        }
+      ]
+    },
+    "term-336": {
+      "name": "Explainability",
+      "query": "\"Explainability\" AI & Computational Research explained",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Shapley Values Explained: Explainability vs. Model Complexity in Machine Learning | Chapter 02",
+          "channel": "OneStatAtATime",
+          "videoId": "KDIYw-9pP90",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Tutorial 5: Explainability in Deep Learning",
+          "channel": "ACM SIGKDD India Chapter",
+          "videoId": "E4vq69a4Jpc",
+          "score": 17,
+          "coverage": 1
+        },
+        {
+          "title": "Shapley Values Explained: Why Explainability Matters in Machine Learning Forecasting | Chapter 01",
+          "channel": "OneStatAtATime",
+          "videoId": "B-1DThzYlcM",
+          "score": 17,
+          "coverage": 1
+        }
+      ]
+    },
+    "method-15": {
+      "name": "Bulk RNA-seq differential expression",
+      "query": "\"Bulk RNA-seq differential expression\" Bioinformatics tutorial",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "PyDESeq2 | How K Pro integrates AI tools for research with RNA-Seq",
+          "channel": "Owkin",
+          "videoId": "aR44-LpYrbE",
+          "score": 5.8,
+          "coverage": 0.4
+        }
+      ]
+    },
+    "method-36": {
+      "name": "CRISPR knockout screen",
+      "query": "\"CRISPR knockout screen\" Functional genomics tutorial",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Malaysian Research Insider #10",
+          "channel": "Malaysian Bioscience Scholars",
+          "videoId": "XJ_7rYpTDuY",
+          "score": 1.5,
+          "coverage": 0
+        }
+      ]
+    },
+    "method-37": {
+      "name": "CRISPR interference / activation",
+      "query": "\"CRISPR interference / activation\" Functional genomics tutorial",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Genetic Screens with CRISPR: A New Hope in Functional Genomics",
+          "channel": "Microsoft Research",
+          "videoId": "PvvpwC6Ik-c",
+          "score": 8.83,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "title": "What is CRISPR interference or CRISPRi?",
+          "channel": "Horizon Discovery",
+          "videoId": "JTGf0tCOwho",
+          "score": 6.17,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "title": "CRISPR Explained",
+          "channel": "Mayo Clinic",
+          "videoId": "UKbrwPL3wXE",
+          "score": 5.33,
+          "coverage": 0.3333333333333333
+        }
+      ]
+    },
+    "method-43": {
+      "name": "Cryogenic electron microscopy",
+      "query": "\"Cryogenic electron microscopy\" Structural biology tutorial",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Masterclass: Cryo Electron Microscopy for Protein Structure",
+          "channel": "CNS Harvard",
+          "videoId": "YRJ8Ts_8Hic",
+          "score": 11.17,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "title": "Preparation of cells for cryo-electron tomography",
+          "channel": "Electron Microscopy from Thermo Fisher Scientific",
+          "videoId": "L-65mpdKLzQ",
+          "score": 8.83,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "title": "Using Cryo-Electron Microscopy for Structural Biology | EMSL LEARN Webinar Series",
+          "channel": "Environmental Molecular Sciences Laboratory (EMSL)",
+          "videoId": "wb8FnW5T8Sk",
+          "score": 6.17,
+          "coverage": 0.6666666666666666
+        }
+      ]
+    },
+    "method-64": {
+      "name": "Protocol versioning and execution capture",
+      "query": "\"Protocol versioning and execution capture\" Research operations tutorial",
+      "reason": "No result passed the relevance threshold",
+      "topCandidates": [
+        {
+          "title": "Versioning Data with DVC (Hands-On Tutorial!)",
+          "channel": "DVCorg",
+          "videoId": "kLKBcPonMYw",
+          "score": 4.75,
+          "coverage": 0.25
+        },
+        {
+          "title": "Tutorial 6- End To End Data Science Projects In Hindi-Data Versioning Using DVC",
+          "channel": "Krish Naik Hindi",
+          "videoId": "RKSY8keIQm8",
+          "score": 4.75,
+          "coverage": 0.25
+        },
+        {
+          "title": "Hands-on with DVC | Data Versioning in MLOps",
+          "channel": "Jayesh Sharma",
+          "videoId": "efnw2QvlhZM",
+          "score": 3.25,
+          "coverage": 0.25
+        }
+      ]
+    },
+    "term-70": {
+      "name": "Enhancer",
+      "query": "\"Enhancer\" Genetics & Genomics explained",
+      "reason": "Enhancer trapping is a specific technique, not an introduction to enhancers",
+      "topCandidates": []
+    },
+    "term-93": {
+      "name": "Peptide",
+      "query": "\"Peptide\" Proteins & Proteomics explained",
+      "reason": "Peptide mass fingerprinting does not explain the peptide concept",
+      "topCandidates": []
+    },
+    "term-102": {
+      "name": "Binding affinity",
+      "query": "\"Binding affinity\" Proteins & Proteomics explained",
+      "reason": "Product-focused webinar rather than a binding-affinity explanation",
+      "topCandidates": []
+    },
+    "term-177": {
+      "name": "Vehicle control",
+      "query": "\"Vehicle control\" Laboratory & Experimental Design explained",
+      "reason": "Automotive vehicle-control result; wrong domain",
+      "topCandidates": []
+    },
+    "term-198": {
+      "name": "Deviation",
+      "query": "\"Deviation\" Laboratory & Experimental Design explained",
+      "reason": "Standard deviation is not a laboratory protocol deviation",
+      "topCandidates": []
+    },
+    "term-199": {
+      "name": "Chain of custody",
+      "query": "\"Chain of custody\" Laboratory & Experimental Design explained",
+      "reason": "AI commentary rather than a chain-of-custody explanation",
+      "topCandidates": []
+    },
+    "term-219": {
+      "name": "RNA therapeutic",
+      "query": "\"RNA therapeutic\" Drug Discovery & Development explained",
+      "reason": "Product promotion rather than an RNA-therapeutics explanation",
+      "topCandidates": []
+    },
+    "term-238": {
+      "name": "Predictive biomarker",
+      "query": "\"Predictive biomarker\" Drug Discovery & Development explained",
+      "reason": "Industry monitoring discussion rather than a predictive-biomarker explanation",
+      "topCandidates": []
+    },
+    "term-239": {
+      "name": "Prognostic biomarker",
+      "query": "\"Prognostic biomarker\" Drug Discovery & Development explained",
+      "reason": "Single research example rather than a prognostic-biomarker explanation",
+      "topCandidates": []
+    },
+    "term-250": {
+      "name": "First-in-human study",
+      "query": "\"First-in-human study\" Clinical Research explained",
+      "reason": "Site-selection case study rather than a first-in-human study explanation",
+      "topCandidates": []
+    },
+    "term-263": {
+      "name": "Open-label study",
+      "query": "\"Open-label study\" Clinical Research explained",
+      "reason": "Trial results rather than an open-label study explanation",
+      "topCandidates": []
+    },
+    "term-274": {
+      "name": "Clinical trial management system",
+      "query": "\"Clinical trial management system\" Data, Knowledge & Governance explained",
+      "reason": "Clinical data-management lecture rather than a CTMS explanation",
+      "topCandidates": []
+    },
+    "term-284": {
+      "name": "Data validation",
+      "query": "\"Data validation\" Data, Knowledge & Governance explained",
+      "reason": "Excel validation tutorial; wrong domain",
+      "topCandidates": []
+    },
+    "term-313": {
+      "name": "Prompt",
+      "query": "\"Prompt\" AI & Computational Research explained",
+      "reason": "Entertainment-oriented prompt challenge rather than a prompt explanation",
+      "topCandidates": []
+    },
+    "term-316": {
+      "name": "Grounding",
+      "query": "\"Grounding\" AI & Computational Research explained",
+      "reason": "Research workshop on spatial grounding rather than LLM grounding",
+      "topCandidates": []
+    },
+    "term-320": {
+      "name": "Model training",
+      "query": "\"Model training\" AI & Computational Research explained",
+      "reason": "Model distillation example rather than model-training fundamentals",
+      "topCandidates": []
+    },
+    "term-323": {
+      "name": "Inference",
+      "query": "\"Inference\" AI & Computational Research explained",
+      "reason": "Infrastructure talk rather than an inference explanation",
+      "topCandidates": []
+    },
+    "term-329": {
+      "name": "Generalization",
+      "query": "\"Generalization\" AI & Computational Research explained",
+      "reason": "Specialist research seminar rather than generalization fundamentals",
+      "topCandidates": []
+    },
+    "term-333": {
+      "name": "Baseline model",
+      "query": "\"Baseline model\" AI & Computational Research explained",
+      "reason": "Unclear low-quality baseline-model explanation",
+      "topCandidates": []
+    },
+    "term-335": {
+      "name": "Dataset shift",
+      "query": "\"Dataset shift\" AI & Computational Research explained",
+      "reason": "Research-paper presentation rather than dataset-shift fundamentals",
+      "topCandidates": []
+    },
+    "term-338": {
+      "name": "Multimodal model",
+      "query": "\"Multimodal model\" AI & Computational Research explained",
+      "reason": "Vendor model announcement rather than a multimodal-model explanation",
+      "topCandidates": []
+    },
+    "term-339": {
+      "name": "Scientific agent",
+      "query": "\"Scientific agent\" AI & Computational Research explained",
+      "reason": "Opinion/hype video rather than a scientific-agent explanation",
+      "topCandidates": []
+    },
+    "method-17": {
+      "name": "Single-nucleus RNA sequencing",
+      "query": "\"Single-nucleus RNA sequencing\" Single-cell tutorial",
+      "reason": "Disease-specific study rather than a single-nucleus RNA-seq method overview",
+      "topCandidates": []
+    },
+    "method-31": {
+      "name": "Liquid chromatography–tandem mass spectrometry",
+      "query": "\"Liquid chromatography–tandem mass spectrometry\" Proteomics / metabolomics tutorial",
+      "reason": "Incomplete webinar result rather than an LC-MS/MS explanation",
+      "topCandidates": []
+    }
+  }
+}

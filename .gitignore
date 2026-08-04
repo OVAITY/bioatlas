@@ -1,0 +1,59 @@
+# macOS and editor files
+.DS_Store
+.claude/
+.idea/
+.vscode/
+*.swp
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+
+# Dependencies and package-manager caches
+node_modules/
+**/node_modules/
+.pnp
+.pnp.*
+.yarn/
+.pnpm-store/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Framework and build output
+.next/
+**/.next/
+.vinext/
+**/.vinext/
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+.wrangler/
+**/.wrangler/
+coverage/
+**/coverage/
+outputs/
+**/outputs/
+work/
+**/work/
+
+# Logs and local runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local enrichment checkpoints
+hosted/data/.video-search-checkpoint.json
+
+# Superseded local social-preview draft
+hosted/public/og.png
