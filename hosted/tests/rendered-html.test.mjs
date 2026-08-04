@@ -29,10 +29,11 @@ test("uses the native Next.js build expected by Vercel", async () => {
 });
 
 test("ships the full BioAtlas-to-OVAITY CTA with accessible external links", async () => {
-  const [app, css, page] = await Promise.all([
+  const [app, css, page, layout] = await Promise.all([
     readFile(new URL("../public/app.js", import.meta.url), "utf8"),
     readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
   ]);
 
   assert.match(app, /Ready to put your knowledge to work\?/i);
@@ -47,4 +48,12 @@ test("ships the full BioAtlas-to-OVAITY CTA with accessible external links", asy
   assert.match(css, /\.sidebar-cta:focus-visible/);
   assert.match(css, /\.platform-cta-primary:focus-visible/);
   assert.match(css, /@media \(max-width: 760px\)/);
+
+  assert.match(layout, /data\/data\.js\?v=20260804-1" strategy="beforeInteractive"/);
+  assert.match(layout, /data\/videos\.js\?v=20260804-1" strategy="beforeInteractive"/);
+  assert.match(page, /app\.js\?v=20260804-1" strategy="afterInteractive"/);
+  assert.match(app, /function readSavedTheme\(\)/);
+  assert.match(app, /window\.localStorage\.getItem/);
+  assert.match(app, /catch \(error\)/);
+  assert.match(app, /BioAtlas could not load this view\./);
 });

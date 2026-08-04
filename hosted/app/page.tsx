@@ -66,9 +66,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Script src="/data/data.js" strategy="afterInteractive" />
-      <Script src="/data/videos.js" strategy="afterInteractive" />
-      <Script src="/app.js" strategy="afterInteractive" />
+      <Script src="/app.js?v=20260804-1" strategy="afterInteractive" />
     </>
   );
 }

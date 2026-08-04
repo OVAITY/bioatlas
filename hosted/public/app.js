@@ -14,7 +14,24 @@
   document.getElementById("foot-terms").textContent = DATA.meta.glossaryCount;
   document.getElementById("foot-methods").textContent = DATA.meta.methodologyCount;
 
-  const savedTheme = localStorage.getItem("ovaity-theme");
+  function readSavedTheme() {
+    try {
+      return window.localStorage.getItem("ovaity-theme");
+    } catch (error) {
+      console.warn("BioAtlas could not read the saved theme.", error);
+      return null;
+    }
+  }
+
+  function saveTheme(theme) {
+    try {
+      window.localStorage.setItem("ovaity-theme", theme);
+    } catch (error) {
+      console.warn("BioAtlas could not save the selected theme.", error);
+    }
+  }
+
+  const savedTheme = readSavedTheme();
   if (savedTheme === "light" || savedTheme === "dark") {
     document.documentElement.dataset.theme = savedTheme;
   }
@@ -23,7 +40,7 @@
       (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     const next = current === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
-    localStorage.setItem("ovaity-theme", next);
+    saveTheme(next);
     themeToggle.setAttribute("aria-label", `Switch to ${current} theme`);
   });
 
@@ -201,15 +218,26 @@
   }
 
   function render() {
-    const { route, param } = parseHash();
-    tabs.forEach((a) => a.classList.toggle("active", a.dataset.route === route));
-    closeModal();
+    try {
+      const { route, param } = parseHash();
+      tabs.forEach((a) => a.classList.toggle("active", a.dataset.route === route));
+      closeModal();
 
-    if (route === "sessions") renderSessions(param);
-    else if (route === "glossary") renderGlossary(param);
-    else renderOverview();
+      if (route === "sessions") renderSessions(param);
+      else if (route === "glossary") renderGlossary(param);
+      else renderOverview();
 
-    window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+      window.scrollTo({ top: 0, behavior: "auto" });
+    } catch (error) {
+      console.error("BioAtlas could not render this view.", error);
+      app.innerHTML = `
+        <div class="no-results load-error" role="alert">
+          <strong>BioAtlas could not load this view.</strong>
+          <span>Please reload the page. If the problem continues, try clearing this site&rsquo;s cached data.</span>
+          <button type="button" id="reload-bioatlas">Reload BioAtlas</button>
+        </div>`;
+      document.getElementById("reload-bioatlas")?.addEventListener("click", () => location.reload());
+    }
   }
 
   // ---------------- Overview ----------------
