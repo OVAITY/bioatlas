@@ -14,21 +14,24 @@ Contributions are welcome, particularly from scientists, educators, bioinformati
 
 ## Content source and generated files
 
-The canonical content source is `OVAITY_Life_Science_Glossary.xlsx`:
+The live content source is PostgreSQL. The Excel workbook is the historical glossary import:
 
 - `Glossary` contains concept and terminology entries.
 - `Methodologies` contains laboratory and computational methods.
 - `Learning Path` defines the guided learning stages.
 - `Sources` records supporting source information.
 
-`hosted/public/data/data.js` is generated from that workbook. Update the workbook first, then regenerate the browser data:
+To refresh the glossary graph from the current extract:
 
 ```bash
-cd hosted/scripts
-python3 extract_data.py
+cd hosted
+npm run db:import
+npm run db:seed
 ```
 
-The extraction script requires Python 3 and `openpyxl`. Review the generated diff before submitting it.
+`hosted/public/data/data.js` is a snapshot used only by the import script. Prefer database changes for new relationships, models, events and provenance.
+
+3D portals on the Structures page are curated in `hosted/data/structures/collections.json` and loaded with `npm run db:seed-structures` from `hosted/`.
 
 ## Concept entries
 

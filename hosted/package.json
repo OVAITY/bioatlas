@@ -10,10 +10,18 @@
     "build": "next build",
     "start": "next start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
-    "lint": "eslint . --ignore-pattern .next --ignore-pattern dist"
+    "lint": "eslint . --ignore-pattern .next --ignore-pattern dist",
+    "db:migrate": "node scripts/migrate.mjs",
+    "db:import": "node scripts/import-workbook.mjs",
+    "db:seed": "node scripts/seed-atlas.mjs",
+    "db:seed-biorodeo": "node scripts/seed-biorodeo.mjs",
+    "db:seed-structures": "node scripts/seed-structures.mjs",
+    "db:setup": "node scripts/migrate.mjs && node scripts/import-workbook.mjs && node scripts/seed-atlas.mjs && node scripts/seed-biorodeo.mjs && node scripts/seed-structures.mjs"
   },
   "dependencies": {
+    "drizzle-orm": "^0.44.7",
     "next": "16.2.6",
+    "postgres": "^3.4.7",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },

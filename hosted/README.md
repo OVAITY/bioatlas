@@ -17,6 +17,6 @@ npm test
 npm run build
 ```
 
-The application currently requires no environment variables. See the repository-root `.env.example` for the safe placeholder policy.
+Set `DATABASE_URL` in `.env.local` (see `.env.example`). From the repository root, `docker compose up -d` starts Postgres with pgvector on port `5434`. Then run `npm run db:setup` before `npm run dev`.
 
-Content extraction and video-review utilities live in `scripts/`; their review records live in `data/`, while browser-consumed data is written to `public/data/`.
+Workbook import, model-atlas, and 3D-structure seed scripts live in `scripts/` with the SQL migrations in `drizzle/`. Video-review records remain in `data/`. The Structures page reads `data/structures/collections.json` when the database has not been seeded yet.

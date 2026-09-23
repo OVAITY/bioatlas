@@ -43,15 +43,18 @@ The collection covers biological concepts, scientific terminology, laboratory an
 
 ## Getting started
 
-The application requires Node.js `>=22.13.0` and npm. It currently requires no environment variables; `.env.example` records that explicitly.
+The application requires Node.js `>=22.13.0`, npm, and PostgreSQL 16 with pgvector. Docker Compose starts the database on host port `5434`.
 
 ```bash
+docker compose up -d
+cp hosted/.env.example hosted/.env.local
 cd hosted
 npm ci
+npm run db:setup
 npm run dev
 ```
 
-Use the local URL printed by the development server.
+`db:setup` applies migrations, imports the glossary workbook extract, and seeds the model atlas, intelligence events, and 3D structure portals. Use the local URL printed by the development server.
 
 ### Checks
 
@@ -65,7 +68,7 @@ npm run build
 
 ## Adding or editing entries
 
-BioAtlas content originates in `OVAITY_Life_Science_Glossary.xlsx` and is exported to `hosted/public/data/data.js` by `hosted/scripts/extract_data.py`. Do not edit generated data without also updating its source.
+BioAtlas content is stored in PostgreSQL. The Excel workbook remains the historical glossary source and is imported with `npm run db:import` from `hosted/`. After import, edit the database rather than regenerating `hosted/public/data/data.js` for the public site.
 
 Entry fields, accepted values, identifier rules and the preview workflow are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
 

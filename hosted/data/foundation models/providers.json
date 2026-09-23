@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "aws",
+    "name": "Amazon Web Services",
+    "url": "https://bio.rodeo/providers/aws",
+    "description": "AWS Marketplace listings and SageMaker JumpStart deploy biological foundation models onto managed endpoints in the subscriber's own AWS account."
+  },
+  {
+    "slug": "benchling-model-hub",
+    "name": "Benchling Model Hub",
+    "url": "https://bio.rodeo/providers/benchling-model-hub",
+    "description": "Managed structure prediction on registry data inside the electronic lab notebook, and on uploaded sequences from a standalone benchling.ai account."
+  },
+  {
+    "slug": "google-cloud-model-garden",
+    "name": "Google Cloud Model Garden",
+    "url": "https://bio.rodeo/providers/google-cloud-model-garden",
+    "description": "Managed cloud endpoints for deploying and fine-tuning biological foundation models, billed per token or per node-hour depending on serving mode."
+  },
+  {
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "url": "https://bio.rodeo/providers/hugging-face",
+    "description": "Open repository for downloading protein, DNA, RNA, single-cell and pathology foundation model weights, with managed inference endpoints alongside."
+  },
+  {
+    "slug": "nvidia-bionemo",
+    "name": "NVIDIA BioNeMo / NIM",
+    "url": "https://bio.rodeo/providers/nvidia-bionemo",
+    "description": "GPU-accelerated inference for structure prediction, protein design, docking and genomics, as hosted endpoints or self-hosted microservices."
+  },
+  {
+    "slug": "scigantic",
+    "name": "Scigantic",
+    "url": "https://bio.rodeo/providers/scigantic",
+    "description": "Managed notebooks for fine-tuning open protein, DNA and molecule models from labelled sequence data, with no GPU setup and linked cloud storage."
+  },
+  {
+    "slug": "zenodo",
+    "name": "Zenodo",
+    "url": "https://bio.rodeo/providers/zenodo",
+    "description": "Open research repository operated by CERN, hosting DOI-citable, versioned model weights archived alongside the papers that describe them."
+  }
+]

@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: bioatlas
+      POSTGRES_PASSWORD: bioatlas
+      POSTGRES_DB: bioatlas
+    ports:
+      - "5434:5432"
+    volumes:
+      - bioatlas_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bioatlas -d bioatlas"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  bioatlas_pg:

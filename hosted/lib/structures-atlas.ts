@@ -1,0 +1,790 @@
+export const BIOLOGICAL_SCALES = [
+  {
+    id: "Molecules",
+    label: "Molecules",
+    hint: "Å–nm",
+    copy: "Explore molecular structures, sequences, interactions and the resources used to study them.",
+  },
+  {
+    id: "Organelles",
+    label: "Organelles",
+    hint: "nm",
+    copy: "Look inside the cell at mitochondria, nuclei and other compartments, mostly through volume electron microscopy.",
+  },
+  {
+    id: "Cells",
+    label: "Cells",
+    hint: "µm",
+    copy: "Browse cell types, morphology, tomograms and single-cell imaging collections.",
+  },
+  {
+    id: "Tissues",
+    label: "Tissues",
+    hint: "µm–mm",
+    copy: "Move from histology and spatial maps to tissue atlases that sit between cells and organs.",
+  },
+  {
+    id: "Organs",
+    label: "Organs",
+    hint: "mm–cm",
+    copy: "Open organ-scale maps — brains, hearts, lungs — and the imaging that reconstructs them.",
+  },
+  {
+    id: "Organisms",
+    label: "Whole organism",
+    hint: "cm–m",
+    copy: "Whole bodies, embryos and museum specimens — one organism at a time.",
+  },
+  {
+    id: "Populations",
+    label: "Populations",
+    hint: "many",
+    copy: "Comparative libraries of many individuals or species, used to study variation rather than one specimen.",
+  },
+] as const;
+
+export const STRUCTURE_SPECIES = [
+  { id: "Human", common: "Human", scientific: "Homo sapiens", group: "Common" },
+  { id: "Mouse", common: "Mouse", scientific: "Mus musculus", group: "Common" },
+  { id: "Rat", common: "Rat", scientific: "Rattus norvegicus", group: "Common" },
+  { id: "Zebrafish", common: "Zebrafish", scientific: "Danio rerio", group: "Common" },
+  { id: "Drosophila", common: "Drosophila", scientific: "Drosophila melanogaster", group: "Model organisms" },
+  { id: "C. elegans", common: "C. elegans", scientific: "Caenorhabditis elegans", group: "Model organisms" },
+  { id: "Arabidopsis", common: "Arabidopsis", scientific: "Arabidopsis thaliana", group: "Model organisms" },
+  { id: "E. coli", common: "E. coli", scientific: "Escherichia coli", group: "Model organisms" },
+] as const;
+
+const WORLDWIDE_STRUCTURE_SPECIES = [
+  "Human",
+  "Mouse",
+  "Rat",
+  "Zebrafish",
+  "Drosophila",
+  "C. elegans",
+  "Arabidopsis",
+  "E. coli",
+];
+
+export const STRUCTURE_JOURNEYS = [
+  {
+    id: "protein",
+    kicker: "Explore a protein",
+    title: "Sequence → Structure → Function → Interactions",
+    scale: "Molecules",
+    query: "",
+    tag: "Proteins",
+  },
+  {
+    id: "cell",
+    kicker: "Explore a cell",
+    title: "Cell type → Morphology → Expression → Tissue",
+    scale: "Cells",
+    query: "",
+    tag: "",
+  },
+  {
+    id: "body",
+    kicker: "Explore the human body",
+    title: "Organ → Tissue → Cell → Molecular mechanisms",
+    scale: "Organisms",
+    query: "human",
+    tag: "",
+  },
+  {
+    id: "development",
+    kicker: "Explore development",
+    title: "Developmental stage → Anatomy → Cells → Gene expression",
+    scale: "",
+    query: "",
+    tag: "Development",
+  },
+] as const;
+
+export type ResourceEnrichment = {
+  scales?: string[];
+  bestFor?: string;
+  resourceTypes?: string[];
+  modalities?: string[];
+  dataTypes?: string[];
+  capabilities?: string[];
+  tags?: string[];
+  species?: string[];
+  relatedResources?: string[];
+  relatedModels?: string[];
+  learningTopics?: string[];
+};
+
+const LEGACY_DEFAULTS: Record<string, ResourceEnrichment> = {
+  Molecules: {
+    scales: ["Molecules"],
+    resourceTypes: ["Database", "Structure repository"],
+    tags: ["Proteins"],
+    capabilities: ["3D viewer", "Search", "Download"],
+  },
+  Cells: {
+    scales: ["Cells"],
+    resourceTypes: ["Database", "Image archive"],
+    tags: ["Microscopy"],
+    capabilities: ["Volume browser", "Download"],
+  },
+  Brains: {
+    scales: ["Organs"],
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Imaging"],
+    capabilities: ["3D viewer"],
+  },
+  "Human body": {
+    scales: ["Organisms", "Organs"],
+    resourceTypes: ["Atlas"],
+    tags: ["Anatomy"],
+    capabilities: ["3D viewer"],
+  },
+  Development: {
+    scales: ["Organisms"],
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+    capabilities: ["3D viewer"],
+  },
+  Specimens: {
+    scales: ["Organisms"],
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+    capabilities: ["3D viewer", "Download"],
+  },
+  "Shared viewers": {
+    scales: ["Organisms", "Organs", "Molecules"],
+    resourceTypes: ["Viewer"],
+    tags: ["3D viewers"],
+    capabilities: ["3D viewer"],
+  },
+  "Imaging volumes": {
+    scales: ["Organs"],
+    resourceTypes: ["Image archive"],
+    tags: ["Volumetric imaging", "Imaging"],
+    capabilities: ["Volume browser", "Download"],
+  },
+};
+
+const STRUCTURE_MODELS = ["alphafold-3", "alphafold-2", "esmfold", "boltz-1", "chai-1", "rfdiffusion"];
+const CELL_MODELS = ["scgpt", "geneformer"];
+
+export const RESOURCE_ATLAS: Record<string, ResourceEnrichment> = {
+  "rcsb-pdb": {
+    scales: ["Molecules"],
+    bestFor: "Finding experimentally determined molecular structures.",
+    resourceTypes: ["Database", "Structure repository"],
+    modalities: ["X-ray crystallography", "Cryo-EM", "NMR"],
+    dataTypes: ["Protein structures", "Nucleic-acid structures", "Complexes"],
+    capabilities: ["3D viewer", "Coordinates", "Search", "Download"],
+    tags: ["Proteins", "Experimental structures"],
+    relatedResources: ["alphafold-db", "emdb", "pdbe"],
+    relatedModels: STRUCTURE_MODELS,
+    learningTopics: ["Protein structure"],
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  pdbe: {
+    scales: ["Molecules"],
+    bestFor: "Browsing the same PDB archive through the European entry point.",
+    resourceTypes: ["Database", "Structure repository"],
+    modalities: ["X-ray crystallography", "Cryo-EM", "NMR"],
+    dataTypes: ["Protein structures", "Nucleic-acid structures", "Complexes"],
+    capabilities: ["3D viewer", "Coordinates", "Search", "Download"],
+    tags: ["Proteins", "Experimental structures"],
+    relatedResources: ["rcsb-pdb", "emdb", "alphafold-db"],
+    relatedModels: STRUCTURE_MODELS,
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  pdbj: {
+    scales: ["Molecules"],
+    bestFor: "Using the Asian PDB portal, including EM and NMR services.",
+    resourceTypes: ["Database", "Structure repository"],
+    modalities: ["X-ray crystallography", "Cryo-EM", "NMR"],
+    tags: ["Proteins", "Experimental structures"],
+    relatedModels: STRUCTURE_MODELS,
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  emdb: {
+    scales: ["Molecules"],
+    bestFor: "Opening cryo-EM density maps and the models fitted into them.",
+    resourceTypes: ["Database", "Structure repository"],
+    modalities: ["Cryo-EM"],
+    dataTypes: ["Density maps", "Fitted models"],
+    capabilities: ["3D viewer", "Download"],
+    tags: ["Experimental structures", "Volumetric imaging"],
+    relatedResources: ["empiar", "rcsb-pdb"],
+    relatedModels: ["alphafold-3", "boltz-1"],
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  empiar: {
+    scales: ["Molecules", "Cells"],
+    bestFor: "Downloading the raw cryo-EM images behind published maps.",
+    resourceTypes: ["Image archive"],
+    modalities: ["Cryo-EM"],
+    dataTypes: ["Tilt series", "Tomograms", "Micrographs"],
+    tags: ["Experimental structures", "Volumetric imaging"],
+    relatedResources: ["emdb"],
+  },
+  "alphafold-db": {
+    scales: ["Molecules"],
+    bestFor: "Looking up a predicted protein structure from a UniProt sequence.",
+    resourceTypes: ["Database", "Predicted structures"],
+    dataTypes: ["Predicted protein structures"],
+    capabilities: ["3D viewer", "Coordinates", "Search", "Download"],
+    tags: ["Proteins", "Predicted structures"],
+    relatedResources: ["rcsb-pdb", "esm-atlas"],
+    relatedModels: ["alphafold-3", "alphafold-2", "alphafold-multimer"],
+    learningTopics: ["Protein structure prediction"],
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  "esm-atlas": {
+    scales: ["Molecules"],
+    bestFor: "Exploring predicted structures for metagenomic proteins.",
+    resourceTypes: ["Database", "Predicted structures"],
+    dataTypes: ["Predicted protein structures"],
+    tags: ["Proteins", "Predicted structures"],
+    relatedModels: ["esmfold", "esmfold2"],
+  },
+  "swiss-model-repository": {
+    scales: ["Molecules"],
+    bestFor: "Comparing homology models with experimental PDB entries.",
+    resourceTypes: ["Database", "Predicted structures"],
+    tags: ["Proteins", "Predicted structures"],
+    relatedModels: ["alphafold-3", "esmfold"],
+    species: WORLDWIDE_STRUCTURE_SPECIES,
+  },
+  modelarchive: {
+    scales: ["Molecules"],
+    bestFor: "Finding deposited computational models that are not in the PDB.",
+    resourceTypes: ["Structure repository", "Predicted structures"],
+    tags: ["Proteins", "Predicted structures"],
+    relatedModels: STRUCTURE_MODELS,
+  },
+  pubchem: {
+    scales: ["Molecules"],
+    bestFor: "Looking up small-molecule 3D conformers, drugs and metabolites.",
+    resourceTypes: ["Database"],
+    dataTypes: ["Small-molecule conformers"],
+    tags: ["Small molecules"],
+    capabilities: ["3D viewer", "Search", "Download"],
+  },
+  "ncbi-structure": {
+    scales: ["Molecules"],
+    bestFor: "Opening macromolecules in iCn3D next to sequence and taxonomy records.",
+    resourceTypes: ["Database"],
+    tags: ["Proteins", "Experimental structures"],
+    relatedModels: ["alphafold-3"],
+  },
+  viperdb: {
+    scales: ["Molecules"],
+    bestFor: "Studying icosahedral virus capsids built from PDB entries.",
+    resourceTypes: ["Database"],
+    modalities: ["Cryo-EM"],
+    dataTypes: ["Capsid coordinates"],
+    tags: ["Molecular complexes", "Experimental structures"],
+  },
+  "pdb-101": {
+    scales: ["Molecules"],
+    bestFor: "Learning molecular stories from curated PDB scenes.",
+    resourceTypes: ["Learning resource"],
+    tags: ["Proteins", "Learning"],
+    learningTopics: ["Protein structure"],
+  },
+  proteopedia: {
+    scales: ["Molecules"],
+    bestFor: "Reading annotated 3D scenes of macromolecules.",
+    resourceTypes: ["Learning resource"],
+    tags: ["Proteins", "Learning"],
+    learningTopics: ["Protein structure"],
+  },
+  "protein-ensemble-database": {
+    scales: ["Molecules"],
+    bestFor: "Inspecting conformational ensembles instead of one static model.",
+    resourceTypes: ["Database"],
+    dataTypes: ["Conformational ensembles"],
+    tags: ["Proteins"],
+  },
+  openorganelle: {
+    scales: ["Organelles", "Cells"],
+    bestFor: "Browsing whole-cell FIB-SEM volumes with organelle segmentations.",
+    resourceTypes: ["Image archive"],
+    modalities: ["Volume electron microscopy"],
+    tags: ["Microscopy", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  "allen-cell-explorer": {
+    scales: ["Cells", "Organelles"],
+    bestFor: "Exploring 3D human stem-cell morphology and tagged organelles.",
+    resourceTypes: ["Atlas"],
+    tags: ["Cell types", "Cellular morphology"],
+    species: ["Human"],
+    relatedModels: CELL_MODELS,
+  },
+  cellpack: {
+    scales: ["Cells", "Molecules"],
+    bestFor: "Seeing molecular structures packed into cell-scale geometry.",
+    resourceTypes: ["Tool"],
+    tags: ["Mesoscale"],
+  },
+  "cryoet-data-portal": {
+    scales: ["Cells", "Molecules"],
+    bestFor: "Opening annotated cryo-electron tomograms in cellular context.",
+    resourceTypes: ["Image archive"],
+    modalities: ["Cryo-ET"],
+    tags: ["Microscopy", "Volumetric imaging"],
+  },
+  "cell-image-library": {
+    scales: ["Cells", "Organelles"],
+    bestFor: "Finding public cell images, including some 3D datasets.",
+    resourceTypes: ["Image archive"],
+    tags: ["Microscopy"],
+    relatedModels: CELL_MODELS,
+  },
+  "image-data-resource": {
+    scales: ["Cells", "Tissues"],
+    bestFor: "Reading published light-microscopy studies, many of them 3D.",
+    resourceTypes: ["Image archive"],
+    modalities: ["Light microscopy"],
+    tags: ["Microscopy"],
+    relatedModels: CELL_MODELS,
+  },
+  "bioimage-archive": {
+    scales: ["Cells", "Tissues"],
+    bestFor: "Depositing or browsing biological images that lack a specialist home.",
+    resourceTypes: ["Image archive"],
+    tags: ["Microscopy"],
+  },
+  neuromorpho: {
+    scales: ["Cells", "Organs"],
+    bestFor: "Downloading reconstructed neurons and glia.",
+    resourceTypes: ["Database"],
+    dataTypes: ["Neuron reconstructions"],
+    tags: ["Cellular morphology"],
+  },
+  "allen-brain-map": {
+    scales: ["Organs", "Tissues"],
+    bestFor: "Using reference mouse and human brain atlases.",
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Brain"],
+    species: ["Mouse", "Human"],
+  },
+  "ebrains-atlases": {
+    scales: ["Organs"],
+    bestFor: "Comparing human, macaque, rat and mouse brain templates in one viewer.",
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Brain"],
+  },
+  bigbrain: {
+    scales: ["Organs"],
+    bestFor: "Inspecting a 20-micrometer reconstruction of one human brain.",
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Brain", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  "scalable-brain-atlas": {
+    scales: ["Organs"],
+    bestFor: "Switching between many species templates on one coordinate viewer.",
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Brain"],
+  },
+  "blue-brain-cell-atlas": {
+    scales: ["Organs", "Cells"],
+    bestFor: "Seeing neuron and glia densities across the mouse brain.",
+    resourceTypes: ["Atlas"],
+    tags: ["Brain", "Cell types"],
+    species: ["Mouse"],
+  },
+  "microns-explorer": {
+    scales: ["Organs", "Cells"],
+    bestFor: "Exploring a mouse visual-cortex volume with reconstructed synapses.",
+    resourceTypes: ["Connectome"],
+    tags: ["Brain", "Volumetric imaging"],
+    species: ["Mouse"],
+  },
+  "h01-human-cortex": {
+    scales: ["Organs", "Tissues"],
+    bestFor: "Opening one cubic millimeter of human temporal cortex.",
+    resourceTypes: ["Connectome"],
+    tags: ["Brain", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  "flywire-codex": {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Querying the adult fruit-fly brain connectome.",
+    resourceTypes: ["Connectome"],
+    tags: ["Brain"],
+    species: ["Drosophila"],
+  },
+  "virtual-fly-brain": {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Registering Drosophila neurons to template brains.",
+    resourceTypes: ["Atlas"],
+    tags: ["Brain"],
+    species: ["Drosophila"],
+  },
+  neuprint: {
+    scales: ["Organs"],
+    bestFor: "Querying Janelia fly connectomes, including the hemibrain.",
+    resourceTypes: ["Connectome"],
+    tags: ["Brain"],
+    species: ["Drosophila"],
+  },
+  mapzebrain: {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Browsing the larval zebrafish brain atlas and its EM volume.",
+    resourceTypes: ["Atlas"],
+    tags: ["Brain", "Development"],
+    species: ["Zebrafish"],
+  },
+  mouselight: {
+    scales: ["Cells", "Organs"],
+    bestFor: "Following complete single-neuron reconstructions through the mouse brain.",
+    resourceTypes: ["Database"],
+    tags: ["Brain", "Cellular morphology"],
+    species: ["Mouse"],
+  },
+  bossdb: {
+    scales: ["Organs"],
+    bestFor: "Hosting and viewing large volumetric EM connectomes.",
+    resourceTypes: ["Image archive"],
+    tags: ["Brain", "Volumetric imaging"],
+  },
+  wormatlas: {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Learning C. elegans anatomy, including the nervous system.",
+    resourceTypes: ["Atlas"],
+    tags: ["Anatomy", "Model organisms"],
+    species: ["C. elegans"],
+  },
+  wormwiring: {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Inspecting C. elegans synaptic wiring from electron microscopy.",
+    resourceTypes: ["Connectome"],
+    species: ["C. elegans"],
+  },
+  "openworm-browser": {
+    scales: ["Organisms"],
+    bestFor: "Opening an open 3D model and simulation of C. elegans.",
+    resourceTypes: ["Tool"],
+    species: ["C. elegans"],
+  },
+  "nih-3d": {
+    scales: ["Organisms", "Organs", "Molecules"],
+    bestFor: "Starting from a broad public library of printable bioscience models.",
+    resourceTypes: ["Library"],
+    tags: ["Anatomy", "3D viewers"],
+    species: ["Human"],
+  },
+  "visible-human-project": {
+    scales: ["Organisms"],
+    bestFor: "Using the public-domain cryosection, CT and MRI of one male and one female body.",
+    resourceTypes: ["Image archive"],
+    tags: ["Anatomy", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  bodyparts3d: {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Downloading labeled adult male organs as mesh files.",
+    resourceTypes: ["Atlas"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  anatomytool: {
+    scales: ["Organisms"],
+    bestFor: "Browsing an open human anatomy model from LUMC.",
+    resourceTypes: ["Atlas"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "open-anatomy": {
+    scales: ["Organs"],
+    bestFor: "Downloading regional anatomy atlases, including brain and head and neck.",
+    resourceTypes: ["Atlas"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "human-organ-atlas": {
+    scales: ["Organs", "Tissues"],
+    bestFor: "Exploring synchrotron scans of intact human organs.",
+    resourceTypes: ["Atlas"],
+    modalities: ["Synchrotron X-ray"],
+    tags: ["Atlases", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  "human-reference-atlas": {
+    scales: ["Tissues", "Organs"],
+    bestFor: "Linking 3D reference organs to HuBMAP cell data.",
+    resourceTypes: ["Atlas"],
+    tags: ["Atlases", "Spatial biology"],
+    species: ["Human"],
+    relatedModels: CELL_MODELS,
+  },
+  "hubmap-data-portal": {
+    scales: ["Tissues", "Organs"],
+    bestFor: "Walking tissue maps from the whole body down to a sample.",
+    resourceTypes: ["Atlas"],
+    tags: ["Spatial biology", "Atlases"],
+    species: ["Human"],
+    relatedModels: CELL_MODELS,
+  },
+  "itis-virtual-population": {
+    scales: ["Organisms", "Populations"],
+    bestFor: "Using computational whole-body models of men, women and children.",
+    resourceTypes: ["Model library"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "cardiac-atlas-project": {
+    scales: ["Organs"],
+    bestFor: "Working with 3D heart models and cardiac imaging cohorts.",
+    resourceTypes: ["Atlas"],
+    tags: ["Heart"],
+    species: ["Human"],
+  },
+  lungmap: {
+    scales: ["Organs", "Tissues"],
+    bestFor: "Exploring developing and adult lung as imaging and spatial data.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development", "Spatial biology"],
+    species: ["Human"],
+  },
+  gudmap: {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Opening genitourinary development anatomy, including 3D kidney views.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+  },
+  facebase: {
+    scales: ["Tissues", "Organisms"],
+    bestFor: "Studying craniofacial development, including 3D face morphology.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+  },
+  "embodi3d-library": {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Finding community medical meshes segmented from patient imaging.",
+    resourceTypes: ["Library"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "biodigital-human": {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Teaching or presenting interactive male, female and pediatric anatomy.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy", "3D viewers"],
+    species: ["Human"],
+  },
+  "zygote-body": {
+    scales: ["Organisms"],
+    bestFor: "A browser anatomy model descended from Google Body.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy", "3D viewers"],
+    species: ["Human"],
+  },
+  "visible-body-atlas": {
+    scales: ["Organisms"],
+    bestFor: "Commercial anatomy apps covering body, muscle and physiology.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "complete-anatomy": {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Detailed regional anatomy for teaching licenses.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "3d-organon-anatomy": {
+    scales: ["Organisms"],
+    bestFor: "Commercial anatomy models, including virtual reality.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "imaios-e-anatomy": {
+    scales: ["Organisms", "Organs"],
+    bestFor: "Cross-sectional anatomy aimed at radiology teaching.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "primal-pictures-anatomy": {
+    scales: ["Organisms"],
+    bestFor: "A long-running commercial 3D anatomy library used in universities.",
+    resourceTypes: ["Viewer"],
+    tags: ["Anatomy"],
+    species: ["Human"],
+  },
+  "3d-atlas-of-human-embryology": {
+    scales: ["Organisms"],
+    bestFor: "Walking human embryos from Carnegie stages 7 to 23.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+    species: ["Human"],
+  },
+  "anatomy-portal": {
+    scales: ["Organisms"],
+    bestFor: "Browsing optical projection tomography of zebrafish and quail embryos.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+    species: ["Zebrafish", "Quail"],
+  },
+  emouseatlas: {
+    scales: ["Organisms"],
+    bestFor: "Using the Edinburgh 3D mouse embryo atlas and gene-expression resource.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development"],
+    species: ["Mouse"],
+  },
+  "allen-developing-mouse-brain": {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Following the developing mouse brain across ages.",
+    resourceTypes: ["Atlas"],
+    tags: ["Development", "Brain"],
+    species: ["Mouse"],
+  },
+  morphosource: {
+    scales: ["Organisms", "Populations"],
+    bestFor: "Finding CT, MRI and surface meshes of biological specimens.",
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+  },
+  phenome10k: {
+    scales: ["Organisms", "Populations"],
+    bestFor: "Downloading STL scans of biological and fossil specimens for education.",
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+  },
+  digimorph: {
+    scales: ["Organisms", "Populations"],
+    bestFor: "Browsing CT visualizations of living and extinct vertebrates.",
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+  },
+  morphomuseum: {
+    scales: ["Organisms"],
+    bestFor: "Reading peer-reviewed vertebrate 3D models, including type specimens.",
+    resourceTypes: ["Journal"],
+    tags: ["Specimens"],
+  },
+  "aves-3d": {
+    scales: ["Organisms"],
+    bestFor: "Inspecting avian skeletal elements, including the Thirioux dodo.",
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+    species: ["Birds"],
+  },
+  "gb3d-type-fossils": {
+    scales: ["Organisms"],
+    bestFor: "Opening British fossil type specimens as photographs and surfaces.",
+    resourceTypes: ["Specimen archive"],
+    tags: ["Specimens"],
+  },
+  "smithsonian-3d": {
+    scales: ["Organisms"],
+    bestFor: "Viewing Smithsonian scans of natural-history specimens and fossils.",
+    resourceTypes: ["Library"],
+    tags: ["Specimens", "3D viewers"],
+  },
+  morphobank: {
+    scales: ["Organisms", "Populations"],
+    bestFor: "Working with morphological matrices that sometimes include 3D files.",
+    resourceTypes: ["Database"],
+    tags: ["Specimens"],
+  },
+  paldat: {
+    scales: ["Organisms", "Cells"],
+    bestFor: "Looking up pollen morphology; 3D meshes live mainly in NIH 3D.",
+    resourceTypes: ["Database"],
+    tags: ["Specimens"],
+  },
+  sketchfab: {
+    scales: ["Organisms", "Organs", "Molecules"],
+    bestFor: "Turning museum and anatomy models in a browser.",
+    resourceTypes: ["Viewer"],
+    tags: ["3D viewers"],
+  },
+  "wikimedia-commons": {
+    scales: ["Organisms", "Organs", "Molecules"],
+    bestFor: "Reusing open GLB and STL anatomy and biology models.",
+    resourceTypes: ["Library"],
+    tags: ["3D viewers"],
+  },
+  "print-marketplaces": {
+    scales: ["Organisms"],
+    bestFor: "Finding printable anatomy models — scientific provenance varies.",
+    resourceTypes: ["Library"],
+    tags: ["3D viewers"],
+  },
+  "cancer-imaging-archive": {
+    scales: ["Organs", "Organisms"],
+    bestFor: "Downloading de-identified CT, MRI and PET of human bodies and tumors.",
+    resourceTypes: ["Image archive"],
+    modalities: ["CT", "MRI", "PET"],
+    tags: ["Volumetric imaging"],
+    species: ["Human"],
+  },
+  "imaging-data-commons": {
+    scales: ["Organs"],
+    bestFor: "Working with NCI cancer imaging collections in the cloud.",
+    resourceTypes: ["Image archive"],
+    tags: ["Volumetric imaging"],
+    species: ["Human"],
+  },
+  "human-connectome-project": {
+    scales: ["Organs"],
+    bestFor: "Using high-resolution MRI of healthy adult human brains.",
+    resourceTypes: ["Image archive"],
+    modalities: ["MRI"],
+    tags: ["Brain", "Volumetric imaging"],
+    species: ["Human"],
+  },
+  openneuro: {
+    scales: ["Organs"],
+    bestFor: "Finding public neuroimaging datasets shared by labs.",
+    resourceTypes: ["Image archive"],
+    modalities: ["MRI"],
+    tags: ["Brain", "Volumetric imaging"],
+  },
+};
+
+function unique(values: Array<string | undefined | null>) {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))];
+}
+
+export function primaryScale(scales: string[]) {
+  return BIOLOGICAL_SCALES.find((scale) => scales.includes(scale.id))?.id || scales[0] || "Molecules";
+}
+
+export function enrichStructureRecord(row: {
+  slug: string;
+  scale: string;
+  mediaKind?: string;
+  methods?: string[];
+  summary?: string;
+}) {
+  const legacy = LEGACY_DEFAULTS[row.scale] || { scales: ["Organisms"] };
+  const extra = RESOURCE_ATLAS[row.slug] || {};
+  const scales = extra.scales || legacy.scales || ["Organisms"];
+  const modalities = unique([...(extra.modalities || []), ...(row.methods || []), ...(legacy.modalities || [])]);
+  const capabilities = unique([
+    ...(extra.capabilities || legacy.capabilities || []),
+    row.mediaKind === "coordinates" ? "Coordinates" : "",
+    row.mediaKind === "volume" ? "Volume browser" : "",
+    row.mediaKind === "mesh" ? "Mesh download" : "",
+  ]);
+  return {
+    scales,
+    scale: primaryScale(scales),
+    bestFor: extra.bestFor || "",
+    resourceTypes: extra.resourceTypes || legacy.resourceTypes || ["Database"],
+    modalities,
+    dataTypes: extra.dataTypes || [],
+    capabilities,
+    tags: unique([...(extra.tags || []), ...(legacy.tags || [])]),
+    species: extra.species || [],
+    relatedResources: extra.relatedResources || [],
+    relatedModels: extra.relatedModels || [],
+    learningTopics: extra.learningTopics || [],
+  };
+}

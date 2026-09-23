@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import Script from "next/script";
 import "./globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -43,8 +42,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body>
         {children}
-        <Script src="/data/data.js?v=20260804-1" strategy="beforeInteractive" />
-        <Script src="/data/videos.js?v=20260804-1" strategy="beforeInteractive" />
       </body>
     </html>
   );
