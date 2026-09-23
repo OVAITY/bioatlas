@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Script src="/app.js?v=20260923-6" strategy="afterInteractive" />
+      <Script src="/app.js?v=20260923-7" strategy="afterInteractive" />
     </>
   );
 }

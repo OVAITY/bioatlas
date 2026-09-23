@@ -5,12 +5,23 @@ import {
   providerLogo,
 } from "./biorodeo-catalogue";
 import { isDatabaseConfigured, getSql } from "./db";
+import { getPackagedAtlas, getPackagedVideos } from "./packaged-atlas";
 import {
   loadStructureCatalogueFile,
   structureAtlasMeta,
   structureCardsFromFile,
   type StructureCard,
 } from "./structures-catalogue";
+
+async function withDatabase<T>(fallback: () => T | Promise<T>, run: () => Promise<T>): Promise<T> {
+  if (!isDatabaseConfigured()) return fallback();
+  try {
+    return await run();
+  } catch (error) {
+    console.error("[bioatlas] database query failed; using packaged data", error);
+    return fallback();
+  }
+}
 
 type Sql = ReturnType<typeof getSql>;
 
@@ -103,6 +114,10 @@ async function relatedFor(sql: Sql, entityIds: string[]) {
 }
 
 export async function getAtlasPayload() {
+  return withDatabase(getPackagedAtlas, loadAtlasPayloadFromDatabase);
+}
+
+async function loadAtlasPayloadFromDatabase() {
   const sql = getSql();
   const concepts = await sql`
     SELECT e.id, e.name, e.slug, c.*, x.value AS legacy_id, d.name AS domain
@@ -293,6 +308,10 @@ export async function getAtlasPayload() {
 }
 
 export async function getVideosPayload() {
+  return withDatabase(getPackagedVideos, loadVideosPayloadFromDatabase);
+}
+
+async function loadVideosPayloadFromDatabase() {
   const sql = getSql();
   const rows = await sql`
     SELECT x.value AS legacy_id, m.title, m.url, m.channel
@@ -313,6 +332,13 @@ export async function getVideosPayload() {
 }
 
 export async function getNeighbors(ref: string, depth = 1): Promise<{ center: Record<string, unknown> | null; neighbors: Neighbor[] }> {
+  return withDatabase(
+    () => ({ center: null, neighbors: [] }),
+    () => loadNeighborsFromDatabase(ref, depth),
+  );
+}
+
+async function loadNeighborsFromDatabase(ref: string, depth = 1): Promise<{ center: Record<string, unknown> | null; neighbors: Neighbor[] }> {
   const center = await resolveEntityRef(ref);
   if (!center) return { center: null, neighbors: [] };
   const sql = getSql();
@@ -382,6 +408,10 @@ export async function getNeighbors(ref: string, depth = 1): Promise<{ center: Re
 }
 
 export async function searchEntities(query: string, embedding?: number[]) {
+  return withDatabase(() => [], () => loadSearchFromDatabase(query, embedding));
+}
+
+async function loadSearchFromDatabase(query: string, embedding?: number[]) {
   const sql = getSql();
   const trimmed = query.trim();
   if (!trimmed && !embedding?.length) return [];
@@ -622,6 +652,13 @@ async function collectionNeighbors(sql: Sql, slugs: string[]) {
 }
 
 export async function getKnowledgeGraph() {
+  return withDatabase(
+    () => assembleKnowledgeGraph(new Map(), []),
+    loadKnowledgeGraphFromDatabase,
+  );
+}
+
+async function loadKnowledgeGraphFromDatabase() {
   const sql = getSql();
   const entities = await sql`
     SELECT e.id, e.slug, e.name, e.entity_type, e.summary, x.value AS legacy_id
@@ -658,6 +695,13 @@ export async function getKnowledgeGraph() {
     relationType: row.relation_type as string,
   }));
 
+  return assembleKnowledgeGraph(nodes, edges);
+}
+
+function assembleKnowledgeGraph(
+  nodes: Map<string, Record<string, unknown>>,
+  edges: { from: string; to: string; relationType: string }[],
+) {
   if (hasBiorodeoCatalogue()) {
     const catalogue = loadBiorodeoCatalogue();
     for (const provider of catalogue.providers) {
@@ -798,6 +842,10 @@ export async function getKnowledgeGraph() {
 }
 
 export async function getEventFeed() {
+  return withDatabase(() => [], loadEventFeedFromDatabase);
+}
+
+async function loadEventFeedFromDatabase() {
   const sql = getSql();
   const rows = await sql`
     SELECT e.id, e.slug, e.name, e.summary, ev.event_type, ev.occurred_on, ev.body

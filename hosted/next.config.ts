@@ -2,6 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   serverExternalPackages: ["postgres"],
+  outputFileTracingIncludes: {
+    "/api/**/*": [
+      "./public/data/**/*",
+      "./data/**/*",
+    ],
+  },
   async headers() {
     return [
       {

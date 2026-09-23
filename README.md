@@ -43,7 +43,7 @@ The collection covers biological concepts, scientific terminology, laboratory an
 
 ## Getting started
 
-The application requires Node.js `>=22.13.0`, npm, and PostgreSQL 16 with pgvector. Docker Compose starts the database on host port `5434`.
+The application requires Node.js `>=22.13.0` and npm. Local development also uses PostgreSQL 16 with pgvector; Docker Compose starts the database on host port `5434`. A Vercel deploy boots from packaged catalogues without `DATABASE_URL`.
 
 ```bash
 docker compose up -d

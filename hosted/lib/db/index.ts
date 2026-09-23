@@ -14,9 +14,20 @@ export function getDatabaseUrl(): string {
   return url;
 }
 
+function postgresOptions(url: string) {
+  const local = /localhost|127\.0\.0\.1/.test(url);
+  return {
+    max: process.env.VERCEL ? 1 : 10,
+    idle_timeout: 20,
+    connect_timeout: 10,
+    ssl: local ? undefined : ("require" as const),
+  };
+}
+
 export function getSql() {
   if (!globalForDb.sql) {
-    globalForDb.sql = postgres(getDatabaseUrl(), { max: 10 });
+    const url = getDatabaseUrl();
+    globalForDb.sql = postgres(url, postgresOptions(url));
   }
   return globalForDb.sql;
 }

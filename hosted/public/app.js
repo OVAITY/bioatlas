@@ -80,7 +80,7 @@
       ]);
       if (window.__bioatlasBootToken !== bootToken) return;
       if (!atlasRes.ok) {
-        throw new Error("The knowledge graph API is unavailable. Start Postgres and import the workbook.");
+        throw new Error("The atlas catalogue could not be loaded. Reload the page, or check that /api/atlas is reachable.");
       }
       DATA = await atlasRes.json();
       if (window.__bioatlasBootToken !== bootToken) return;

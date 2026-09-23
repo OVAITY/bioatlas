@@ -51,7 +51,7 @@ test("ships the full BioAtlas-to-OVAITY CTA with accessible external links", asy
 
   assert.doesNotMatch(layout, /data\/data\.js/);
   assert.doesNotMatch(layout, /data\/videos\.js/);
-  assert.match(page, /app\.js\?v=20260923-6" strategy="afterInteractive"/);
+  assert.match(page, /app\.js\?v=20260923-7" strategy="afterInteractive"/);
   assert.match(app, /visibleAtlasGraph/);
   assert.match(app, /atlasSpineSeeds/);
   assert.match(app, /openExplorerNode/);
@@ -209,4 +209,37 @@ test("includes the scraped bio.rodeo foundation-model catalogue", async () => {
   assert.match(nvidia, /NVIDIA/);
   assert.match(aws, /#FF9900/);
   assert.match(benchling, /#000650/);
+});
+
+test("serves packaged catalogues on Vercel without Postgres", async () => {
+  const [atlasRoute, videosRoute, eventsRoute, graphRoute, queries, packaged] = await Promise.all([
+    readFile(new URL("../app/api/atlas/route.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/videos/route.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/events/route.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/graph/route.ts", import.meta.url), "utf8"),
+    readFile(new URL("../lib/queries.ts", import.meta.url), "utf8"),
+    readFile(new URL("../lib/packaged-atlas.ts", import.meta.url), "utf8"),
+  ]);
+  assert.doesNotMatch(atlasRoute, /databaseUnavailable/);
+  assert.doesNotMatch(videosRoute, /databaseUnavailable/);
+  assert.doesNotMatch(eventsRoute, /databaseUnavailable/);
+  assert.doesNotMatch(graphRoute, /databaseUnavailable/);
+  assert.match(queries, /getPackagedAtlas/);
+  assert.match(queries, /getPackagedVideos/);
+  assert.match(packaged, /parseWindowAssign/);
+  assert.match(packaged, /resolvePublicData\("data.js"\)/);
+  assert.match(packaged, /resolvePublicData\("videos.js"\)/);
+  const nextConfig = await readFile(new URL("../next.config.ts", import.meta.url), "utf8");
+  assert.match(nextConfig, /outputFileTracingIncludes/);
+  assert.match(nextConfig, /public\/data/);
+
+  const dataJs = await readFile(new URL("../public/data/data.js", import.meta.url), "utf8");
+  const start = dataJs.indexOf("window.DATA =");
+  assert.ok(start >= 0);
+  let json = dataJs.slice(start + "window.DATA =".length).trim();
+  if (json.endsWith(";")) json = json.slice(0, -1);
+  const data = JSON.parse(json);
+  assert.ok(data.glossary.length > 300);
+  assert.ok(data.methodologies.length > 50);
+  assert.ok(data.learningPath.length >= 8);
 });
