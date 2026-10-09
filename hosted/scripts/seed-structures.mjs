@@ -49,6 +49,7 @@ const MODEL_LINKS = {
   "esm-atlas": ["esmfold", "esmfold2"],
   "swiss-model-repository": ["alphafold-3", "esmfold"],
   modelarchive: ["alphafold-3", "esmfold", "boltz-1"],
+  proteinbase: ["rfdiffusion", "boltz-1"],
   "ncbi-structure": ["alphafold-3"],
   "allen-cell-explorer": ["scgpt", "geneformer"],
   "cell-image-library": ["scgpt", "geneformer"],
@@ -63,7 +64,7 @@ function remapScale(scale) {
 
 const RELATED_GROUPS = [
   ["rcsb-pdb", "pdbe", "pdbj", "emdb", "empiar", "pdb-101", "ncbi-structure"],
-  ["alphafold-db", "esm-atlas", "swiss-model-repository", "modelarchive", "rcsb-pdb"],
+  ["alphafold-db", "esm-atlas", "swiss-model-repository", "modelarchive", "proteinbase", "rcsb-pdb"],
   ["openorganelle", "allen-cell-explorer", "cryoet-data-portal", "bioimage-archive", "image-data-resource"],
   ["flywire-codex", "virtual-fly-brain", "neuprint"],
   ["allen-brain-map", "allen-developing-mouse-brain", "microns-explorer", "mouselight", "blue-brain-cell-atlas"],

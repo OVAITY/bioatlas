@@ -174,6 +174,8 @@ test("includes the curated 3D structure portals", async () => {
   assert.ok(collections.length >= 70);
   const hubs = collections.filter((collection) => collection.isHub).map((collection) => collection.slug).sort();
   assert.deepEqual(hubs, ["morphosource", "nih-3d", "rcsb-pdb", "sketchfab"]);
+  assert.ok(collections.some((collection) => collection.slug === "proteinbase"));
+  assert.ok(catalogue.organizations.some((organization) => organization.slug === "adaptyv-bio"));
   for (const collection of collections) {
     assert.ok(collection.website.startsWith("http"), collection.slug);
     assert.ok(collection.summary.length > 40, collection.slug);
