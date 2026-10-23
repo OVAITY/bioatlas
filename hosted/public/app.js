@@ -892,14 +892,23 @@
     renderGrid();
   }
 
+  function normalizeSearchText(value) {
+    return String(value)
+      .toLowerCase()
+      .replace(/[\u002d\u2010\u2011]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   function matchesQuery(entry, q) {
     if (!q) return true;
-    const needle = q.toLowerCase();
+    const needle = normalizeSearchText(q);
+    if (!needle) return true;
     const haystack =
       entry.kind === "term"
         ? [entry.Term, entry.Acronym, entry.Definition, entry.Domain, entry["Related concepts"]]
         : [entry.Methodology, entry.Category, entry.Purpose, entry["Common tools / platforms"]];
-    return haystack.some((v) => v && String(v).toLowerCase().includes(needle));
+    return haystack.some((v) => v && normalizeSearchText(v).includes(needle));
   }
 
   function filteredEntries() {

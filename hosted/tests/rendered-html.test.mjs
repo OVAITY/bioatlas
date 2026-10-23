@@ -1,6 +1,136 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import vm from "node:vm";
+
+async function loadProductionSearch() {
+  const [app, dataSource] = await Promise.all([
+    readFile(new URL("../public/app.js", import.meta.url), "utf8"),
+    readFile(new URL("../public/data/data.js", import.meta.url), "utf8"),
+  ]);
+  const startMarker = "  function normalizeSearchText(value) {";
+  const endMarker = "  function renderGrid() {";
+  const start = app.indexOf(startMarker);
+  const end = app.indexOf(endMarker, start);
+  assert.notEqual(start, -1, "could not find the production search helper");
+  assert.notEqual(end, -1, "could not find the end of the production search block");
+  assert.ok(end > start, "production search block markers are out of order");
+
+  const dataStart = dataSource.indexOf("window.DATA =");
+  assert.ok(dataStart >= 0, "could not find the packaged atlas data");
+  let json = dataSource.slice(dataStart + "window.DATA =".length).trim();
+  if (json.endsWith(";")) json = json.slice(0, -1);
+  const data = JSON.parse(json);
+
+  const context = {
+    allEntries: [
+      ...data.glossary.map((entry) => ({ ...entry, kind: "term" })),
+      ...data.methodologies.map((entry) => ({ ...entry, kind: "method" })),
+    ],
+    glossaryState: { q: "", type: "", level: "", priority: "", domain: "", video: "" },
+    videos: {},
+    idFor: (entry) => entry.ID,
+  };
+  vm.runInNewContext(
+    `${app.slice(start, end)}\nthis.search = { normalizeSearchText, matchesQuery, filteredEntries };`,
+    context,
+    { filename: "public/app.js" },
+  );
+
+  return { data, context, search: context.search };
+}
+
+test("normalizes glossary queries and searchable values consistently", async () => {
+  const { data, search } = await loadProductionSearch();
+  const method = data.methodologies.find((entry) => entry.ID === 16);
+  assert.ok(method, "expected packaged methodology ID 16");
+  const originalName = method.Methodology;
+  const methodEntry = { ...method, kind: "method" };
+
+  for (const query of [
+    "single cell RNA sequencing",
+    "SINGLE-CELL RNA SEQUENCING",
+    "single‐cell RNA sequencing",
+    "single‑cell RNA sequencing",
+    "single - cell RNA sequencing",
+    " single  \tcell  RNA\n sequencing ",
+  ]) {
+    assert.equal(search.matchesQuery(methodEntry, query), true, query);
+  }
+  assert.equal(search.matchesQuery(methodEntry, "cell RNA"), true);
+
+  const mixedWhitespace = {
+    kind: "method",
+    Methodology: "Single‑ cell\r\nRNA\tsequencing",
+  };
+  const fixtureSnapshot = structuredClone(mixedWhitespace);
+  assert.equal(search.matchesQuery(mixedWhitespace, " single   cell RNA sequencing "), true);
+  assert.equal(mixedWhitespace.Methodology, fixtureSnapshot.Methodology);
+  assert.equal(method.Methodology, originalName);
+
+  for (const query of ["", " \t\u00a0\n", "---", " \u2010\u2011 "]) {
+    assert.equal(search.matchesQuery({ kind: "method" }, query), true, JSON.stringify(query));
+  }
+  assert.equal(search.normalizeSearchText("single--cell"), "single cell");
+  assert.equal(search.normalizeSearchText("single - cell"), "single cell");
+});
+
+test("preserves searchable fields, substring matching, filters, and scientific punctuation", async () => {
+  const { data, context, search } = await loadProductionSearch();
+
+  for (const field of ["Term", "Acronym", "Definition", "Domain", "Related concepts"]) {
+    assert.equal(search.matchesQuery({ kind: "term", [field]: "A searchable Needle value" }, "needle"), true, field);
+  }
+  for (const field of ["Methodology", "Category", "Purpose", "Common tools / platforms"]) {
+    assert.equal(search.matchesQuery({ kind: "method", [field]: "A searchable Needle value" }, "needle"), true, field);
+  }
+  assert.equal(search.matchesQuery({ kind: "term", Example: "needle" }, "needle"), false);
+  assert.equal(search.matchesQuery({ kind: "term", Term: null, Acronym: "", Definition: undefined }, "needle"), false);
+
+  assert.equal(search.matchesQuery({ kind: "term", Term: "CD4" }, "CD4+"), false);
+  assert.equal(search.matchesQuery({ kind: "term", Term: "CD4+" }, "CD4"), true);
+  assert.equal(search.matchesQuery({ kind: "term", Term: "p.His92Arg" }, "pHis92Arg"), false);
+  assert.equal(search.matchesQuery({ kind: "term", Term: "α-synuclein" }, "α synuclein"), true);
+  assert.equal(search.matchesQuery({ kind: "term", Term: "β-synuclein" }, "α synuclein"), false);
+  for (const dash of ["−", "‒", "–", "—", "﹘", "－"]) {
+    assert.equal(search.matchesQuery({ kind: "term", Term: `p.Thr${dash}42` }, "p.Thr 42"), false, dash);
+    assert.equal(search.matchesQuery({ kind: "term", Term: `p.Thr${dash}42` }, "p.Thr42"), false, dash);
+  }
+
+  const methodCount = data.methodologies.length;
+  context.glossaryState.q = "single cell RNA";
+  context.glossaryState.type = "method";
+  context.glossaryState.level = "Core";
+  context.glossaryState.priority = "Essential";
+  context.glossaryState.domain = "Single-cell";
+  context.glossaryState.video = "curated";
+  context.videos[16] = true;
+  const isMethod16 = (entry) => entry.kind === "method" && entry.ID === 16;
+  assert.equal(search.filteredEntries().filter(isMethod16).length, 1);
+  for (const [filter, value] of [
+    ["type", "term"],
+    ["level", "Advanced"],
+    ["priority", "Optional"],
+    ["domain", "Not a domain"],
+    ["video", "search"],
+  ]) {
+    const current = context.glossaryState[filter];
+    context.glossaryState[filter] = value;
+    assert.equal(search.filteredEntries().some(isMethod16), false, `${filter} filter`);
+    context.glossaryState[filter] = current;
+  }
+
+  context.glossaryState.type = "term";
+  assert.equal(search.filteredEntries().some(isMethod16), false);
+
+  context.glossaryState.q = "---";
+  context.glossaryState.type = "method";
+  context.glossaryState.level = "";
+  context.glossaryState.priority = "";
+  context.glossaryState.domain = "";
+  context.glossaryState.video = "";
+  assert.equal(search.filteredEntries().length, methodCount);
+});
 
 test("uses the native Next.js build expected by Vercel", async () => {
   const [packageJson, layout, page] = await Promise.all([
